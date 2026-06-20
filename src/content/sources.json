@@ -1,0 +1,16 @@
+[
+  {
+    "id": "vocabulary-toeic-2019",
+    "title": "Vocabulary in the main contexts of TOEIC items",
+    "type": "supplied_pdf",
+    "fileName": "Vocabulary-TOEIC.pdf",
+    "note": "2-page source list; 346 items extracted, normalized, translated, and deduplicated for the app catalog."
+  },
+  {
+    "id": "600-essential-words",
+    "title": "600 Essential Words for the TOEIC Test",
+    "type": "supplied_pdf",
+    "fileName": "600-Essential-Words-For-The-TOEIC-Test.pdf",
+    "note": "374-page scanned source; all 50 lesson vocabulary pages OCR-extracted as 600 source-tracked records."
+  }
+]

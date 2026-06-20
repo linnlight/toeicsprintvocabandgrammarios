@@ -1,0 +1,2 @@
+id,term,pronunciation,partOfSpeech,meaningJa,category,level,example,exampleJa,explanationJa,distractors,sourceId,sourceLocator,contentTypes
+sample-term,sample,/ˈsæmpəl/,名詞,見本,ビジネス手続き,1,This is a sample sentence.,これは例文です。,編集用の説明です。,選択肢A|選択肢B|選択肢C,vocabulary-toeic-2019,p.1 / section,source_term|editorial_translation|ai_assisted_learning
