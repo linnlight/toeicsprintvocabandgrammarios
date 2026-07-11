@@ -1,25 +1,28 @@
 import { useRouter } from 'expo-router';
 import { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { Button } from '@/components/ui/button';
 import { ChoiceChip } from '@/components/ui/choice-chip';
 import { ProgressBar } from '@/components/ui/progress-bar';
 import { Screen } from '@/components/ui/screen';
+import { APP_DISPLAY_NAME } from '@/constants/app';
 import { colors, radii, space } from '@/constants/theme';
 import { useApp } from '@/state/app-provider';
 
 const currentScores = [300, 450, 600, 730];
 const targetScores = [600, 730, 860, 990];
-const goals = [5, 10, 15];
+const goals = [10, 20, 30, 50];
 
 export default function OnboardingScreen() {
   const router = useRouter();
+  const insets = useSafeAreaInsets();
   const { completeOnboarding } = useApp();
   const [step, setStep] = useState(0);
   const [currentScore, setCurrentScore] = useState(450);
   const [targetScore, setTargetScore] = useState(730);
-  const [dailyGoal, setDailyGoal] = useState(10);
+  const [dailyGoal, setDailyGoal] = useState(20);
 
   const finish = () => {
     completeOnboarding({ currentScore, targetScore, dailyGoal });
@@ -31,7 +34,7 @@ export default function OnboardingScreen() {
       scroll={false}
       contentStyle={styles.content}
       footer={(
-        <View style={styles.footer}>
+        <View style={[styles.footer, { paddingBottom: Math.max(insets.bottom + space.sm, space.lg) }]}>
           <Button label={step === 2 ? '学習をはじめる' : '次へ'} onPress={() => step === 2 ? finish() : setStep(step + 1)} disabled={step === 1 && targetScore <= currentScore} />
           {step > 0 ? <Button label="戻る" variant="ghost" onPress={() => setStep(step - 1)} /> : null}
         </View>
@@ -39,7 +42,7 @@ export default function OnboardingScreen() {
     >
       <View style={styles.brandRow}>
         <View style={styles.mark}><Text style={styles.markText}>V</Text></View>
-        <Text style={styles.brand}>Vocab Sprint</Text>
+        <Text style={styles.brand}>{APP_DISPLAY_NAME}</Text>
       </View>
       <ProgressBar value={(step + 1) / 3} />
 
@@ -78,7 +81,7 @@ export default function OnboardingScreen() {
           <Text style={styles.body}>無理なく続けられる数がおすすめです。</Text>
           <View style={styles.goalList}>
             {goals.map((goal) => (
-              <ChoiceChip key={goal} label={`${goal}語${goal === 10 ? '  おすすめ' : ''}`} selected={dailyGoal === goal} onPress={() => setDailyGoal(goal)} />
+              <ChoiceChip key={goal} label={`${goal}語${goal === 20 ? '  おすすめ' : ''}`} selected={dailyGoal === goal} onPress={() => setDailyGoal(goal)} />
             ))}
           </View>
           <View style={styles.summary}>

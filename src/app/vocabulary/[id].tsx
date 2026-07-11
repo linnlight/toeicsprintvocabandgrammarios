@@ -1,5 +1,4 @@
 import { Redirect, useLocalSearchParams, useRouter } from 'expo-router';
-import * as Speech from 'expo-speech';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { sourceById, vocabularyById } from '@/content/catalog';
@@ -8,6 +7,7 @@ import { Screen } from '@/components/ui/screen';
 import { colors, radii, space } from '@/constants/theme';
 import { masteryLevel } from '@/domain/scheduler';
 import { uiCopy } from '@/i18n/copy';
+import { speakEnglish } from '@/services/pronunciation';
 import { useApp } from '@/state/app-provider';
 
 export function generateStaticParams() {
@@ -27,8 +27,7 @@ export default function VocabularyDetailScreen() {
   const level = masteryLevel(review);
 
   const speak = () => {
-    Speech.stop();
-    Speech.speak(word.term, { language: 'en-US', rate: 0.82 });
+    void speakEnglish(word.term).catch(() => undefined);
   };
 
   return (
@@ -44,7 +43,9 @@ export default function VocabularyDetailScreen() {
         <View style={styles.wordRow}>
           <View style={styles.wordCopy}>
             <Text style={styles.term}>{word.term}</Text>
-            <Text style={styles.pronunciation}>{word.pronunciation} · {word.partOfSpeech}</Text>
+            <Text style={styles.pronunciation}>
+              {word.pronunciation === '英語音声' ? word.partOfSpeech : `${word.pronunciation} · ${word.partOfSpeech}`}
+            </Text>
           </View>
           <Pressable accessibilityRole="button" accessibilityLabel={copy.listen} onPress={speak} style={styles.speaker}><Text style={styles.speakerText}>♪</Text></Pressable>
         </View>

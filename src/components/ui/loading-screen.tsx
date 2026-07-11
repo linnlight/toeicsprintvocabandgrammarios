@@ -1,12 +1,13 @@
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 
+import { APP_DISPLAY_NAME } from '@/constants/app';
 import { colors, space } from '@/constants/theme';
 
 export function LoadingScreen() {
   return (
     <View style={styles.container}>
       <ActivityIndicator color={colors.primary} size="large" />
-      <Text style={styles.text}>Vocab Sprint…</Text>
+      <Text style={styles.text}>{APP_DISPLAY_NAME}…</Text>
     </View>
   );
 }

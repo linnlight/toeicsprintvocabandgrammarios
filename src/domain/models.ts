@@ -33,6 +33,8 @@ export interface UserSettings {
   dailyGoal: number;
   onboardingComplete: boolean;
   uiLanguage: 'ja' | 'en';
+  remindersEnabled: boolean;
+  reminderHour: number;
 }
 
 export interface ReviewRecord {
@@ -46,6 +48,13 @@ export interface ReviewRecord {
   incorrectCount: number;
 }
 
+export interface DailyStudyActivity {
+  words: number;
+  sprints: number;
+  answers: number;
+  correctAnswers: number;
+}
+
 export interface StudyStats {
   totalAnswers: number;
   correctAnswers: number;
@@ -55,6 +64,30 @@ export interface StudyStats {
   lastStudyDate: string | null;
   studiedToday: number;
   studiedTodayDate: string | null;
+  dailyActivity: Record<string, DailyStudyActivity>;
+  lastStreakFreezeMonth: string | null;
+}
+
+export interface Part5TestAttempt {
+  testId: string;
+  attempts: number;
+  bestScore: number;
+  latestScore: number;
+  lastCompletedAt: string;
+}
+
+export interface Part5AnswerEvent {
+  questionId: string;
+  selectedIndex: number;
+  correct: boolean;
+}
+
+export interface Part5Session {
+  testId: string;
+  startedAt: string;
+  cursor: number;
+  answers: Part5AnswerEvent[];
+  completed: boolean;
 }
 
 export interface AnswerEvent {
@@ -82,6 +115,7 @@ export interface PersistedAppState {
   settings: UserSettings;
   reviews: Record<string, ReviewRecord>;
   stats: StudyStats;
+  part5Attempts: Record<string, Part5TestAttempt>;
 }
 
 export interface SprintResult {

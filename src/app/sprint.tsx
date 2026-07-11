@@ -1,8 +1,9 @@
+import { setAudioModeAsync, useAudioPlayer } from 'expo-audio';
 import * as Haptics from 'expo-haptics';
 import { Redirect, useRouter } from 'expo-router';
-import * as Speech from 'expo-speech';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { vocabulary, vocabularyById } from '@/content/catalog';
 import { Button } from '@/components/ui/button';
@@ -11,6 +12,7 @@ import { Screen } from '@/components/ui/screen';
 import { colors, radii, space } from '@/constants/theme';
 import { buildChoices } from '@/domain/sprint';
 import { uiCopy } from '@/i18n/copy';
+import { speakEnglish } from '@/services/pronunciation';
 import { useApp } from '@/state/app-provider';
 
 interface Feedback {
@@ -19,8 +21,14 @@ interface Feedback {
   correct: boolean;
 }
 
+const correctSound = require('../../assets/audio/correct.wav');
+const incorrectSound = require('../../assets/audio/incorrect.wav');
+
 export default function SprintScreen() {
   const router = useRouter();
+  const insets = useSafeAreaInsets();
+  const correctPlayer = useAudioPlayer(correctSound, { keepAudioSessionActive: true });
+  const incorrectPlayer = useAudioPlayer(incorrectSound, { keepAudioSessionActive: true });
   const { session, submitAnswer, data } = useApp();
   const copy = uiCopy[data.settings.uiLanguage].sprint;
   const [feedback, setFeedback] = useState<Feedback | null>(null);
@@ -29,13 +37,35 @@ export default function SprintScreen() {
   const word = displayedWordId ? vocabularyById.get(displayedWordId) : undefined;
   const choices = useMemo(() => word ? buildChoices(word, vocabulary) : [], [word]);
 
+  useEffect(() => {
+    void setAudioModeAsync({
+      interruptionMode: 'mixWithOthers',
+      playsInSilentMode: true,
+    }).catch(() => undefined);
+  }, []);
+
+  const playAnswerSound = (correct: boolean) => {
+    const player = correct ? correctPlayer : incorrectPlayer;
+    player.pause();
+    void player.seekTo(0)
+      .then(() => player.play())
+      .catch(() => {
+        try {
+          player.play();
+        } catch {
+          // Sound effects are non-critical feedback. Haptics and visual feedback still run.
+        }
+      });
+  };
+
   if (!session || !word) return <Redirect href="/home" />;
 
   const select = (choice: string) => {
     if (feedback) return;
-    const correct = choice === word.meaningJa;
+    const correct = submitAnswer(choice);
+    if (correct === null) return;
     setFeedback({ wordId: word.id, selected: choice, correct });
-    submitAnswer(choice, correct);
+    playAnswerSound(correct);
     void Haptics.notificationAsync(correct ? Haptics.NotificationFeedbackType.Success : Haptics.NotificationFeedbackType.Error).catch(() => undefined);
   };
 
@@ -45,8 +75,7 @@ export default function SprintScreen() {
   };
 
   const speak = () => {
-    Speech.stop();
-    Speech.speak(word.term, { language: 'en-US', rate: 0.82, pitch: 1 });
+    void speakEnglish(word.term).catch(() => undefined);
   };
 
   const visiblePosition = feedback ? session.cursor : session.cursor + 1;
@@ -56,7 +85,7 @@ export default function SprintScreen() {
       scroll={false}
       contentStyle={styles.content}
       footer={feedback ? (
-        <View style={[styles.feedback, feedback.correct ? styles.feedbackCorrect : styles.feedbackWrong]}>
+        <View style={[styles.feedback, { paddingBottom: Math.max(insets.bottom + space.sm, space.lg) }, feedback.correct ? styles.feedbackCorrect : styles.feedbackWrong]}>
           <View style={styles.feedbackCopy}>
             <Text style={[styles.feedbackTitle, { color: feedback.correct ? colors.success : colors.danger }]}>{feedback.correct ? copy.correct : copy.repeat}</Text>
             {!feedback.correct ? <Text style={styles.answerText}>{copy.answer}{word.meaningJa}</Text> : null}
@@ -78,7 +107,9 @@ export default function SprintScreen() {
         <View style={styles.wordRow}>
           <View>
             <Text style={styles.term}>{word.term}</Text>
-            <Text style={styles.pronunciation}>{word.pronunciation} · {word.partOfSpeech}</Text>
+            <Text style={styles.pronunciation}>
+              {word.pronunciation === '英語音声' ? word.partOfSpeech : `${word.pronunciation} · ${word.partOfSpeech}`}
+            </Text>
           </View>
           <Pressable accessibilityRole="button" accessibilityLabel={`${word.term}${copy.listen}`} onPress={speak} style={styles.speaker}><Text style={styles.speakerText}>♪</Text></Pressable>
         </View>

@@ -1,0 +1,2362 @@
+[
+  {
+    "id": "countable-nouns",
+    "number": 1,
+    "level": 1,
+    "titleJa": "可算名詞・不可算名詞",
+    "titleEn": "Countable and Uncountable Nouns",
+    "summaryJa": "数えられる名詞と数えられない名詞を区別し、冠詞と単複を正しく選びます。",
+    "ruleJa": "可算名詞の単数形には a/an などが必要です。information、equipment、advice、progress などは不可算名詞なので、通常は複数形にしません。",
+    "examples": [
+      {
+        "en": "We received some useful information.",
+        "ja": "私たちは役立つ情報を受け取りました。"
+      },
+      {
+        "en": "The office bought three new chairs.",
+        "ja": "そのオフィスは新しい椅子を3脚購入しました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.2-4",
+    "questions": [
+      {
+        "id": "grammar-nouns-01",
+        "prompt": "The manager gave us some useful _____.",
+        "options": [
+          "advices",
+          "advice",
+          "an advice",
+          "advises"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "advice は不可算名詞なので複数形や a/an を付けません。"
+      },
+      {
+        "id": "grammar-nouns-02",
+        "prompt": "Several new _____ were installed in the conference room.",
+        "options": [
+          "equipment",
+          "equipments",
+          "devices",
+          "device"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "several の後には可算名詞の複数形 devices が必要です。"
+      },
+      {
+        "id": "grammar-nouns-03",
+        "prompt": "The research team has made significant _____.",
+        "options": [
+          "progress",
+          "progresses",
+          "a progress",
+          "progressing"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "progress は不可算名詞です。"
+      }
+    ]
+  },
+  {
+    "id": "articles-determiners",
+    "number": 2,
+    "level": 1,
+    "titleJa": "冠詞・限定詞",
+    "titleEn": "Articles and Determiners",
+    "summaryJa": "a/an、the、some、any、few、little の使い分けを学びます。",
+    "ruleJa": "初めて出る可算名詞の単数には a/an、特定できるものには the を使います。few は可算名詞、little は不可算名詞に使います。",
+    "examples": [
+      {
+        "en": "We hired a consultant.",
+        "ja": "私たちはコンサルタントを1人雇いました。"
+      },
+      {
+        "en": "The consultant submitted the report.",
+        "ja": "そのコンサルタントは報告書を提出しました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.5-8",
+    "questions": [
+      {
+        "id": "grammar-articles-01",
+        "prompt": "Please send me _____ updated schedule.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "some"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "updated は母音で始まる音なので an を使います。"
+      },
+      {
+        "id": "grammar-articles-02",
+        "prompt": "Do you have _____ questions about the contract?",
+        "options": [
+          "any",
+          "a",
+          "little",
+          "much"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "疑問文で複数名詞 questions と共に any を使います。"
+      },
+      {
+        "id": "grammar-articles-03",
+        "prompt": "Only a _____ employees attended the optional seminar.",
+        "options": [
+          "little",
+          "few",
+          "much",
+          "any"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "employees は可算名詞の複数なので a few が適切です。"
+      }
+    ]
+  },
+  {
+    "id": "pronouns",
+    "number": 3,
+    "level": 1,
+    "titleJa": "代名詞",
+    "titleEn": "Pronouns",
+    "summaryJa": "主格・目的格・所有格・再帰代名詞を文中の役割から判断します。",
+    "ruleJa": "動詞の前の主語には主格、動詞や前置詞の後には目的格、名詞の前には所有格を使います。主語自身を指す場合は再帰代名詞を使います。",
+    "examples": [
+      {
+        "en": "She sent him the invoice.",
+        "ja": "彼女は彼に請求書を送りました。"
+      },
+      {
+        "en": "The director prepared the presentation herself.",
+        "ja": "部長自身がプレゼンを準備しました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.9-10",
+    "questions": [
+      {
+        "id": "grammar-pronouns-01",
+        "prompt": "Ms. Ito asked _____ to revise the proposal.",
+        "options": [
+          "he",
+          "his",
+          "him",
+          "himself"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "asked の目的語なので目的格 him を使います。"
+      },
+      {
+        "id": "grammar-pronouns-02",
+        "prompt": "The company will announce _____ decision tomorrow.",
+        "options": [
+          "it",
+          "its",
+          "itself",
+          "it's"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "名詞 decision の前なので所有格 its が必要です。"
+      },
+      {
+        "id": "grammar-pronouns-03",
+        "prompt": "The employees organized the event by _____.",
+        "options": [
+          "they",
+          "their",
+          "them",
+          "themselves"
+        ],
+        "correctIndex": 3,
+        "explanationJa": "by themselves で「彼ら自身で」という意味です。"
+      }
+    ]
+  },
+  {
+    "id": "adjectives-adverbs",
+    "number": 4,
+    "level": 1,
+    "titleJa": "形容詞・副詞",
+    "titleEn": "Adjectives and Adverbs",
+    "summaryJa": "名詞を修飾する形容詞と、動詞・形容詞を修飾する副詞を区別します。",
+    "ruleJa": "形容詞は名詞や補語を説明し、副詞は動詞・形容詞・他の副詞を説明します。-ed は人の感情、-ing は感情を起こすものを表すことが多いです。",
+    "examples": [
+      {
+        "en": "The report is accurate.",
+        "ja": "その報告書は正確です。"
+      },
+      {
+        "en": "She completed the report accurately.",
+        "ja": "彼女は報告書を正確に完成させました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.11-16",
+    "questions": [
+      {
+        "id": "grammar-adverbs-01",
+        "prompt": "The technician inspected the machine _____.",
+        "options": [
+          "careful",
+          "carefully",
+          "care",
+          "more careful"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "動詞 inspected を修飾する副詞 carefully が必要です。"
+      },
+      {
+        "id": "grammar-adverbs-02",
+        "prompt": "Customers were _____ with the improved service.",
+        "options": [
+          "satisfy",
+          "satisfying",
+          "satisfied",
+          "satisfaction"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "人の満足した状態を表す形容詞 satisfied が適切です。"
+      },
+      {
+        "id": "grammar-adverbs-03",
+        "prompt": "This quarter's sales were _____ higher than expected.",
+        "options": [
+          "significant",
+          "significance",
+          "significantly",
+          "signify"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "比較級 higher を修飾する副詞 significantly が必要です。"
+      }
+    ]
+  },
+  {
+    "id": "verb-tenses",
+    "number": 5,
+    "level": 2,
+    "titleJa": "動詞の時制",
+    "titleEn": "Verb Tenses",
+    "summaryJa": "時を示す語句と文脈から、現在・過去・完了・未来を選びます。",
+    "ruleJa": "every day は現在形、yesterday は過去形、since/for は現在完了と結びつくことが多いです。未来の期限までの完了には未来完了を使います。",
+    "examples": [
+      {
+        "en": "She has worked here since 2022.",
+        "ja": "彼女は2022年からここで働いています。"
+      },
+      {
+        "en": "The shipment arrived yesterday.",
+        "ja": "荷物は昨日到着しました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.17-23",
+    "questions": [
+      {
+        "id": "grammar-tenses-01",
+        "prompt": "The store _____ at nine every weekday.",
+        "options": [
+          "open",
+          "opens",
+          "opened",
+          "is opening"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "every weekday は習慣を表すため現在形 opens を使います。"
+      },
+      {
+        "id": "grammar-tenses-02",
+        "prompt": "We _____ the final report yesterday.",
+        "options": [
+          "submit",
+          "submitted",
+          "have submitted",
+          "will submit"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "yesterday があるため過去形 submitted が適切です。"
+      },
+      {
+        "id": "grammar-tenses-03",
+        "prompt": "Mr. Lee _____ in Osaka for five years.",
+        "options": [
+          "works",
+          "worked",
+          "has worked",
+          "will work"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "for five years で過去から現在までの継続を表すため現在完了です。"
+      }
+    ]
+  },
+  {
+    "id": "passive-voice",
+    "number": 6,
+    "level": 2,
+    "titleJa": "受動態",
+    "titleEn": "Passive Voice",
+    "summaryJa": "動作を受けるものを主語にする be動詞＋過去分詞を学びます。",
+    "ruleJa": "受動態は be動詞＋過去分詞で作ります。時制は be動詞で示します。動作主より結果や対象を重視するビジネス文で頻出です。",
+    "examples": [
+      {
+        "en": "The invoices are sent every Friday.",
+        "ja": "請求書は毎週金曜日に送られます。"
+      },
+      {
+        "en": "The meeting was postponed.",
+        "ja": "会議は延期されました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf p.24",
+    "questions": [
+      {
+        "id": "grammar-passive-01",
+        "prompt": "All applications _____ by the HR department.",
+        "options": [
+          "review",
+          "are reviewed",
+          "reviewing",
+          "have review"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "applications は審査される側なので受動態 are reviewed が必要です。"
+      },
+      {
+        "id": "grammar-passive-02",
+        "prompt": "The conference _____ last month.",
+        "options": [
+          "was held",
+          "held",
+          "is holding",
+          "has hold"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "last month の過去と受動態を表す was held が正解です。"
+      },
+      {
+        "id": "grammar-passive-03",
+        "prompt": "The new system will _____ next week.",
+        "options": [
+          "install",
+          "be installed",
+          "installed",
+          "be installing"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "助動詞 will の受動態は will be + 過去分詞です。"
+      }
+    ]
+  },
+  {
+    "id": "infinitives-gerunds",
+    "number": 7,
+    "level": 2,
+    "titleJa": "不定詞・動名詞",
+    "titleEn": "Infinitives and Gerunds",
+    "summaryJa": "動詞の後に to不定詞と動名詞のどちらを置くかを判断します。",
+    "ruleJa": "目的には to不定詞を使います。enjoy、avoid、consider などの後は動名詞、decide、plan、hope などの後は to不定詞が一般的です。",
+    "examples": [
+      {
+        "en": "We plan to expand the office.",
+        "ja": "私たちはオフィスを拡張する予定です。"
+      },
+      {
+        "en": "She avoided making the same mistake.",
+        "ja": "彼女は同じ間違いをすることを避けました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.25-28",
+    "questions": [
+      {
+        "id": "grammar-infinitives-01",
+        "prompt": "The company plans _____ a new branch.",
+        "options": [
+          "open",
+          "opening",
+          "to open",
+          "opened"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "plan の後は to不定詞を使います。"
+      },
+      {
+        "id": "grammar-infinitives-02",
+        "prompt": "Please avoid _____ confidential files by email.",
+        "options": [
+          "send",
+          "to send",
+          "sending",
+          "sent"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "avoid の後は動名詞 sending を使います。"
+      },
+      {
+        "id": "grammar-infinitives-03",
+        "prompt": "Ms. Chen called _____ the reservation.",
+        "options": [
+          "confirm",
+          "to confirm",
+          "confirming",
+          "confirmed"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "電話した目的を表すため to confirm を使います。"
+      }
+    ]
+  },
+  {
+    "id": "subject-verb-agreement",
+    "number": 8,
+    "level": 2,
+    "titleJa": "主語と動詞の一致",
+    "titleEn": "Subject-Verb Agreement",
+    "summaryJa": "主語の中心語が単数か複数かを見抜き、動詞を一致させます。",
+    "ruleJa": "主語と動詞の間に長い修飾語があっても、動詞は主語の中心語に一致します。everyone、each、either などは単数扱いです。",
+    "examples": [
+      {
+        "en": "Each employee has an ID card.",
+        "ja": "各従業員はIDカードを持っています。"
+      },
+      {
+        "en": "The results of the survey are available.",
+        "ja": "調査結果は利用可能です。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.30-32",
+    "questions": [
+      {
+        "id": "grammar-agreement-01",
+        "prompt": "Each of the applicants _____ two references.",
+        "options": [
+          "need",
+          "needs",
+          "needing",
+          "have needed"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "each は単数扱いなので needs を使います。"
+      },
+      {
+        "id": "grammar-agreement-02",
+        "prompt": "The results of the inspection _____ encouraging.",
+        "options": [
+          "is",
+          "are",
+          "was",
+          "has"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "主語の中心 results が複数なので are が必要です。"
+      },
+      {
+        "id": "grammar-agreement-03",
+        "prompt": "Everyone in the department _____ the new policy.",
+        "options": [
+          "support",
+          "supports",
+          "supporting",
+          "have supported"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "everyone は単数扱いなので supports を使います。"
+      }
+    ]
+  },
+  {
+    "id": "prepositions",
+    "number": 9,
+    "level": 2,
+    "titleJa": "前置詞",
+    "titleEn": "Prepositions",
+    "summaryJa": "時・場所・期間を表す in、on、at、during、for などを使い分けます。",
+    "ruleJa": "時刻には at、日付・曜日には on、月・年・広い場所には in を使います。during の後は名詞、while の後は主語＋動詞が続きます。",
+    "examples": [
+      {
+        "en": "The meeting starts at 10:00.",
+        "ja": "会議は10時に始まります。"
+      },
+      {
+        "en": "She worked during the holiday.",
+        "ja": "彼女は休暇中に働きました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.33-36",
+    "questions": [
+      {
+        "id": "grammar-prepositions-01",
+        "prompt": "The seminar will be held _____ Monday.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "for"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "曜日の前には on を使います。"
+      },
+      {
+        "id": "grammar-prepositions-02",
+        "prompt": "The office is closed _____ the national holiday.",
+        "options": [
+          "during",
+          "while",
+          "for",
+          "since"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "後ろが名詞句なので during が適切です。"
+      },
+      {
+        "id": "grammar-prepositions-03",
+        "prompt": "Ms. Park has worked here _____ 2021.",
+        "options": [
+          "for",
+          "during",
+          "since",
+          "until"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "継続の開始時点 2021 の前には since を使います。"
+      }
+    ]
+  },
+  {
+    "id": "sentence-structure",
+    "number": 10,
+    "level": 3,
+    "titleJa": "語順・並列構造",
+    "titleEn": "Word Order and Parallel Structure",
+    "summaryJa": "英語の基本語順と、and/or で結ばれる要素の形をそろえる方法を学びます。",
+    "ruleJa": "基本語順は主語＋動詞＋目的語です。and、or、but で並べる語句は、名詞同士・動名詞同士のように文法上の形をそろえます。",
+    "examples": [
+      {
+        "en": "The team worked quickly at the office yesterday.",
+        "ja": "チームは昨日オフィスで素早く働きました。"
+      },
+      {
+        "en": "The role requires planning, organizing, and reporting.",
+        "ja": "その役割には計画、整理、報告が必要です。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.37-40",
+    "questions": [
+      {
+        "id": "grammar-structure-01",
+        "prompt": "The position requires analyzing data and _____ reports.",
+        "options": [
+          "write",
+          "writing",
+          "written",
+          "to wrote"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "analyzing と並列になる動名詞 writing が必要です。"
+      },
+      {
+        "id": "grammar-structure-02",
+        "prompt": "The assistant _____ the documents carefully yesterday.",
+        "options": [
+          "carefully yesterday reviewed",
+          "reviewed carefully yesterday",
+          "yesterday carefully the reviewed",
+          "reviewed yesterday carefully them"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "主語＋動詞＋目的語＋様態＋時の自然な語順です。"
+      },
+      {
+        "id": "grammar-structure-03",
+        "prompt": "Our goal is to reduce costs, improve quality, and _____ delivery times.",
+        "options": [
+          "shortening",
+          "shortened",
+          "shorten",
+          "shortens"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "reduce、improve と形をそろえて動詞の原形 shorten を使います。"
+      }
+    ]
+  },
+  {
+    "id": "noun-forms-numbers",
+    "number": 11,
+    "level": 1,
+    "titleJa": "名詞の複数形・数量表現",
+    "titleEn": "Noun Forms and Number Expressions",
+    "summaryJa": "不規則な複数形と hundred、thousand、million の形を整理します。",
+    "ruleJa": "不規則複数形や常に単数・複数扱いの名詞に注意します。具体的な数の後では two hundred のように単数形、概数では hundreds of のように複数形を使います。",
+    "examples": [
+      {
+        "en": "The company employs two hundred people.",
+        "ja": "その会社は200人を雇用しています。"
+      },
+      {
+        "en": "Thousands of customers use the service.",
+        "ja": "何千人もの顧客がそのサービスを利用しています。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.3-4",
+    "questions": [
+      {
+        "id": "grammar-nounforms-01",
+        "prompt": "The laboratory completed three _____ last month.",
+        "options": [
+          "analysis",
+          "analysises",
+          "analyses",
+          "analyzing"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "analysis の複数形は analyses です。"
+      },
+      {
+        "id": "grammar-nounforms-02",
+        "prompt": "More than five _____ people attended the exhibition.",
+        "options": [
+          "hundreds",
+          "hundred",
+          "hundred of",
+          "hundreds of"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "具体的な数 five の後では hundred に複数の s を付けません。"
+      },
+      {
+        "id": "grammar-nounforms-03",
+        "prompt": "_____ of applications were received online.",
+        "options": [
+          "Thousand",
+          "Thousands",
+          "A thousands",
+          "Two thousands"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "概数を表す場合は thousands of を使います。"
+      }
+    ]
+  },
+  {
+    "id": "quantifiers-distributives",
+    "number": 12,
+    "level": 1,
+    "titleJa": "数量詞・分配表現",
+    "titleEn": "Quantifiers and Distributives",
+    "summaryJa": "much、many、few、little、each、every、all、whole を名詞に合わせて選びます。",
+    "ruleJa": "many/few は可算名詞、much/little は不可算名詞に使います。each と every の後は単数名詞、both の後は複数名詞です。all と whole は語順に注意します。",
+    "examples": [
+      {
+        "en": "Each applicant receives a confirmation email.",
+        "ja": "各応募者に確認メールが届きます。"
+      },
+      {
+        "en": "Only a little time remains.",
+        "ja": "残り時間はわずかです。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.7-8",
+    "questions": [
+      {
+        "id": "grammar-quantifiers-01",
+        "prompt": "There are only a _____ seats available.",
+        "options": [
+          "little",
+          "few",
+          "much",
+          "less"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "seats は可算名詞の複数なので a few が適切です。"
+      },
+      {
+        "id": "grammar-quantifiers-02",
+        "prompt": "_____ participant must show identification.",
+        "options": [
+          "All",
+          "Both",
+          "Each",
+          "Several"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "単数名詞 participant の前には each が使えます。"
+      },
+      {
+        "id": "grammar-quantifiers-03",
+        "prompt": "The team spent the _____ afternoon preparing the proposal.",
+        "options": [
+          "all",
+          "every",
+          "whole",
+          "each"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "the whole afternoon の語順が正しい形です。"
+      }
+    ]
+  },
+  {
+    "id": "relative-clauses",
+    "number": 13,
+    "level": 2,
+    "titleJa": "関係代名詞・関係節",
+    "titleEn": "Relative Pronouns and Clauses",
+    "summaryJa": "who、which、that、whose を先行詞と文中の役割から判断します。",
+    "ruleJa": "人には who、物には which、所有には whose を使います。目的格は省略できる場合があります。what は先行詞を含み「〜するもの」を表します。",
+    "examples": [
+      {
+        "en": "The consultant who led the project will speak.",
+        "ja": "プロジェクトを率いたコンサルタントが講演します。"
+      },
+      {
+        "en": "Please return the equipment that you borrowed.",
+        "ja": "借りた機器を返却してください。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.9-10; 0-0001-03-595200-0.pdf pp.41-42",
+    "questions": [
+      {
+        "id": "grammar-relative-01",
+        "prompt": "Employees _____ work remotely must submit weekly reports.",
+        "options": [
+          "which",
+          "who",
+          "whose",
+          "whom"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "先行詞が人で関係節の主語なので who を使います。"
+      },
+      {
+        "id": "grammar-relative-02",
+        "prompt": "The company _____ headquarters are in Kyoto opened a new branch.",
+        "options": [
+          "who",
+          "which",
+          "whose",
+          "what"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "headquarters との所有関係を表すため whose が必要です。"
+      },
+      {
+        "id": "grammar-relative-03",
+        "prompt": "_____ the client requested is currently unavailable.",
+        "options": [
+          "Which",
+          "That",
+          "What",
+          "Who"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "先行詞を含む「顧客が依頼したもの」は what で表します。"
+      }
+    ]
+  },
+  {
+    "id": "adjective-patterns",
+    "number": 14,
+    "level": 1,
+    "titleJa": "形容詞の基本パターン",
+    "titleEn": "Core Adjective Patterns",
+    "summaryJa": "連結動詞の後の形容詞と、-ed/-ing 形容詞を使い分けます。",
+    "ruleJa": "be、seem、look、sound、feel などの連結動詞の後には形容詞を置きます。-ed は人の感情・状態、-ing はその感情を引き起こす物事を表すことが一般的です。",
+    "examples": [
+      {
+        "en": "The proposal sounds reasonable.",
+        "ja": "その提案は妥当に聞こえます。"
+      },
+      {
+        "en": "The audience was impressed by the presentation.",
+        "ja": "聴衆はプレゼンに感銘を受けました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.11-12",
+    "questions": [
+      {
+        "id": "grammar-adjpatterns-01",
+        "prompt": "The new software appears _____.",
+        "options": [
+          "reliably",
+          "reliability",
+          "reliable",
+          "rely"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "連結動詞 appears の後には形容詞 reliable が必要です。"
+      },
+      {
+        "id": "grammar-adjpatterns-02",
+        "prompt": "Customers were _____ by the unexpected delay.",
+        "options": [
+          "frustrating",
+          "frustrated",
+          "frustrate",
+          "frustration"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "人の感情を表すため frustrated が適切です。"
+      },
+      {
+        "id": "grammar-adjpatterns-03",
+        "prompt": "The orientation session was very _____.",
+        "options": [
+          "inform",
+          "information",
+          "informed",
+          "informative"
+        ],
+        "correctIndex": 3,
+        "explanationJa": "session の性質を説明する形容詞 informative が適切です。"
+      }
+    ]
+  },
+  {
+    "id": "degree-expressions",
+    "number": 15,
+    "level": 2,
+    "titleJa": "so・such・too・enough",
+    "titleEn": "Degree Expressions",
+    "summaryJa": "形容詞や名詞の前後で so、such、too、enough を正しい語順で使います。",
+    "ruleJa": "so + 形容詞、副詞、such + (a/an) + 形容詞 + 名詞が基本です。too は「〜すぎる」、enough は形容詞の後、名詞の前に置きます。",
+    "examples": [
+      {
+        "en": "The instructions were so clear that everyone understood.",
+        "ja": "説明がとても明確だったので全員が理解しました。"
+      },
+      {
+        "en": "The room is large enough for the workshop.",
+        "ja": "その部屋は研修に十分な広さです。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.12-13",
+    "questions": [
+      {
+        "id": "grammar-degree-01",
+        "prompt": "It was _____ useful seminar that we extended the discussion.",
+        "options": [
+          "so",
+          "such",
+          "such a",
+          "too"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "可算名詞単数を含むため such a useful seminar とします。"
+      },
+      {
+        "id": "grammar-degree-02",
+        "prompt": "The box is too heavy for one person _____ safely.",
+        "options": [
+          "lift",
+          "lifting",
+          "to lift",
+          "lifted"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "too + 形容詞 + to不定詞の形です。"
+      },
+      {
+        "id": "grammar-degree-03",
+        "prompt": "The report is detailed _____ for the board meeting.",
+        "options": [
+          "too",
+          "such",
+          "enough",
+          "so"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "形容詞 detailed の後に enough を置きます。"
+      }
+    ]
+  },
+  {
+    "id": "comparisons",
+    "number": 16,
+    "level": 2,
+    "titleJa": "比較級・最上級",
+    "titleEn": "Comparatives and Superlatives",
+    "summaryJa": "比較級、最上級、as ... as、the 比較級構文を使います。",
+    "ruleJa": "2者の比較には比較級 + than、範囲内の最高には the + 最上級を使います。as ... as は同等比較、the more ..., the more ... は比例関係を表します。",
+    "examples": [
+      {
+        "en": "This model is more efficient than the previous one.",
+        "ja": "このモデルは前のものより効率的です。"
+      },
+      {
+        "en": "It is the largest conference room in the building.",
+        "ja": "建物内で最も大きい会議室です。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.13-14; TOEIC in Motion Grammar Practice 100 [v25].pdf p.3",
+    "questions": [
+      {
+        "id": "grammar-comparison-01",
+        "prompt": "Online sales were _____ than expected.",
+        "options": [
+          "high",
+          "higher",
+          "highest",
+          "more highly"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "than があるため比較級 higher が必要です。"
+      },
+      {
+        "id": "grammar-comparison-02",
+        "prompt": "This is the _____ route to the convention center.",
+        "options": [
+          "direct",
+          "more direct",
+          "most direct",
+          "directly"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "the と範囲内の最上を表すため most direct が適切です。"
+      },
+      {
+        "id": "grammar-comparison-03",
+        "prompt": "The sooner we receive approval, the _____ we can begin.",
+        "options": [
+          "early",
+          "earlier",
+          "earliest",
+          "more early"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "the + 比較級, the + 比較級の構文です。"
+      }
+    ]
+  },
+  {
+    "id": "other-another",
+    "number": 17,
+    "level": 1,
+    "titleJa": "other・another・the other",
+    "titleEn": "Other and Another",
+    "summaryJa": "残り・追加・別のものを表す other 系の表現を区別します。",
+    "ruleJa": "another は「もう1つの」で単数名詞、other は複数名詞や不可算名詞、the other は2つのうち残り1つ、others は名詞を伴わず「ほかのもの」を表します。",
+    "examples": [
+      {
+        "en": "Could you send another copy?",
+        "ja": "もう1部送っていただけますか。"
+      },
+      {
+        "en": "Some employees work remotely; others commute.",
+        "ja": "在宅勤務の社員もいれば通勤する社員もいます。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.14-15",
+    "questions": [
+      {
+        "id": "grammar-other-01",
+        "prompt": "We need _____ week to complete the inspection.",
+        "options": [
+          "other",
+          "another",
+          "others",
+          "the others"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "単数名詞 week の前で「もう1週間」は another です。"
+      },
+      {
+        "id": "grammar-other-02",
+        "prompt": "One printer is in use, but _____ is available.",
+        "options": [
+          "other",
+          "another",
+          "the other",
+          "others"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "2台のうち残り1台を表すため the other が適切です。"
+      },
+      {
+        "id": "grammar-other-03",
+        "prompt": "Some proposals were accepted, while _____ require revision.",
+        "options": [
+          "other",
+          "another",
+          "others",
+          "the other"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "名詞を伴わず複数の「ほかのもの」を表す others が適切です。"
+      }
+    ]
+  },
+  {
+    "id": "modifier-collocations",
+    "number": 18,
+    "level": 2,
+    "titleJa": "形容詞＋前置詞・副詞の位置",
+    "titleEn": "Modifier Collocations and Adverb Position",
+    "summaryJa": "responsible for などの結びつきと、副詞の自然な位置を学びます。",
+    "ruleJa": "形容詞には responsible for、interested in のように特定の前置詞が続きます。頻度副詞は一般動詞の前、be動詞の後が基本です。only/even の位置で意味が変わる点にも注意します。",
+    "examples": [
+      {
+        "en": "She is responsible for employee training.",
+        "ja": "彼女は社員研修を担当しています。"
+      },
+      {
+        "en": "The director has already approved the budget.",
+        "ja": "部長はすでに予算を承認しました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.15-16",
+    "questions": [
+      {
+        "id": "grammar-modifiers-01",
+        "prompt": "The committee is interested _____ your proposal.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "for"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "be interested in の組み合わせです。"
+      },
+      {
+        "id": "grammar-modifiers-02",
+        "prompt": "Our technicians _____ inspect the equipment before use.",
+        "options": [
+          "always",
+          "are always",
+          "have always be",
+          "always are"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "一般動詞 inspect の前に頻度副詞 always を置きます。"
+      },
+      {
+        "id": "grammar-modifiers-03",
+        "prompt": "The revised policy is highly _____ to all employees.",
+        "options": [
+          "benefit",
+          "beneficial",
+          "benefited",
+          "beneficially"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "be動詞の補語には形容詞 beneficial が必要です。"
+      }
+    ]
+  },
+  {
+    "id": "perfect-aspect",
+    "number": 19,
+    "level": 2,
+    "titleJa": "完了形・進行形",
+    "titleEn": "Perfect and Progressive Aspects",
+    "summaryJa": "現在完了、過去完了、完了進行形を時間関係から選びます。",
+    "ruleJa": "現在完了は過去と現在のつながり、過去完了は過去の基準時より前、完了進行形は動作の継続を強調します。since は開始点、for は期間を示します。",
+    "examples": [
+      {
+        "en": "We have used this system since April.",
+        "ja": "4月からこのシステムを使用しています。"
+      },
+      {
+        "en": "The train had left before we reached the station.",
+        "ja": "駅に着く前に列車は出発していました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.17-23; TOEIC in Motion Grammar Practice 100 [v25].pdf pp.1-2",
+    "questions": [
+      {
+        "id": "grammar-perfect-01",
+        "prompt": "The company _____ three offices since 2022.",
+        "options": [
+          "opens",
+          "opened",
+          "has opened",
+          "will open"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "since 2022 が現在までの期間を示すため現在完了です。"
+      },
+      {
+        "id": "grammar-perfect-02",
+        "prompt": "By the time the meeting began, Ms. Diaz _____ the report.",
+        "options": [
+          "finishes",
+          "has finished",
+          "had finished",
+          "will finish"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "会議開始より前に完了したため過去完了を使います。"
+      },
+      {
+        "id": "grammar-perfect-03",
+        "prompt": "The engineers _____ on the upgrade for several weeks.",
+        "options": [
+          "work",
+          "have been working",
+          "had work",
+          "are worked"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "現在まで続く動作を強調する現在完了進行形です。"
+      }
+    ]
+  },
+  {
+    "id": "future-time-clauses",
+    "number": 20,
+    "level": 2,
+    "titleJa": "未来表現・時を表す節",
+    "titleEn": "Future Forms and Time Clauses",
+    "summaryJa": "will、be going to、現在形、未来完了と時の接続詞を使い分けます。",
+    "ruleJa": "予定には be going to、時刻表など確定した予定には現在形も使えます。未来を表す when/after/before/until 節では通常 will を使わず現在形にします。by + 未来時点では未来完了が使われます。",
+    "examples": [
+      {
+        "en": "The train leaves at 8:10 tomorrow.",
+        "ja": "列車は明日8時10分に出発します。"
+      },
+      {
+        "en": "We will call you when the order arrives.",
+        "ja": "注文品が届いたらご連絡します。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.23-24; 0-0001-03-595200-0.pdf pp.19-20",
+    "questions": [
+      {
+        "id": "grammar-future-01",
+        "prompt": "By Friday, the team _____ the installation.",
+        "options": [
+          "completes",
+          "completed",
+          "will have completed",
+          "has completing"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "未来の期限までの完了なので未来完了を使います。"
+      },
+      {
+        "id": "grammar-future-02",
+        "prompt": "We will issue a refund after we _____ the returned item.",
+        "options": [
+          "will inspect",
+          "inspect",
+          "inspected",
+          "will have inspect"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "未来を表す after 節では現在形 inspect を使います。"
+      },
+      {
+        "id": "grammar-future-03",
+        "prompt": "The orientation session _____ at 9:00 tomorrow morning.",
+        "options": [
+          "start",
+          "starts",
+          "started",
+          "has start"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "確定した予定・時刻表には現在形 starts が使えます。"
+      }
+    ]
+  },
+  {
+    "id": "conditionals",
+    "number": 21,
+    "level": 3,
+    "titleJa": "条件文・仮定法",
+    "titleEn": "Conditionals",
+    "summaryJa": "現実的な条件、現在の仮定、過去の反実仮想を区別します。",
+    "ruleJa": "現実的な未来条件は if + 現在形, will。現在の非現実は if + 過去形, would。過去の反実仮想は if + had + 過去分詞, would have + 過去分詞です。unless は if ... not に相当します。",
+    "examples": [
+      {
+        "en": "If the client agrees, we will proceed.",
+        "ja": "顧客が同意すれば進めます。"
+      },
+      {
+        "en": "If we had known earlier, we would have changed the schedule.",
+        "ja": "もっと早く知っていれば予定を変更していたでしょう。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.24-25; TOEIC in Motion Grammar Practice 100 [v25].pdf p.2",
+    "questions": [
+      {
+        "id": "grammar-conditionals-01",
+        "prompt": "If the shipment _____ today, we will notify you.",
+        "options": [
+          "arrives",
+          "will arrive",
+          "arrived",
+          "would arrive"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "未来の条件を表す if 節では現在形 arrives を使います。"
+      },
+      {
+        "id": "grammar-conditionals-02",
+        "prompt": "If I _____ more time, I would attend the workshop.",
+        "options": [
+          "have",
+          "had",
+          "will have",
+          "had had"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "現在の非現実的な仮定なので過去形 had を使います。"
+      },
+      {
+        "id": "grammar-conditionals-03",
+        "prompt": "We would have met the deadline if the server _____ down.",
+        "options": [
+          "does not go",
+          "will not go",
+          "had not gone",
+          "would not go"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "過去の反実仮想なので if 節は had + 過去分詞です。"
+      }
+    ]
+  },
+  {
+    "id": "modal-verbs",
+    "number": 22,
+    "level": 2,
+    "titleJa": "助動詞",
+    "titleEn": "Modal Verbs",
+    "summaryJa": "can、may、must、should、would などの意味と形を整理します。",
+    "ruleJa": "助動詞の後は動詞の原形です。must/have to は義務、should は助言、may/might は可能性、could/would は丁寧な依頼や仮定にも使われます。",
+    "examples": [
+      {
+        "en": "Applicants must submit two references.",
+        "ja": "応募者は推薦状を2通提出しなければなりません。"
+      },
+      {
+        "en": "The delivery may be delayed.",
+        "ja": "配送が遅れる可能性があります。"
+      }
+    ],
+    "sourceId": "grammar-practice-100",
+    "sourceLocator": "TOEIC in Motion Grammar Practice 100 [v25].pdf p.3",
+    "questions": [
+      {
+        "id": "grammar-modals-01",
+        "prompt": "Employees must _____ their badges at all times.",
+        "options": [
+          "wear",
+          "wears",
+          "to wear",
+          "wearing"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "助動詞 must の後は動詞の原形 wear です。"
+      },
+      {
+        "id": "grammar-modals-02",
+        "prompt": "The revised estimate _____ be available tomorrow.",
+        "options": [
+          "should",
+          "should to",
+          "shoulds",
+          "shoulding"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "should + 動詞原形で見込みを表します。"
+      },
+      {
+        "id": "grammar-modals-03",
+        "prompt": "_____ you please confirm your attendance?",
+        "options": [
+          "Must",
+          "Would",
+          "May to",
+          "Should to"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "Would you please ... は丁寧な依頼表現です。"
+      }
+    ]
+  },
+  {
+    "id": "participles",
+    "number": 23,
+    "level": 2,
+    "titleJa": "現在分詞・過去分詞",
+    "titleEn": "Present and Past Participles",
+    "summaryJa": "名詞と動作の能動・受動関係から -ing と -ed を選びます。",
+    "ruleJa": "修飾される名詞が動作を行う場合は現在分詞、動作を受ける場合は過去分詞を使います。分詞句は関係節を短くした形としても頻出です。",
+    "examples": [
+      {
+        "en": "Employees working overseas receive an allowance.",
+        "ja": "海外勤務の社員には手当が支給されます。"
+      },
+      {
+        "en": "The documents attached to the email are confidential.",
+        "ja": "メールに添付された書類は機密です。"
+      }
+    ],
+    "sourceId": "toeic-basics-manual",
+    "sourceLocator": "0-0001-03-595200-0.pdf pp.23-24; toeic-grammar.pdf pp.25-26",
+    "questions": [
+      {
+        "id": "grammar-participles-01",
+        "prompt": "Customers _____ in the survey will receive a coupon.",
+        "options": [
+          "participate",
+          "participating",
+          "participated",
+          "participation"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "customers が参加する側なので現在分詞 participating です。"
+      },
+      {
+        "id": "grammar-participles-02",
+        "prompt": "The equipment _____ yesterday is ready for use.",
+        "options": [
+          "installing",
+          "installed",
+          "installs",
+          "installation"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "equipment は設置される側なので過去分詞 installed です。"
+      },
+      {
+        "id": "grammar-participles-03",
+        "prompt": "Please review the _____ contract before signing.",
+        "options": [
+          "revise",
+          "revising",
+          "revised",
+          "revision"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "修正された契約書を表す過去分詞 revised が適切です。"
+      }
+    ]
+  },
+  {
+    "id": "advanced-verb-complements",
+    "number": 24,
+    "level": 3,
+    "titleJa": "動詞の目的語パターン",
+    "titleEn": "Advanced Verb Complements",
+    "summaryJa": "動詞＋動名詞、不定詞、目的語＋不定詞などの型を整理します。",
+    "ruleJa": "enjoy/avoid/consider は動名詞、decide/plan/expect は不定詞を取ります。allow/ask/expect は目的語 + to不定詞を取れます。前置詞の後は動名詞です。",
+    "examples": [
+      {
+        "en": "The manager encouraged us to apply.",
+        "ja": "マネージャーは私たちに応募を勧めました。"
+      },
+      {
+        "en": "They succeeded in reducing costs.",
+        "ja": "彼らはコスト削減に成功しました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.25-28",
+    "questions": [
+      {
+        "id": "grammar-complements-01",
+        "prompt": "The director asked everyone _____ the revised policy.",
+        "options": [
+          "read",
+          "reading",
+          "to read",
+          "reads"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "ask + 目的語 + to不定詞の形です。"
+      },
+      {
+        "id": "grammar-complements-02",
+        "prompt": "We look forward to _____ from you soon.",
+        "options": [
+          "hear",
+          "hearing",
+          "be heard",
+          "have heard"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "to は前置詞なので後ろに動名詞 hearing を置きます。"
+      },
+      {
+        "id": "grammar-complements-03",
+        "prompt": "The company decided _____ the contract.",
+        "options": [
+          "renew",
+          "renewing",
+          "to renew",
+          "renewed"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "decide の後は to不定詞を使います。"
+      }
+    ]
+  },
+  {
+    "id": "causatives-base-verbs",
+    "number": 25,
+    "level": 3,
+    "titleJa": "使役動詞・原形不定詞",
+    "titleEn": "Causatives and Bare Infinitives",
+    "summaryJa": "make、let、have、get の目的語パターンを使い分けます。",
+    "ruleJa": "make/let/have + 目的語 + 動詞原形、get + 目的語 + to不定詞を使います。have/get + 物 + 過去分詞は「〜してもらう・〜される」を表します。",
+    "examples": [
+      {
+        "en": "The supervisor made the team revise the plan.",
+        "ja": "上司はチームに計画を修正させました。"
+      },
+      {
+        "en": "We had the printer repaired.",
+        "ja": "プリンターを修理してもらいました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.28-29",
+    "questions": [
+      {
+        "id": "grammar-causatives-01",
+        "prompt": "The manager had her assistant _____ the reservation.",
+        "options": [
+          "confirm",
+          "to confirm",
+          "confirmed",
+          "confirming"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "have + 人 + 動詞原形の形です。"
+      },
+      {
+        "id": "grammar-causatives-02",
+        "prompt": "We need to get the supplier _____ a replacement.",
+        "options": [
+          "send",
+          "to send",
+          "sent",
+          "sending"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "get + 人 + to不定詞の形です。"
+      },
+      {
+        "id": "grammar-causatives-03",
+        "prompt": "Mr. Kim had his laptop _____ yesterday.",
+        "options": [
+          "repair",
+          "to repair",
+          "repaired",
+          "repairing"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "have + 物 + 過去分詞で「修理してもらう」を表します。"
+      }
+    ]
+  },
+  {
+    "id": "confusing-verbs",
+    "number": 26,
+    "level": 2,
+    "titleJa": "混同しやすい動詞",
+    "titleEn": "Frequently Confused Verbs",
+    "summaryJa": "say/tell、make/do、rise/raise など、形と目的語が異なる動詞を区別します。",
+    "ruleJa": "tell は通常人を目的語に取り、say は内容を述べます。raise は他動詞、rise は自動詞です。make/do や borrow/lend も目的語と意味から選びます。",
+    "examples": [
+      {
+        "en": "Please tell us your account number.",
+        "ja": "口座番号をお知らせください。"
+      },
+      {
+        "en": "Operating costs rose last year.",
+        "ja": "昨年、運営費が上昇しました。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.20-23, 28-29",
+    "questions": [
+      {
+        "id": "grammar-confusedverbs-01",
+        "prompt": "Ms. Patel _____ us that the meeting had been canceled.",
+        "options": [
+          "said",
+          "told",
+          "spoke",
+          "talked"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "人 us を直接目的語に取る tell の過去形 told が適切です。"
+      },
+      {
+        "id": "grammar-confusedverbs-02",
+        "prompt": "The company plans to _____ prices next quarter.",
+        "options": [
+          "rise",
+          "raise",
+          "arise",
+          "rose"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "prices を目的語に取る他動詞 raise が必要です。"
+      },
+      {
+        "id": "grammar-confusedverbs-03",
+        "prompt": "Could you _____ me your access card?",
+        "options": [
+          "borrow",
+          "lend",
+          "rent from",
+          "owe"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "「私に貸す」は lend me を使います。"
+      }
+    ]
+  },
+  {
+    "id": "special-agreement",
+    "number": 27,
+    "level": 3,
+    "titleJa": "主語と動詞の一致・応用",
+    "titleEn": "Advanced Subject-Verb Agreement",
+    "summaryJa": "either/or、数量、集合名詞、there 構文で動詞を一致させます。",
+    "ruleJa": "either A or B / neither A nor B では近い主語に一致させます。金額・時間を1つの単位として見る場合は単数扱いです。there 構文では後続する実質的な主語に一致します。",
+    "examples": [
+      {
+        "en": "Either the manager or the assistants are attending.",
+        "ja": "マネージャーかアシスタントたちが出席します。"
+      },
+      {
+        "en": "Ten kilometers is a long distance to walk.",
+        "ja": "10キロは歩くには長い距離です。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.30-32",
+    "questions": [
+      {
+        "id": "grammar-specialagreement-01",
+        "prompt": "Neither the director nor the employees _____ available.",
+        "options": [
+          "is",
+          "are",
+          "was",
+          "has"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "動詞に近い employees が複数なので are を使います。"
+      },
+      {
+        "id": "grammar-specialagreement-02",
+        "prompt": "Two weeks _____ enough time to complete the audit.",
+        "options": [
+          "are",
+          "were",
+          "is",
+          "have"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "期間を1つのまとまりとして見るため単数扱いです。"
+      },
+      {
+        "id": "grammar-specialagreement-03",
+        "prompt": "There _____ several errors in the invoice.",
+        "options": [
+          "is",
+          "are",
+          "has",
+          "was"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "後続する主語 several errors が複数なので are です。"
+      }
+    ]
+  },
+  {
+    "id": "complex-prepositions",
+    "number": 28,
+    "level": 2,
+    "titleJa": "複合前置詞・位置関係",
+    "titleEn": "Complex Prepositions",
+    "summaryJa": "because of、in spite of、according to などの複合前置詞を使います。",
+    "ruleJa": "複合前置詞の後には名詞句を置きます。because of、due to は理由、in spite of/despite は譲歩、according to は情報源、in addition to は追加を表します。",
+    "examples": [
+      {
+        "en": "The event was postponed because of the storm.",
+        "ja": "嵐のためイベントは延期されました。"
+      },
+      {
+        "en": "In addition to salary, employees receive benefits.",
+        "ja": "給与に加えて社員は福利厚生を受けます。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.33-36",
+    "questions": [
+      {
+        "id": "grammar-complexprep-01",
+        "prompt": "The flight was delayed _____ heavy fog.",
+        "options": [
+          "because",
+          "because of",
+          "although",
+          "while"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "後ろが名詞句 heavy fog なので because of を使います。"
+      },
+      {
+        "id": "grammar-complexprep-02",
+        "prompt": "_____ the high cost, the company approved the purchase.",
+        "options": [
+          "Although",
+          "Despite",
+          "Because",
+          "During"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "名詞句 the high cost の前で譲歩を表す despite が適切です。"
+      },
+      {
+        "id": "grammar-complexprep-03",
+        "prompt": "_____ the manual, the filter should be replaced monthly.",
+        "options": [
+          "According to",
+          "Because",
+          "While",
+          "Unless"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "情報源を示す according to が適切です。"
+      }
+    ]
+  },
+  {
+    "id": "conjunctions-vs-prepositions",
+    "number": 29,
+    "level": 2,
+    "titleJa": "接続詞と前置詞の区別",
+    "titleEn": "Conjunctions versus Prepositions",
+    "summaryJa": "後ろが節か名詞句かを見て because/because of、while/during などを選びます。",
+    "ruleJa": "接続詞の後には主語＋動詞の節、前置詞の後には名詞句を置きます。because/because of、although/despite、while/during の組み合わせを文の構造から判断します。",
+    "examples": [
+      {
+        "en": "We stayed inside because it was raining.",
+        "ja": "雨が降っていたので中にいました。"
+      },
+      {
+        "en": "We stayed inside because of the rain.",
+        "ja": "雨のため中にいました。"
+      }
+    ],
+    "sourceId": "toeic-basics-manual",
+    "sourceLocator": "0-0001-03-595200-0.pdf pp.45-46",
+    "questions": [
+      {
+        "id": "grammar-conjprep-01",
+        "prompt": "_____ the office was being renovated, staff worked remotely.",
+        "options": [
+          "During",
+          "While",
+          "Because of",
+          "Despite"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "後ろが主語＋動詞の節なので while が適切です。"
+      },
+      {
+        "id": "grammar-conjprep-02",
+        "prompt": "The store remained open _____ the renovation.",
+        "options": [
+          "although",
+          "while",
+          "during",
+          "because"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "後ろが名詞句なので前置詞 during を使います。"
+      },
+      {
+        "id": "grammar-conjprep-03",
+        "prompt": "_____ demand increased, production remained unchanged.",
+        "options": [
+          "Despite",
+          "In spite of",
+          "Although",
+          "Because of"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "後ろが節なので接続詞 although が必要です。"
+      }
+    ]
+  },
+  {
+    "id": "correlative-conjunctions",
+    "number": 30,
+    "level": 3,
+    "titleJa": "相関接続詞・並列",
+    "titleEn": "Correlative Conjunctions",
+    "summaryJa": "both A and B、either A or B などで文法上同じ形を並べます。",
+    "ruleJa": "both A and B、either A or B、neither A nor B、not only A but also B では、AとBを同じ品詞・構造にそろえます。主語を結ぶ場合は動詞の一致にも注意します。",
+    "examples": [
+      {
+        "en": "The role requires both planning and negotiating.",
+        "ja": "その職務には計画と交渉の両方が必要です。"
+      },
+      {
+        "en": "We can either revise the design or reduce the scope.",
+        "ja": "設計を修正するか範囲を縮小できます。"
+      }
+    ],
+    "sourceId": "toeic-basics-manual",
+    "sourceLocator": "0-0001-03-595200-0.pdf pp.43-44; toeic-grammar.pdf pp.37-38",
+    "questions": [
+      {
+        "id": "grammar-correlative-01",
+        "prompt": "The position involves both training employees and _____ schedules.",
+        "options": [
+          "manage",
+          "managing",
+          "managed",
+          "management"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "training と並列になる動名詞 managing が必要です。"
+      },
+      {
+        "id": "grammar-correlative-02",
+        "prompt": "Neither the price nor the delivery date _____ acceptable.",
+        "options": [
+          "are",
+          "were",
+          "is",
+          "have"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "近い主語 delivery date が単数なので is を使います。"
+      },
+      {
+        "id": "grammar-correlative-03",
+        "prompt": "The new system is not only faster _____ also more secure.",
+        "options": [
+          "and",
+          "or",
+          "but",
+          "so"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "not only A but also B の組み合わせです。"
+      }
+    ]
+  },
+  {
+    "id": "questions-inversion",
+    "number": 31,
+    "level": 3,
+    "titleJa": "疑問文・付加疑問・倒置",
+    "titleEn": "Questions, Tags, and Inversion",
+    "summaryJa": "助動詞を使う疑問文、付加疑問、否定語による倒置を学びます。",
+    "ruleJa": "一般疑問文では助動詞を主語の前に置きます。付加疑問は本文の肯定・否定を反転します。never、rarely、not only などが文頭に出ると助動詞と主語が倒置します。",
+    "examples": [
+      {
+        "en": "When does the store open?",
+        "ja": "店は何時に開きますか。"
+      },
+      {
+        "en": "Rarely do we receive complaints.",
+        "ja": "苦情を受けることはめったにありません。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.38-39",
+    "questions": [
+      {
+        "id": "grammar-questions-01",
+        "prompt": "When _____ the new policy take effect?",
+        "options": [
+          "do",
+          "does",
+          "is",
+          "has"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "主語 the new policy が単数で動詞原形 take を使うため does が必要です。"
+      },
+      {
+        "id": "grammar-questions-02",
+        "prompt": "The invoices have been sent, _____?",
+        "options": [
+          "have they",
+          "haven't they",
+          "don't they",
+          "weren't they"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "肯定文の現在完了に対応する否定の付加疑問 haven't they です。"
+      },
+      {
+        "id": "grammar-questions-03",
+        "prompt": "Only after approval _____ the work begin.",
+        "options": [
+          "the work can",
+          "can the work",
+          "the work could",
+          "does the work can"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "only を含む句が文頭に出たため助動詞 can と主語が倒置します。"
+      }
+    ]
+  },
+  {
+    "id": "reported-speech",
+    "number": 32,
+    "level": 3,
+    "titleJa": "直接話法・間接話法",
+    "titleEn": "Direct and Reported Speech",
+    "summaryJa": "発言を伝える際の時制、代名詞、時間表現の変化を学びます。",
+    "ruleJa": "過去の伝達動詞の後では現在形が過去形、will が would になるなど時制が後退することがあります。say と tell の目的語の取り方にも注意します。",
+    "examples": [
+      {
+        "en": "She said that the report was ready.",
+        "ja": "彼女は報告書が完成していると言いました。"
+      },
+      {
+        "en": "He told us that he would call later.",
+        "ja": "彼は後で電話すると私たちに言いました。"
+      }
+    ],
+    "sourceId": "grammar-practice-100",
+    "sourceLocator": "TOEIC in Motion Grammar Practice 100 [v25].pdf p.5",
+    "questions": [
+      {
+        "id": "grammar-reported-01",
+        "prompt": "Mr. Cole said that he _____ the next day.",
+        "options": [
+          "will return",
+          "would return",
+          "returns",
+          "has return"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "過去の said に合わせて will が would に変わります。"
+      },
+      {
+        "id": "grammar-reported-02",
+        "prompt": "The supervisor told _____ to wait in the lobby.",
+        "options": [
+          "we",
+          "our",
+          "us",
+          "ours"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "told の目的語なので目的格 us が必要です。"
+      },
+      {
+        "id": "grammar-reported-03",
+        "prompt": "Ms. Lin said, “I am busy.” → Ms. Lin said that she _____ busy.",
+        "options": [
+          "is",
+          "was",
+          "will be",
+          "has"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "過去の発言として伝えるため am を was に時制一致させます。"
+      }
+    ]
+  },
+  {
+    "id": "cohesion-reference",
+    "number": 33,
+    "level": 3,
+    "titleJa": "代名詞・限定詞による文のつながり",
+    "titleEn": "Cohesion and Reference",
+    "summaryJa": "it、they、this、these、such などが何を指すかを判断します。",
+    "ruleJa": "代名詞・指示詞は先行する名詞と数・意味を一致させます。this/that は単数、these/those は複数です。文全体や前述内容を受ける this/which にも注意します。",
+    "examples": [
+      {
+        "en": "The machines were inspected, and they are now ready.",
+        "ja": "機械は点検され、現在使用可能です。"
+      },
+      {
+        "en": "Sales increased sharply. This surprised the board.",
+        "ja": "売上が急増し、そのことが取締役会を驚かせました。"
+      }
+    ],
+    "sourceId": "toeic-basics-manual",
+    "sourceLocator": "0-0001-03-595200-0.pdf pp.55-56",
+    "questions": [
+      {
+        "id": "grammar-cohesion-01",
+        "prompt": "The brochures arrived this morning, and _____ are in the reception area.",
+        "options": [
+          "it",
+          "they",
+          "this",
+          "that"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "複数名詞 brochures を受けるため they が適切です。"
+      },
+      {
+        "id": "grammar-cohesion-02",
+        "prompt": "The deadline was extended. _____ gave the team more time.",
+        "options": [
+          "These",
+          "Those",
+          "This",
+          "They"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "前文の内容全体を受ける単数の this が適切です。"
+      },
+      {
+        "id": "grammar-cohesion-03",
+        "prompt": "Two new policies were introduced, but only one of _____ affects contractors.",
+        "options": [
+          "it",
+          "this",
+          "them",
+          "its"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "複数の policies を前置詞 of の後で受ける目的格 them が必要です。"
+      }
+    ]
+  },
+  {
+    "id": "connectors-discourse",
+    "number": 34,
+    "level": 3,
+    "titleJa": "接続副詞・談話標識",
+    "titleEn": "Connectors and Discourse Markers",
+    "summaryJa": "however、therefore、in addition などで文と文の論理関係を示します。",
+    "ruleJa": "however は対比、therefore は結果、moreover/in addition は追加、otherwise は別の結果を示します。接続副詞は通常、句読点で独立した文をつなぎます。",
+    "examples": [
+      {
+        "en": "Demand increased; therefore, production was expanded.",
+        "ja": "需要が増えたため、生産が拡大されました。"
+      },
+      {
+        "en": "The office is small; however, it is conveniently located.",
+        "ja": "事務所は小さいですが、便利な場所にあります。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.39-40",
+    "questions": [
+      {
+        "id": "grammar-connectors-01",
+        "prompt": "The first proposal was too expensive; _____, the team considered another option.",
+        "options": [
+          "therefore",
+          "for example",
+          "meanwhile",
+          "similarly"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "前半が後半の理由なので結果を示す therefore が適切です。"
+      },
+      {
+        "id": "grammar-connectors-02",
+        "prompt": "The product is affordable. _____, it comes with a two-year warranty.",
+        "options": [
+          "However",
+          "In addition",
+          "Otherwise",
+          "Instead"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "利点を追加するため in addition が適切です。"
+      },
+      {
+        "id": "grammar-connectors-03",
+        "prompt": "Please submit the form today; _____, your registration may be delayed.",
+        "options": [
+          "moreover",
+          "likewise",
+          "otherwise",
+          "therefore"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "提出しない場合の結果を示す otherwise が適切です。"
+      }
+    ]
+  },
+  {
+    "id": "punctuation",
+    "number": 35,
+    "level": 2,
+    "titleJa": "句読点・大文字",
+    "titleEn": "Punctuation and Capitalization",
+    "summaryJa": "コンマ、セミコロン、アポストロフィ、大文字を英文の構造に合わせて使います。",
+    "ruleJa": "独立節同士はセミコロン、またはコンマ＋等位接続詞で結びます。所有格や短縮形にはアポストロフィを使い、文頭・固有名詞は大文字にします。",
+    "examples": [
+      {
+        "en": "The office was closed; however, support remained available.",
+        "ja": "事務所は閉まっていましたが、サポートは利用可能でした。"
+      },
+      {
+        "en": "The manager's office is on the second floor.",
+        "ja": "マネージャーの事務室は2階です。"
+      }
+    ],
+    "sourceId": "grammar-practice-100",
+    "sourceLocator": "TOEIC in Motion Grammar Practice 100 [v25].pdf p.5",
+    "questions": [
+      {
+        "id": "grammar-punctuation-01",
+        "prompt": "The correctly punctuated sentence is _____.",
+        "options": [
+          "The meeting ended, everyone left.",
+          "The meeting ended; everyone left.",
+          "The meeting ended everyone, left.",
+          "The meeting; ended everyone left."
+        ],
+        "correctIndex": 1,
+        "explanationJa": "2つの独立節を接続詞なしで結ぶ場合はセミコロンが使えます。"
+      },
+      {
+        "id": "grammar-punctuation-02",
+        "prompt": "The correct form meaning “the office belonging to the manager” is _____.",
+        "options": [
+          "the managers office",
+          "the manager office",
+          "the manager's office",
+          "the managers's office"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "単数名詞 manager の所有格は manager's です。"
+      },
+      {
+        "id": "grammar-punctuation-03",
+        "prompt": "The correctly capitalized sentence is _____.",
+        "options": [
+          "our tokyo office opens Monday.",
+          "Our Tokyo office opens monday.",
+          "Our Tokyo office opens Monday.",
+          "our Tokyo Office opens Monday."
+        ],
+        "correctIndex": 2,
+        "explanationJa": "文頭、都市名、曜日を大文字にします。"
+      }
+    ]
+  },
+  {
+    "id": "british-american-usage",
+    "number": 36,
+    "level": 2,
+    "titleJa": "イギリス英語・アメリカ英語",
+    "titleEn": "British and American Usage",
+    "summaryJa": "TOEICで出会う綴り・語彙・文法上の代表的な地域差を理解します。",
+    "ruleJa": "colour/color、centre/center など綴りの差や、lift/elevator など語彙の差があります。どちらも文脈に応じて正しいため、意味を認識できることが重要です。",
+    "examples": [
+      {
+        "en": "Please take the lift to the first floor.",
+        "ja": "エレベーターで（英式の）1階へ行ってください。"
+      },
+      {
+        "en": "Please take the elevator to the second floor.",
+        "ja": "エレベーターで（米式の）2階へ行ってください。"
+      }
+    ],
+    "sourceId": "toeic-grammar",
+    "sourceLocator": "toeic-grammar.pdf pp.41-42",
+    "questions": [
+      {
+        "id": "grammar-varieties-01",
+        "prompt": "The American English word corresponding to British “lift” is _____.",
+        "options": [
+          "lorry",
+          "elevator",
+          "petrol",
+          "queue"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "British English の lift は American English では elevator です。"
+      },
+      {
+        "id": "grammar-varieties-02",
+        "prompt": "The pair showing British and American spellings of the same word is _____.",
+        "options": [
+          "colour / color",
+          "flat / truck",
+          "holiday / elevator",
+          "queue / gas"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "colour と color は同じ語の英式・米式綴りです。"
+      },
+      {
+        "id": "grammar-varieties-03",
+        "prompt": "In American English, “ground floor” in Britain is usually called the _____ floor.",
+        "options": [
+          "basement",
+          "first",
+          "second",
+          "top"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "英国の ground floor は米国では first floor に相当します。"
+      }
+    ]
+  },
+  {
+    "id": "used-to-wish",
+    "number": 37,
+    "level": 3,
+    "titleJa": "used to・be used to・wish",
+    "titleEn": "Used To and Wish",
+    "summaryJa": "過去の習慣、慣れている状態、実現していない願望を表します。",
+    "ruleJa": "used to + 動詞原形は過去の習慣、be/get used to + 名詞・動名詞は「〜に慣れている・慣れる」です。wish + 過去形は現在の実現していない願望を表します。",
+    "examples": [
+      {
+        "en": "She used to work in sales.",
+        "ja": "彼女は以前営業職でした。"
+      },
+      {
+        "en": "We are used to working across time zones.",
+        "ja": "私たちは時差を越えて働くことに慣れています。"
+      }
+    ],
+    "sourceId": "grammar-practice-100",
+    "sourceLocator": "TOEIC in Motion Grammar Practice 100 [v25].pdf p.6",
+    "questions": [
+      {
+        "id": "grammar-usedto-01",
+        "prompt": "The building _____ be a department store.",
+        "options": [
+          "is used to",
+          "used to",
+          "gets used to",
+          "was used"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "過去の状態を表す used to + 動詞原形です。"
+      },
+      {
+        "id": "grammar-usedto-02",
+        "prompt": "New employees quickly get used to _____ the online system.",
+        "options": [
+          "use",
+          "used",
+          "using",
+          "be used"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "get used to の to は前置詞なので動名詞 using が続きます。"
+      },
+      {
+        "id": "grammar-usedto-03",
+        "prompt": "I wish the meeting room _____ larger.",
+        "options": [
+          "is",
+          "were",
+          "will be",
+          "has been"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "現在の事実に反する願望なので wish + 過去形 were を使います。"
+      }
+    ]
+  },
+  {
+    "id": "existential-there",
+    "number": 38,
+    "level": 1,
+    "titleJa": "There is・There are",
+    "titleEn": "Existential There",
+    "summaryJa": "there 構文で人や物の存在を表し、後続する名詞と動詞を一致させます。",
+    "ruleJa": "There is + 単数名詞、There are + 複数名詞が基本です。there は形式上の位置を占め、実質的な主語はbe動詞の後ろにあります。",
+    "examples": [
+      {
+        "en": "There is a pharmacy near the station.",
+        "ja": "駅の近くに薬局があります。"
+      },
+      {
+        "en": "There are several seats available.",
+        "ja": "利用可能な席がいくつかあります。"
+      }
+    ],
+    "sourceId": "toeic-basics-manual",
+    "sourceLocator": "0-0001-03-595200-0.pdf pp.6-7; toeic-grammar.pdf p.32",
+    "questions": [
+      {
+        "id": "grammar-there-01",
+        "prompt": "There _____ a message for you at reception.",
+        "options": [
+          "are",
+          "is",
+          "have",
+          "be"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "後続する名詞 a message が単数なので is を使います。"
+      },
+      {
+        "id": "grammar-there-02",
+        "prompt": "There _____ three workshops scheduled this afternoon.",
+        "options": [
+          "is",
+          "are",
+          "has",
+          "was"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "後続する three workshops が複数なので are を使います。"
+      },
+      {
+        "id": "grammar-there-03",
+        "prompt": "_____ there any questions about the procedure?",
+        "options": [
+          "Is",
+          "Are",
+          "Do",
+          "Have"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "後続する questions が複数なので Are there ...? です。"
+      }
+    ]
+  },
+  {
+    "id": "sentence-types-negation",
+    "number": 39,
+    "level": 1,
+    "titleJa": "文の種類・否定・命令文",
+    "titleEn": "Sentence Types and Negation",
+    "summaryJa": "肯定文、否定文、疑問文、命令文の基本語順を整理します。",
+    "ruleJa": "be動詞は直後に not、一般動詞は do/does/did + not + 原形で否定します。疑問文では助動詞を主語の前に置き、命令文は主語を省略して動詞原形で始めます。",
+    "examples": [
+      {
+        "en": "The office does not open on Sundays.",
+        "ja": "その事務所は日曜日には開きません。"
+      },
+      {
+        "en": "Please attach the receipt.",
+        "ja": "領収書を添付してください。"
+      }
+    ],
+    "sourceId": "grammar-practice-100",
+    "sourceLocator": "TOEIC in Motion Grammar Practice 100 [v25].pdf p.4",
+    "questions": [
+      {
+        "id": "grammar-sentencetypes-01",
+        "prompt": "The printer _____ work without a network connection.",
+        "options": [
+          "does not",
+          "do not",
+          "is not",
+          "not does"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "単数主語と一般動詞の否定は does not + 原形です。"
+      },
+      {
+        "id": "grammar-sentencetypes-02",
+        "prompt": "_____ the delivery arrive on time?",
+        "options": [
+          "Did",
+          "Was",
+          "Has been",
+          "Does arrived"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "過去の一般疑問文は Did + 主語 + 動詞原形です。"
+      },
+      {
+        "id": "grammar-sentencetypes-03",
+        "prompt": "_____ your employee ID at the entrance.",
+        "options": [
+          "Showing",
+          "Shown",
+          "Show",
+          "To showing"
+        ],
+        "correctIndex": 2,
+        "explanationJa": "命令文は動詞の原形 Show で始めます。"
+      }
+    ]
+  },
+  {
+    "id": "business-collocations",
+    "number": 40,
+    "level": 2,
+    "titleJa": "ビジネス頻出コロケーション",
+    "titleEn": "Business Collocations and Phrasal Verbs",
+    "summaryJa": "TOEICで頻出する動詞＋名詞、動詞＋前置詞、句動詞の組み合わせを学びます。",
+    "ruleJa": "attend a meeting、reach a place、apply for a position、consist of など、英語では語ごとに自然な目的語や前置詞が決まります。句動詞は全体を1つの動詞として覚えます。",
+    "examples": [
+      {
+        "en": "She applied for a position in marketing.",
+        "ja": "彼女はマーケティング職に応募しました。"
+      },
+      {
+        "en": "The committee consists of six members.",
+        "ja": "委員会は6人の委員で構成されています。"
+      }
+    ],
+    "sourceId": "toeic-basics-manual",
+    "sourceLocator": "0-0001-03-595200-0.pdf pp.15-16",
+    "questions": [
+      {
+        "id": "grammar-collocations-01",
+        "prompt": "Mr. Evans will _____ the annual conference.",
+        "options": [
+          "attend",
+          "attend to",
+          "participate",
+          "join to"
+        ],
+        "correctIndex": 0,
+        "explanationJa": "attend は前置詞なしで meeting/conference を目的語に取ります。"
+      },
+      {
+        "id": "grammar-collocations-02",
+        "prompt": "Please fill _____ the application form completely.",
+        "options": [
+          "at",
+          "out",
+          "from",
+          "over"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "fill out で「記入する」という句動詞です。"
+      },
+      {
+        "id": "grammar-collocations-03",
+        "prompt": "The package should _____ the warehouse by noon.",
+        "options": [
+          "arrive",
+          "reach",
+          "get",
+          "go"
+        ],
+        "correctIndex": 1,
+        "explanationJa": "reach は前置詞なしで場所を目的語に取ります。"
+      }
+    ]
+  }
+]

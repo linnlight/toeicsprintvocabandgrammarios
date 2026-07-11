@@ -1,0 +1,30 @@
+[
+  {
+    "id": "part5-003",
+    "title": "リーディングパート復習問題 400",
+    "type": "supplied_pdf",
+    "fileName": "003.pdf",
+    "note": "Ten supplied Part 5 practice sets; answer marks verified against rendered pages."
+  },
+  {
+    "id": "part5-2009-04",
+    "title": "APRIL - NEW TOEIC Part 5 / 6 / 7",
+    "type": "supplied_pdf",
+    "fileName": "2009-04-f.pdf",
+    "note": "Audited as a secondary source; held out from the initial bank to avoid mixing formats."
+  },
+  {
+    "id": "part5-scanned-practice",
+    "title": "TOEIC Test Part 5",
+    "type": "supplied_pdf",
+    "fileName": "TOEIC Test Part 5.pdf",
+    "note": "Audited scan; excluded from automatic import because OCR is not reliable enough for test content."
+  },
+  {
+    "id": "part5-ebook",
+    "title": "E-BOOK TOEIC",
+    "type": "supplied_pdf",
+    "fileName": "E-BOOK-TOEIC.pdf",
+    "note": "Audited image-heavy book; retained as a future editorial source."
+  }
+]

@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Vocab Sprint",
+    "name": "TOEIC®英単語スプリント",
     "slug": "vocab-sprint",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,7 +10,12 @@
     "ios": {
       "icon": "./assets/expo.icon",
       "supportsTablet": true,
-      "bundleIdentifier": "app.vocabsprint.toeic"
+      "buildNumber": "7",
+      "appleTeamId": "6D4N5RSFRJ",
+      "bundleIdentifier": "com.linnlight.vocabsprint",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -24,10 +29,11 @@
     "web": {
       "output": "static",
       "favicon": "./assets/images/favicon.png",
-      "name": "Vocab Sprint"
+      "name": "TOEIC®英単語スプリント"
     },
     "plugins": [
       "expo-router",
+      "expo-notifications",
       [
         "expo-splash-screen",
         {
@@ -37,11 +43,36 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "buildReactNativeFromSource": true
+          }
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false,
+          "microphonePermission": false,
+          "recordAudioAndroid": false
+        }
+      ],
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true,
-      "reactCompiler": true
-    }
+      "reactCompiler": false
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "328bfbfc-3915-4ec1-bbde-743e339c0cb5"
+      }
+    },
+    "owner": "williamhtaik"
   }
 }

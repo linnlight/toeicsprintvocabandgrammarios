@@ -1,8 +1,16 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import type { PersistedAppState } from '@/domain/models';
+import { parsePersistedAppState } from '@/domain/persistence';
 
 const STORAGE_KEY = 'vocab-sprint.progress.v1';
+let pendingWrite = Promise.resolve();
+
+function enqueueWrite(operation: () => Promise<void>): Promise<void> {
+  const result = pendingWrite.then(operation, operation);
+  pendingWrite = result.catch(() => undefined);
+  return result;
+}
 
 export interface ProgressStorage {
   load(): Promise<PersistedAppState | null>;
@@ -15,16 +23,19 @@ export const localProgressStorage: ProgressStorage = {
     const value = await AsyncStorage.getItem(STORAGE_KEY);
     if (!value) return null;
     try {
-      return JSON.parse(value) as PersistedAppState;
+      const state = parsePersistedAppState(JSON.parse(value));
+      if (state) return state;
     } catch {
-      await AsyncStorage.removeItem(STORAGE_KEY);
-      return null;
+      // Invalid local data is removed below and replaced with safe defaults.
     }
+    await enqueueWrite(() => AsyncStorage.removeItem(STORAGE_KEY));
+    return null;
   },
   async save(state) {
-    await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    const value = JSON.stringify(state);
+    await enqueueWrite(() => AsyncStorage.setItem(STORAGE_KEY, value));
   },
   async clear() {
-    await AsyncStorage.removeItem(STORAGE_KEY);
+    await enqueueWrite(() => AsyncStorage.removeItem(STORAGE_KEY));
   },
 };

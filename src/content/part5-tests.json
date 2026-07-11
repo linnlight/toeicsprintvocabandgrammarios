@@ -1,0 +1,5682 @@
+[
+  {
+    "id": "part5-test-01",
+    "number": 1,
+    "titleJa": "Part 5 テスト 1",
+    "titleEn": "Part 5 Test 1",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "Thank you for your inquiry regarding the installation and usage of the _____ software your company, Pike Law Firm, has recently purchased.",
+        "options": [
+          "schedule",
+          "schedules",
+          "scheduling",
+          "scheduled"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t01-q01",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.1, Test 1 Q1"
+      },
+      {
+        "number": 2,
+        "prompt": "Our software is designed to make the administration, scheduling and record-keeping of legal firms _____ easier for assistants and receptionists.",
+        "options": [
+          "much",
+          "many",
+          "some",
+          "any"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t01-q02",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.1, Test 1 Q2"
+      },
+      {
+        "number": 3,
+        "prompt": "I am aware, however, that the installation _____ may be a bit difficult.",
+        "options": [
+          "processing",
+          "to process",
+          "process",
+          "processed"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t01-q03",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.1, Test 1 Q3"
+      },
+      {
+        "number": 4,
+        "prompt": "To assist you, I have attached our _____ installation guide, as well as a question and answer document to cover any additional problems.",
+        "options": [
+          "comprehension",
+          "comprehensive",
+          "comprehend",
+          "comprehensibility"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t01-q04",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.1, Test 1 Q4"
+      },
+      {
+        "number": 5,
+        "prompt": "Once you have installed the software, please follow the set-up guidelines and watch the _____ tutorial in order to become familiar with how our software works.",
+        "options": [
+          "introduce",
+          "introducing",
+          "introduced",
+          "introductory"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t01-q05",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.1, Test 1 Q5"
+      },
+      {
+        "number": 6,
+        "prompt": "If you are still having difficulty, please do not _____ to contact me again.",
+        "options": [
+          "hesitate",
+          "hesitating",
+          "hesitated",
+          "hesitation"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t01-q06",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.1, Test 1 Q6"
+      },
+      {
+        "number": 7,
+        "prompt": "I can arrange _____ a technician to visit your office and provide a software demonstration at your convenience.",
+        "options": [
+          "in",
+          "on",
+          "to",
+          "for"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t01-q07",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.1, Test 1 Q7"
+      },
+      {
+        "number": 8,
+        "prompt": "This service is available _____ no additional charge.",
+        "options": [
+          "for",
+          "at",
+          "on",
+          "over"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t01-q08",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.1, Test 1 Q8"
+      },
+      {
+        "number": 9,
+        "prompt": "Thank you again for your _____ in our products.",
+        "options": [
+          "interesting",
+          "interested",
+          "interest",
+          "interests"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t01-q09",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.1, Test 1 Q9"
+      },
+      {
+        "number": 10,
+        "prompt": "Get professional investment advice from Michael Perrier on how to ensure a _____ future.",
+        "options": [
+          "comfortable",
+          "comfortably",
+          "comfort",
+          "comforting"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t01-q10",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.1, Test 1 Q10"
+      },
+      {
+        "number": 11,
+        "prompt": "Attendees will learn about local and global housing markets, and be provided with tips and strategies for _____ and profitable investments.",
+        "options": [
+          "safety",
+          "safe",
+          "safer",
+          "safest"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t01-q11",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.2, Test 1 Q11"
+      },
+      {
+        "number": 12,
+        "prompt": "Tickets are $20 _____ seat, and will be available at the door.",
+        "options": [
+          "under",
+          "on",
+          "with",
+          "per"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t01-q12",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.2, Test 1 Q12"
+      },
+      {
+        "number": 13,
+        "prompt": "Get information on Port Smith’s job market and connect with local businesses at this year’s _____ lunch.",
+        "options": [
+          "network",
+          "networks",
+          "networked",
+          "networking"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t01-q13",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.2, Test 1 Q13"
+      },
+      {
+        "number": 14,
+        "prompt": "Representatives from over 45 businesses are expected to be in _____ .",
+        "options": [
+          "attend",
+          "attendant",
+          "attendance",
+          "attendee"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t01-q14",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.2, Test 1 Q14"
+      },
+      {
+        "number": 15,
+        "prompt": "Business reps should have their booths set up _____ 11:30 A.M.",
+        "options": [
+          "until",
+          "throughout",
+          "toward",
+          "by"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t01-q15",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.2, Test 1 Q15"
+      },
+      {
+        "number": 16,
+        "prompt": "Don’t miss Port Smith’s annual trade fair with companies _____ 18 different countries from around the world.",
+        "options": [
+          "represent",
+          "representing",
+          "represented",
+          "representation"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t01-q16",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.2, Test 1 Q16"
+      },
+      {
+        "number": 17,
+        "prompt": "Get product and service demonstrations, samples and discounts from a _____ range of retailers.",
+        "options": [
+          "big",
+          "wide",
+          "high",
+          "many"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t01-q17",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.2, Test 1 Q17"
+      },
+      {
+        "number": 18,
+        "prompt": "If you’d like to book a booth for your company, registration must be _____ before January 15.",
+        "options": [
+          "complete",
+          "completion",
+          "completing",
+          "completed"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t01-q18",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.2, Test 1 Q18"
+      },
+      {
+        "number": 19,
+        "prompt": "Booths are _____, so don’t delay.",
+        "options": [
+          "limit",
+          "limiting",
+          "limited",
+          "limits"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t01-q19",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.2, Test 1 Q19"
+      },
+      {
+        "number": 20,
+        "prompt": "Bestselling author Sasha Badke offers her advice on how to _____ small businesses and what advertising mistakes to avoid.",
+        "options": [
+          "proceed",
+          "procure",
+          "prolong",
+          "promote"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t01-q20",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.2, Test 1 Q20"
+      },
+      {
+        "number": 21,
+        "prompt": "Tickets are $15 per seat and will be _____ at the door.",
+        "options": [
+          "availed",
+          "avail",
+          "availability",
+          "available"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t01-q21",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.3, Test 1 Q21"
+      },
+      {
+        "number": 22,
+        "prompt": "Due to _____ for this year’s trade fair, the February committee meeting will be cancelled.",
+        "options": [
+          "prepare",
+          "prepared",
+          "preparing",
+          "preparations"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t01-q22",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.3, Test 1 Q22"
+      },
+      {
+        "number": 23,
+        "prompt": "The next meeting will be held at the _____ of March.",
+        "options": [
+          "begin",
+          "began",
+          "beginning",
+          "begins"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t01-q23",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.3, Test 1 Q23"
+      },
+      {
+        "number": 24,
+        "prompt": "Thank you so much for _____ a volunteer with our center.",
+        "options": [
+          "became",
+          "becoming",
+          "become",
+          "to become"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t01-q24",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.3, Test 1 Q24"
+      },
+      {
+        "number": 25,
+        "prompt": "As I mentioned in our phone call, the convention center has a lot of new events _____ and we need as much help as we can get.",
+        "options": [
+          "will be scheduling",
+          "schedule",
+          "scheduling",
+          "scheduled"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t01-q25",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.3, Test 1 Q25"
+      },
+      {
+        "number": 26,
+        "prompt": "I’ve worked out the _____ for the first few months of the year, and have made a list of tasks for you to help with if you’re available.",
+        "options": [
+          "detailed",
+          "to detail",
+          "details",
+          "detailing"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t01-q26",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.3, Test 1 Q26"
+      },
+      {
+        "number": 27,
+        "prompt": "The most urgent task we need to do is to contact a new speaker for the seminar _____ next week.",
+        "options": [
+          "coming",
+          "come",
+          "comes",
+          "came"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t01-q27",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.3, Test 1 Q27"
+      },
+      {
+        "number": 28,
+        "prompt": "Michael Perrier was _____ to be hosting the event, but has had to cancel unexpectedly.",
+        "options": [
+          "supposing",
+          "supposed",
+          "suppose",
+          "to suppose"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t01-q28",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.3, Test 1 Q28"
+      },
+      {
+        "number": 29,
+        "prompt": "Luckily, Ted Luntasa had also shown some interest in _____ this seminar.",
+        "options": [
+          "to lead",
+          "led",
+          "lead",
+          "leading"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t01-q29",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.3, Test 1 Q29"
+      },
+      {
+        "number": 30,
+        "prompt": "Please contact him to find _____ if he is still available.",
+        "options": [
+          "in",
+          "out",
+          "to",
+          "with"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t01-q30",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.3, Test 1 Q30"
+      },
+      {
+        "number": 31,
+        "prompt": "The second event we’d like your help with is _____ January 19th.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "with"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t01-q31",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.4, Test 1 Q31"
+      },
+      {
+        "number": 32,
+        "prompt": "We are hosting a community lunch and need someone to help organize booths for the local business _____ that will be attending.",
+        "options": [
+          "representation",
+          "represented",
+          "representatives",
+          "to represent"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t01-q32",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.4, Test 1 Q32"
+      },
+      {
+        "number": 33,
+        "prompt": "Finally, I understand that you have some experience with website _____ and maintenance.",
+        "options": [
+          "creative",
+          "created",
+          "creating",
+          "creation"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t01-q33",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.4, Test 1 Q33"
+      },
+      {
+        "number": 34,
+        "prompt": "I would really appreciate it if you could put the new events calendar _____ our site.",
+        "options": [
+          "in",
+          "with",
+          "onto",
+          "at"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t01-q34",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.4, Test 1 Q34"
+      },
+      {
+        "number": 35,
+        "prompt": "If you have any ideas about how to update or improve the site, that would also be very _____.",
+        "options": [
+          "helpful",
+          "available",
+          "repeatable",
+          "possible"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t01-q35",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.4, Test 1 Q35"
+      },
+      {
+        "number": 36,
+        "prompt": "If you are interested, I will send you the _____ login name and password.",
+        "options": [
+          "administrator",
+          "administrative",
+          "administrate",
+          "administration"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t01-q36",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.4, Test 1 Q36"
+      },
+      {
+        "number": 37,
+        "prompt": "Thanks again for offering your time _____ the convention center.",
+        "options": [
+          "for",
+          "with",
+          "to",
+          "on"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t01-q37",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.4, Test 1 Q37"
+      },
+      {
+        "number": 38,
+        "prompt": "Due to a rainy weather forecast, today’s Moreen Park Free Musical Performance, scheduled for 11:30 A.M., _____ been cancelled.",
+        "options": [
+          "have",
+          "has",
+          "had",
+          "to have"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t01-q38",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.4, Test 1 Q38"
+      },
+      {
+        "number": 39,
+        "prompt": "For those of you who have made the trip to see popular concert violinist Rosa Marche _____ a free performance at the band shelter, we are very sorry for the inconvenience.",
+        "options": [
+          "gave",
+          "given",
+          "give",
+          "will give"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t01-q39",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.4, Test 1 Q39"
+      },
+      {
+        "number": 40,
+        "prompt": "Given the recent heavy rain and the _____ upcoming storm, park management has decided to cancel all free musical performances for the next ten days.",
+        "options": [
+          "predict",
+          "predicting",
+          "predicts",
+          "predicted"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t01-q40",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.4, Test 1 Q40"
+      }
+    ]
+  },
+  {
+    "id": "part5-test-02",
+    "number": 2,
+    "titleJa": "Part 5 テスト 2",
+    "titleEn": "Part 5 Test 2",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "Weekly musical performances sponsored by the Bayview Symphony Orchestra are _____ to resume on May 23.",
+        "options": [
+          "expect",
+          "expecting",
+          "expects",
+          "expected"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t02-q01",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.5, Test 2 Q1"
+      },
+      {
+        "number": 2,
+        "prompt": "For anyone interested in _____ a performance by Rosa Marche, she is expected to resume her free weekly performances on June 27 at 12:30 P.M. at the Moreen Park band shelter.",
+        "options": [
+          "seeing",
+          "to see",
+          "see",
+          "seen"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t02-q02",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.5, Test 2 Q2"
+      },
+      {
+        "number": 3,
+        "prompt": "For more information about this and _____ cancellations, please contact park management at (555) 333-0442.",
+        "options": [
+          "increasing",
+          "incoming",
+          "upcoming",
+          "upholding"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q03",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.5, Test 2 Q3"
+      },
+      {
+        "number": 4,
+        "prompt": "_____ summer coming, the people of Millet are looking for more ways to enjoy the warm weather.",
+        "options": [
+          "To",
+          "On",
+          "For",
+          "With"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t02-q04",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.5, Test 2 Q4"
+      },
+      {
+        "number": 5,
+        "prompt": "One way to _____ up some sun is by trying one of the many restaurant patios around town.",
+        "options": [
+          "enjoy",
+          "soak",
+          "clear",
+          "hang"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t02-q05",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.5, Test 2 Q5"
+      },
+      {
+        "number": 6,
+        "prompt": "Millet has a _____ of restaurants with outdoor seating to fit your tastes and budget.",
+        "options": [
+          "variable",
+          "variety",
+          "vary",
+          "variation"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t02-q06",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.5, Test 2 Q6"
+      },
+      {
+        "number": 7,
+        "prompt": "For French dining, _____ the brand new La Paris Café.",
+        "options": [
+          "try",
+          "trying",
+          "to try",
+          "tried"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t02-q07",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.5, Test 2 Q7"
+      },
+      {
+        "number": 8,
+        "prompt": "This is a perfect place to enjoy fresh baked breads and tasty entrées _____ taking in the view of our beautiful city’s skyline.",
+        "options": [
+          "where",
+          "which",
+          "while",
+          "what"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q08",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.5, Test 2 Q8"
+      },
+      {
+        "number": 9,
+        "prompt": "If you’re there for dinner, be sure to try the chef’s _____ , maple-orange turkey.",
+        "options": [
+          "specialty",
+          "special",
+          "specialist",
+          "specially"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t02-q09",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.5, Test 2 Q9"
+      },
+      {
+        "number": 10,
+        "prompt": "To enjoy a _____ view of the Torga River, head to Torga Terrace on Aspen Street.",
+        "options": [
+          "outgoing",
+          "undertaking",
+          "increasing",
+          "breathtaking"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t02-q10",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.5, Test 2 Q10"
+      },
+      {
+        "number": 11,
+        "prompt": "Torga Terrace is a traditional steakhouse that uses only the highest quality meats, and you’ll find their filet mignon _____ especially mouthwatering.",
+        "options": [
+          "be",
+          "to be",
+          "been",
+          "will be"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t02-q11",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.6, Test 2 Q11"
+      },
+      {
+        "number": 12,
+        "prompt": "Be sure to book ahead for a good spot on the patio, _____ tables are known to fill up quickly when the weather’s nice.",
+        "options": [
+          "while",
+          "where",
+          "as",
+          "so"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q12",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.6, Test 2 Q12"
+      },
+      {
+        "number": 13,
+        "prompt": "Finally, if you like your food spicy and exotic, _____ the Bangalore Garden Restaurant.",
+        "options": [
+          "go",
+          "live",
+          "try",
+          "seem"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q13",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.6, Test 2 Q13"
+      },
+      {
+        "number": 14,
+        "prompt": "Feast on one of their hot Indian curry dishes while _____ the scents of their beautiful patio garden.",
+        "options": [
+          "inhaling",
+          "inhale",
+          "inhales",
+          "inhaled"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t02-q14",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.6, Test 2 Q14"
+      },
+      {
+        "number": 15,
+        "prompt": "Make sure to have water available, as some of their dishes are _____ hot.",
+        "options": [
+          "finally",
+          "fortunately",
+          "extremely",
+          "clearly"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q15",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.6, Test 2 Q15"
+      },
+      {
+        "number": 16,
+        "prompt": "These are only a few of the many outdoor options available _____ you this summer here in the city of Millet.",
+        "options": [
+          "to",
+          "on",
+          "for",
+          "with"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t02-q16",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.6, Test 2 Q16"
+      },
+      {
+        "number": 17,
+        "prompt": "If you have any comments, or would like to recommend another restaurant, please feel free to contact me and I’ll try to _____ it in my next column.",
+        "options": [
+          "tell",
+          "talk",
+          "mention",
+          "speak"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q17",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.6, Test 2 Q17"
+      },
+      {
+        "number": 18,
+        "prompt": "I wanted to let you know that I really enjoyed your article on summer hotspots in the newspaper this _____ week.",
+        "options": [
+          "pass",
+          "passing",
+          "passed",
+          "past"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t02-q18",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.6, Test 2 Q18"
+      },
+      {
+        "number": 19,
+        "prompt": "I went to Torga Terrace yesterday and was very _____ .",
+        "options": [
+          "impressing",
+          "impressed",
+          "impress",
+          "impresses"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t02-q19",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.6, Test 2 Q19"
+      },
+      {
+        "number": 20,
+        "prompt": "The filet mignon was excellent and I really loved the patio _____ .",
+        "options": [
+          "scenery",
+          "scent",
+          "scene",
+          "scenario"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t02-q20",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.6, Test 2 Q20"
+      },
+      {
+        "number": 21,
+        "prompt": "I hope to try the other two restaurants you _____ sometime soon.",
+        "options": [
+          "to list",
+          "lists",
+          "listed",
+          "listing"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q21",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.7, Test 2 Q21"
+      },
+      {
+        "number": 22,
+        "prompt": "I noticed that your article didn’t mention a vegetarian option, so I thought I would _____ a suggestion.",
+        "options": [
+          "take",
+          "cause",
+          "attend",
+          "make"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t02-q22",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.7, Test 2 Q22"
+      },
+      {
+        "number": 23,
+        "prompt": "There is a new restaurant on Parker Avenue near the edge of the city, _____ Angela’s Alcove, which opened last month.",
+        "options": [
+          "call",
+          "calling",
+          "called",
+          "to call"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q23",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.7, Test 2 Q23"
+      },
+      {
+        "number": 24,
+        "prompt": "Their patio has a wonderful view of the Hillhurst Forest Park, and their menu is full of _____ choices.",
+        "options": [
+          "interest",
+          "interested",
+          "interesting",
+          "interests"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q24",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.7, Test 2 Q24"
+      },
+      {
+        "number": 25,
+        "prompt": "I’ve been there for dinner a few times and can’t _____ the fantastic taste of their fettuccine pesto.",
+        "options": [
+          "forget",
+          "remind",
+          "announce",
+          "notify"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t02-q25",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.7, Test 2 Q25"
+      },
+      {
+        "number": 26,
+        "prompt": "They also have an _____ variety of healthy dessert choices.",
+        "options": [
+          "impression",
+          "impressive",
+          "impress",
+          "impressed"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t02-q26",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.7, Test 2 Q26"
+      },
+      {
+        "number": 27,
+        "prompt": "They are only $5 a dish, and are all made with _____ grown fruit.",
+        "options": [
+          "location",
+          "locate",
+          "located",
+          "locally"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t02-q27",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.7, Test 2 Q27"
+      },
+      {
+        "number": 28,
+        "prompt": "I’m hoping _____ a chance to try their lunch menu soon because it also looks quite good.",
+        "options": [
+          "to",
+          "with",
+          "for",
+          "on"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q28",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.7, Test 2 Q28"
+      },
+      {
+        "number": 29,
+        "prompt": "It _____ falafel pitas and fresh Greek salads, as well as tofu soup and chickpea soup.",
+        "options": [
+          "including",
+          "include",
+          "includes",
+          "inclusion"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q29",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.7, Test 2 Q29"
+      },
+      {
+        "number": 30,
+        "prompt": "If you are able to, please _____ this place in next week’s article.",
+        "options": [
+          "mention",
+          "talk",
+          "speak",
+          "tell"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t02-q30",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.7, Test 2 Q30"
+      },
+      {
+        "number": 31,
+        "prompt": "It’s a new business, so I’m sure they would appreciate the _____.",
+        "options": [
+          "public",
+          "publicity",
+          "publication",
+          "publicize"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t02-q31",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.8, Test 2 Q31"
+      },
+      {
+        "number": 32,
+        "prompt": "Thanks again for your interesting and _____ articles.",
+        "options": [
+          "informative",
+          "information",
+          "informing",
+          "inform"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t02-q32",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.8, Test 2 Q32"
+      },
+      {
+        "number": 33,
+        "prompt": "I look forward to _____ next week’s edition.",
+        "options": [
+          "read",
+          "be read",
+          "reading",
+          "be reading"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q33",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.8, Test 2 Q33"
+      },
+      {
+        "number": 34,
+        "prompt": "We thank you for your interest in our company, specifically our swimming pool design and _____ services.",
+        "options": [
+          "install",
+          "installment",
+          "installing",
+          "installation"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t02-q34",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.8, Test 2 Q34"
+      },
+      {
+        "number": 35,
+        "prompt": "You _____ expressed a desire to purchase an in-ground swimming pool for your estate.",
+        "options": [
+          "soon",
+          "recently",
+          "efficiently",
+          "gradually"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t02-q35",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.8, Test 2 Q35"
+      },
+      {
+        "number": 36,
+        "prompt": "It is important when choosing a swimming pool to _____ the size and condition of the lot.",
+        "options": [
+          "consideration",
+          "considerable",
+          "consider",
+          "considerate"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q36",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.8, Test 2 Q36"
+      },
+      {
+        "number": 37,
+        "prompt": "For example, if you have large portions of the lot devoted to gardens, it may be necessary to reduce the garden size to accommodate the swimming pool and _____ patio.",
+        "options": [
+          "surrounding",
+          "surrounded",
+          "surround",
+          "surrounds"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t02-q37",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.8, Test 2 Q37"
+      },
+      {
+        "number": 38,
+        "prompt": "Our company can assist you in remodeling the landscape in order to create a _____ environment.",
+        "options": [
+          "please",
+          "pleased",
+          "pleasant",
+          "pleasing"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q38",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.8, Test 2 Q38"
+      },
+      {
+        "number": 39,
+        "prompt": "Similarly, many clients have difficulty _____ the material for their pool patio.",
+        "options": [
+          "choose",
+          "chosen",
+          "to choose",
+          "choosing"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t02-q39",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.8, Test 2 Q39"
+      },
+      {
+        "number": 40,
+        "prompt": "We commonly recommend a simple slate gray stone as it _____ well with outdoor furniture.",
+        "options": [
+          "coordinated",
+          "coordinate",
+          "coordinates",
+          "coordinating"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t02-q40",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.8, Test 2 Q40"
+      }
+    ]
+  },
+  {
+    "id": "part5-test-03",
+    "number": 3,
+    "titleJa": "Part 5 テスト 3",
+    "titleEn": "Part 5 Test 3",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "Our design team, however, can assist you in _____ the color and shape of the patio stones in order to ensure they match with the appearance of surrounding buildings.",
+        "options": [
+          "choose",
+          "chose",
+          "choosing",
+          "chosen"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t03-q01",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.9, Test 3 Q1"
+      },
+      {
+        "number": 2,
+        "prompt": "Lastly, choosing a pool shape and size is a very _____ task.",
+        "options": [
+          "less",
+          "larger",
+          "little",
+          "large"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t03-q02",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.9, Test 3 Q2"
+      },
+      {
+        "number": 3,
+        "prompt": "We recommend that you _____ one of our design specialists to visit your property in order to develop some mock designs.",
+        "options": [
+          "request",
+          "are requesting",
+          "requests",
+          "are requested"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t03-q03",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.9, Test 3 Q3"
+      },
+      {
+        "number": 4,
+        "prompt": "I have enclosed a full product list as well as our _____ design magazine.",
+        "options": [
+          "previously",
+          "fully",
+          "yearly",
+          "originally"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t03-q04",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.9, Test 3 Q4"
+      },
+      {
+        "number": 5,
+        "prompt": "Please take a look at some of the sample designs and do not _____ to contact me directly with any questions.",
+        "options": [
+          "hesitate",
+          "be hesitated",
+          "hesitating",
+          "hesitant"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t03-q05",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.9, Test 3 Q5"
+      },
+      {
+        "number": 6,
+        "prompt": "I look forward to working with you through every _____ of design and development of your swimming pool.",
+        "options": [
+          "stages",
+          "staged",
+          "staging",
+          "stage"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t03-q06",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.9, Test 3 Q6"
+      },
+      {
+        "number": 7,
+        "prompt": "I am pleased to be able to offer my thoughts and opinions regarding the services your company, Sunscape Gardening, has provided me _____ this summer.",
+        "options": [
+          "to",
+          "with",
+          "for",
+          "on"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t03-q07",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.9, Test 3 Q7"
+      },
+      {
+        "number": 8,
+        "prompt": "I have attached the _____ customer service survey you sent me, but I would like to make some additional comments.",
+        "options": [
+          "complete",
+          "completes",
+          "completing",
+          "completed"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t03-q08",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.9, Test 3 Q8"
+      },
+      {
+        "number": 9,
+        "prompt": "I have been _____ happy with the work that Sunscape Gardening has done for my business, the WestField Golf Course.",
+        "options": [
+          "lastly",
+          "extremely",
+          "finally",
+          "costly"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t03-q09",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.9, Test 3 Q9"
+      },
+      {
+        "number": 10,
+        "prompt": "This was the first year I decided to _____ a landscaping company rather than run my own landscaping department.",
+        "options": [
+          "hire",
+          "structure",
+          "proceed",
+          "occupy"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t03-q10",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.9, Test 3 Q10"
+      },
+      {
+        "number": 11,
+        "prompt": "I must say, the work Sunscape Gardening did was far superior _____ what I had been able to complete and it took away a large portion of the pressure that comes with running a big business.",
+        "options": [
+          "for",
+          "to",
+          "with",
+          "on"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t03-q11",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.10, Test 3 Q11"
+      },
+      {
+        "number": 12,
+        "prompt": "Many of my regular customers have commented on the quality of the grass, as well as the beauty of the _____ gardens and lawns.",
+        "options": [
+          "manicure",
+          "manicures",
+          "manicuring",
+          "manicured"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t03-q12",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.10, Test 3 Q12"
+      },
+      {
+        "number": 13,
+        "prompt": "I would certainly like to _____ Sunscape Gardening’s services for next season.",
+        "options": [
+          "respond",
+          "remind",
+          "request",
+          "return"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t03-q13",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.10, Test 3 Q13"
+      },
+      {
+        "number": 14,
+        "prompt": "The last time we spoke, you mentioned that Sunscape Gardening would be _____ its services to some light stone work.",
+        "options": [
+          "expanding",
+          "expanded",
+          "expand",
+          "expands"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t03-q14",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.10, Test 3 Q14"
+      },
+      {
+        "number": 15,
+        "prompt": "If this is true, I would like to get _____ more information from you about this.",
+        "options": [
+          "any",
+          "some",
+          "a",
+          "most"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t03-q15",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.10, Test 3 Q15"
+      },
+      {
+        "number": 16,
+        "prompt": "I have a walkway that needs to be _____ next season.",
+        "options": [
+          "repair",
+          "repairs",
+          "repairing",
+          "repaired"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t03-q16",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.10, Test 3 Q16"
+      },
+      {
+        "number": 17,
+        "prompt": "Could you please e-mail _____ any information you have about your new service packages?",
+        "options": [
+          "I",
+          "my",
+          "me",
+          "mine"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t03-q17",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.10, Test 3 Q17"
+      },
+      {
+        "number": 18,
+        "prompt": "Thank you so much for your help. I look forward to _____ from you.",
+        "options": [
+          "hearing",
+          "writing",
+          "talking",
+          "seeing"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t03-q18",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.10, Test 3 Q18"
+      },
+      {
+        "number": 19,
+        "prompt": "Thank you once again for _____ Comfort Suites.",
+        "options": [
+          "choose",
+          "chosen",
+          "chose",
+          "choosing"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t03-q19",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.10, Test 3 Q19"
+      },
+      {
+        "number": 20,
+        "prompt": "The following are the details of your _____ online booking.",
+        "options": [
+          "confirmed",
+          "confirming",
+          "confirm",
+          "confirms"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t03-q20",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.10, Test 3 Q20"
+      },
+      {
+        "number": 21,
+        "prompt": "Please contact us as soon as possible if any of these _____ are not accurate.",
+        "options": [
+          "detail",
+          "details",
+          "detailing",
+          "detailed"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t03-q21",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.11, Test 3 Q21"
+      },
+      {
+        "number": 22,
+        "prompt": "Also, if you would like to take advantage of our free airport shuttle, please let us know in _____ .",
+        "options": [
+          "advance",
+          "advances",
+          "advancement",
+          "advancing"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t03-q22",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.11, Test 3 Q22"
+      },
+      {
+        "number": 23,
+        "prompt": "As a valued member of our rewards club, we appreciate your patronage and look forward to providing you with a _____ and relaxing holiday.",
+        "options": [
+          "comforting",
+          "comfort",
+          "comfortable",
+          "comforts"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t03-q23",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.11, Test 3 Q23"
+      },
+      {
+        "number": 24,
+        "prompt": "Furthermore, if you would like to receive _____ bonus points on your membership card, be sure to complete the Comfort Suites quality survey upon completion of your stay.",
+        "options": [
+          "redeemable",
+          "capable",
+          "possible",
+          "unable"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t03-q24",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.11, Test 3 Q24"
+      },
+      {
+        "number": 25,
+        "prompt": "I always enjoy my trips to New Zealand, and I’m glad that I’ve found such an affordable and _____ place to stay.",
+        "options": [
+          "enjoy",
+          "enjoyment",
+          "enjoyable",
+          "to enjoy"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t03-q25",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.11, Test 3 Q25"
+      },
+      {
+        "number": 26,
+        "prompt": "Their friendly staff greeted us at the airport and treated us very well _____ the trip.",
+        "options": [
+          "throughout",
+          "while",
+          "still",
+          "until"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t03-q26",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.11, Test 3 Q26"
+      },
+      {
+        "number": 27,
+        "prompt": "I was especially _____ with the effort they put into making my children feel comfortable.",
+        "options": [
+          "impress",
+          "impressed",
+          "impressive",
+          "impression"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t03-q27",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.11, Test 3 Q27"
+      },
+      {
+        "number": 28,
+        "prompt": "The room they _____ us was spotless, and we didn’t have any difficulties or inconveniences during our stay.",
+        "options": [
+          "are given",
+          "give",
+          "gave",
+          "given"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t03-q28",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.11, Test 3 Q28"
+      },
+      {
+        "number": 29,
+        "prompt": "I will _____ book with this Comfort Suites location again in the future.",
+        "options": [
+          "defining",
+          "define",
+          "definitely",
+          "definite"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t03-q29",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.11, Test 3 Q29"
+      },
+      {
+        "number": 30,
+        "prompt": "_____ many of you are aware, Globe Publishing has just agreed on a contract with Headlines magazine.",
+        "options": [
+          "While",
+          "Whereas",
+          "As",
+          "Therefore"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t03-q30",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.11, Test 3 Q30"
+      },
+      {
+        "number": 31,
+        "prompt": "We are very _____ about this opportunity to further expand our international business.",
+        "options": [
+          "excite",
+          "exciting",
+          "excited",
+          "excitement"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t03-q31",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.12, Test 3 Q31"
+      },
+      {
+        "number": 32,
+        "prompt": "Headlines magazine is a very _____ publication that has continued to grow in popularity over the past seven years.",
+        "options": [
+          "success",
+          "successful",
+          "succession",
+          "successive"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t03-q32",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.12, Test 3 Q32"
+      },
+      {
+        "number": 33,
+        "prompt": "It is now ordered by _____ ten thousand people every month.",
+        "options": [
+          "through",
+          "without",
+          "with",
+          "over"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t03-q33",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.12, Test 3 Q33"
+      },
+      {
+        "number": 34,
+        "prompt": "As a result of this new contract, Globe Publishing is now seeking to hire new employees to fill positions that will soon be _____.",
+        "options": [
+          "opening",
+          "opened",
+          "opens",
+          "to be opened"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t03-q34",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.12, Test 3 Q34"
+      },
+      {
+        "number": 35,
+        "prompt": "Most prominently, we are seeking a senior editor to coordinate with Headlines magazine’s journalists and photographers to _____ that the editing and printing process runs smoothly.",
+        "options": [
+          "assure",
+          "ensure",
+          "insure",
+          "sure"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t03-q35",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.12, Test 3 Q35"
+      },
+      {
+        "number": 36,
+        "prompt": "This position will be a very _____ job, and will require someone with extensive editing experience and strong references.",
+        "options": [
+          "demand",
+          "demanded",
+          "demands",
+          "demanding"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t03-q36",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.12, Test 3 Q36"
+      },
+      {
+        "number": 37,
+        "prompt": "The chosen candidate will also be expected to relocate _____ the greater Melbourne area.",
+        "options": [
+          "on",
+          "with",
+          "to",
+          "for"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t03-q37",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.12, Test 3 Q37"
+      },
+      {
+        "number": 38,
+        "prompt": "If any current employees would like to apply _____ this position, or know someone who would fit our needs, please have a complete application package sent to my office by the end of this month.",
+        "options": [
+          "to",
+          "for",
+          "in",
+          "with"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t03-q38",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.12, Test 3 Q38"
+      },
+      {
+        "number": 39,
+        "prompt": "My name is Seri Moon and I’m writing to express my great _____ in the position of senior editor at Globe Publishing.",
+        "options": [
+          "interest",
+          "interesting",
+          "interested",
+          "interestingly"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t03-q39",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.12, Test 3 Q39"
+      },
+      {
+        "number": 40,
+        "prompt": "I was notified _____ this position by Christopher Lewis, a marketing assistant in your company.",
+        "options": [
+          "with",
+          "of",
+          "by",
+          "to"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t03-q40",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.12, Test 3 Q40"
+      }
+    ]
+  },
+  {
+    "id": "part5-test-04",
+    "number": 4,
+    "titleJa": "Part 5 テスト 4",
+    "titleEn": "Part 5 Test 4",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "I believe that I would be a perfect fit _____ this position because of my experience and education.",
+        "options": [
+          "on",
+          "to",
+          "at",
+          "for"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t04-q01",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.13, Test 4 Q1"
+      },
+      {
+        "number": 2,
+        "prompt": "I graduated with honors from the University of Sydney, and I _____ worked as an editor’s assistant for the past four years under James Crombey, the editor in chief of Focus Publications.",
+        "options": [
+          "have",
+          "having",
+          "had",
+          "have been"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t04-q02",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.13, Test 4 Q2"
+      },
+      {
+        "number": 3,
+        "prompt": "During this time I became very familiar with the use of _____ programs and printing procedures.",
+        "options": [
+          "edited",
+          "editing",
+          "to edit",
+          "edit"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t04-q03",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.13, Test 4 Q3"
+      },
+      {
+        "number": 4,
+        "prompt": "If _____ for this position, I would be able to move to Melbourne promptly and start as soon as possible.",
+        "options": [
+          "choose",
+          "chose",
+          "choosing",
+          "chosen"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t04-q04",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.13, Test 4 Q4"
+      },
+      {
+        "number": 5,
+        "prompt": "Along _____ my résumé, please find attached reference letters from my university professor, Brent Harding, as well as from Mr. Crombey.",
+        "options": [
+          "to",
+          "with",
+          "on",
+          "of"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t04-q05",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.13, Test 4 Q5"
+      },
+      {
+        "number": 6,
+        "prompt": "Thank you for your time, and I look forward to _____ from you.",
+        "options": [
+          "writing",
+          "seeing",
+          "hearing",
+          "looking"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q06",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.13, Test 4 Q6"
+      },
+      {
+        "number": 7,
+        "prompt": "Visitors to Knoxville University are _____ to have a parking permit to park their vehicles on campus.",
+        "options": [
+          "require",
+          "to require",
+          "required",
+          "requiring"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q07",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.13, Test 4 Q7"
+      },
+      {
+        "number": 8,
+        "prompt": "Many clients want to communicate with us through phone calls and e-mails _____ others prefer to speak to us in person.",
+        "options": [
+          "while",
+          "unless",
+          "during",
+          "despite"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t04-q08",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.13, Test 4 Q8"
+      },
+      {
+        "number": 9,
+        "prompt": "This is to serve as a _____ to all employees hired during the spring hiring period of this year that management has scheduled your first performance evaluation.",
+        "options": [
+          "remaining",
+          "reminder",
+          "reduction",
+          "requirement"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t04-q09",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.13, Test 4 Q9"
+      },
+      {
+        "number": 10,
+        "prompt": "Department managers will be _____ evaluation meetings from the 14th to 18th of this month.",
+        "options": [
+          "conducted",
+          "conduct",
+          "conductor",
+          "conducting"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t04-q10",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.13, Test 4 Q10"
+      },
+      {
+        "number": 11,
+        "prompt": "All new employees will be evaluated and _____ of employment will be renegotiated.",
+        "options": [
+          "terminations",
+          "suppliers",
+          "terms",
+          "tardiness"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q11",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.14, Test 4 Q11"
+      },
+      {
+        "number": 12,
+        "prompt": "Selected employees will be promoted to full salary positions based _____ their performance scores and will have access to additional benefits.",
+        "options": [
+          "of",
+          "in",
+          "on",
+          "at"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q12",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.14, Test 4 Q12"
+      },
+      {
+        "number": 13,
+        "prompt": "For example, _____ employees with families may choose to purchase a health insurance or dental insurance package.",
+        "options": [
+          "promoted",
+          "promotes",
+          "promoting",
+          "promote"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t04-q13",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.14, Test 4 Q13"
+      },
+      {
+        "number": 14,
+        "prompt": "Be sure to _____ these options fully during your performance meeting with your department manager.",
+        "options": [
+          "say",
+          "talk",
+          "discuss",
+          "mention"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q14",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.14, Test 4 Q14"
+      },
+      {
+        "number": 15,
+        "prompt": "They will be responsible for _____ all aspects of the transition to pre-selected candidates.",
+        "options": [
+          "explanation",
+          "explain",
+          "explained",
+          "explaining"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t04-q15",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.14, Test 4 Q15"
+      },
+      {
+        "number": 16,
+        "prompt": "At the last board meeting, Steven Collins reported on the progress in _____ the new company-wide recycling program.",
+        "options": [
+          "being implemented",
+          "implementing",
+          "implement",
+          "implemented"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t04-q16",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.14, Test 4 Q16"
+      },
+      {
+        "number": 17,
+        "prompt": "The higher minimum wage approved by the California state government will _____ to an increase in the cost of labor for local businesses.",
+        "options": [
+          "go",
+          "communicate",
+          "lead",
+          "leave"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q17",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.14, Test 4 Q17"
+      },
+      {
+        "number": 18,
+        "prompt": "Mr. Ebihara will go to the meeting room and make sure everything is set up at _____ one hour before he presents his proposal to the new clients.",
+        "options": [
+          "little",
+          "less",
+          "much less",
+          "least"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t04-q18",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.14, Test 4 Q18"
+      },
+      {
+        "number": 19,
+        "prompt": "Dwyer Roasters will produce instant Coffee _____ for local consumption and for overseas export.",
+        "options": [
+          "both",
+          "either",
+          "not only",
+          "neither"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t04-q19",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.14, Test 4 Q19"
+      },
+      {
+        "number": 20,
+        "prompt": "We spent days _____ many ideas and eventually summarized them into a one-page overview for the CEO.",
+        "options": [
+          "suggests",
+          "suggested",
+          "to suggest",
+          "suggesting"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t04-q20",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.14, Test 4 Q20"
+      },
+      {
+        "number": 21,
+        "prompt": "Mr. Shin explained that the proposed marketing campaign for Seer’s new diet drink is _____ at young men in their twenties.",
+        "options": [
+          "aim",
+          "aiming",
+          "aimed",
+          "aims"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q21",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.15, Test 4 Q21"
+      },
+      {
+        "number": 22,
+        "prompt": "The lease on the Ferry Building was just renewed by the current tenant for _____ five years.",
+        "options": [
+          "other",
+          "others",
+          "another",
+          "some"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q22",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.15, Test 4 Q22"
+      },
+      {
+        "number": 23,
+        "prompt": "As a valued member of our rewards club, we appreciate your patronage and look forward to providing you with a comfortable and _____ holiday.",
+        "options": [
+          "relaxing",
+          "relaxed",
+          "relax",
+          "to be relaxed"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t04-q23",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.15, Test 4 Q23"
+      },
+      {
+        "number": 24,
+        "prompt": "McDonnell Construction is proud to have assisted the Florida state government with the _____ of many important historical buildings in the state.",
+        "options": [
+          "requirement",
+          "restoration",
+          "resignation",
+          "response"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t04-q24",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.15, Test 4 Q24"
+      },
+      {
+        "number": 25,
+        "prompt": "Before _____ a business plan, all entrepreneurs should research the target markets for their business concepts.",
+        "options": [
+          "prepares",
+          "prepared",
+          "prepare",
+          "preparing"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t04-q25",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.15, Test 4 Q25"
+      },
+      {
+        "number": 26,
+        "prompt": "Akihiro Yamada, Director of Purchasing, is responsible for ensuring the _____ payment to all suppliers.",
+        "options": [
+          "courteous",
+          "former",
+          "previous",
+          "prompt"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t04-q26",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.15, Test 4 Q26"
+      },
+      {
+        "number": 27,
+        "prompt": "The government has implemented a number of new fiscal policies _____ the current economic crisis.",
+        "options": [
+          "address",
+          "addressed",
+          "addressing",
+          "to be addressed"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q27",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.15, Test 4 Q27"
+      },
+      {
+        "number": 28,
+        "prompt": "With the retirement of Dr. Philip Holdings, Ms. Tetsuyo Greene will present the team’s research results at the UBJ Biotech Research Symposium _____.",
+        "options": [
+          "itself",
+          "it",
+          "her",
+          "herself"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t04-q28",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.15, Test 4 Q28"
+      },
+      {
+        "number": 29,
+        "prompt": "Mr. Billon’s two o’clock flight to Houston was _____ because of fog, but only for fifteen minutes.",
+        "options": [
+          "delaying",
+          "delayed",
+          "delay",
+          "to have been delayed"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t04-q29",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.15, Test 4 Q29"
+      },
+      {
+        "number": 30,
+        "prompt": "Orders submitted by 2:00 P.M. on weekdays will be _____ and shipped by the end of the next business day.",
+        "options": [
+          "processed",
+          "processing",
+          "process",
+          "to have been processed"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t04-q30",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.15, Test 4 Q30"
+      },
+      {
+        "number": 31,
+        "prompt": "Yocchi Wellness Center is delighted to announce that it will be expanding its range of services as well as _____ several new clinic locations.",
+        "options": [
+          "added",
+          "adding",
+          "adds",
+          "addition"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t04-q31",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.16, Test 4 Q31"
+      },
+      {
+        "number": 32,
+        "prompt": "In addition to their headquarters _____ in the prestigious Conners Private Hospital, Yocchi Wellness Center will open three more clinics in regional satellite cities.",
+        "options": [
+          "locating",
+          "located",
+          "locate",
+          "location"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t04-q32",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.16, Test 4 Q32"
+      },
+      {
+        "number": 33,
+        "prompt": "In order to cope with the _____ demand for services, owner and founder Dr. Robert Linde will also offer an after-hours service for those who cannot meet the regularly scheduled clinic hours.",
+        "options": [
+          "increase",
+          "decrease",
+          "increasing",
+          "decreasing"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q33",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.16, Test 4 Q33"
+      },
+      {
+        "number": 34,
+        "prompt": "All Yocchi Wellness Centers will offer _____ hours until 9 P.M. Monday through Friday.",
+        "options": [
+          "extend",
+          "extended",
+          "extension",
+          "to be extended"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t04-q34",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.16, Test 4 Q34"
+      },
+      {
+        "number": 35,
+        "prompt": "For more information, _____ the names of participating health professionals, please visit www.yocchiwellness.ca.",
+        "options": [
+          "includes",
+          "to be included",
+          "including",
+          "inclusion"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q35",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.16, Test 4 Q35"
+      },
+      {
+        "number": 36,
+        "prompt": "This position will be a very demanding job, and will require someone with _____ editing experience and strong references.",
+        "options": [
+          "extension",
+          "extensive",
+          "extend",
+          "extends"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t04-q36",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.16, Test 4 Q36"
+      },
+      {
+        "number": 37,
+        "prompt": "The chosen candidate will also be _____ to relocate to the greater Melbourne area.",
+        "options": [
+          "expect",
+          "expectation",
+          "expected",
+          "expecting"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q37",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.16, Test 4 Q37"
+      },
+      {
+        "number": 38,
+        "prompt": "If any current employees would like to apply for this position, or know someone who would _____ our needs, please have a complete application package sent to my office by the end of this month.",
+        "options": [
+          "put",
+          "need",
+          "fit",
+          "respond"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q38",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.16, Test 4 Q38"
+      },
+      {
+        "number": 39,
+        "prompt": "My name is Seri Moon and I’m writing to _____ my great interest in the position of senior editor at Globe Publishing.",
+        "options": [
+          "be expressed",
+          "expressing",
+          "express",
+          "expression"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t04-q39",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.16, Test 4 Q39"
+      },
+      {
+        "number": 40,
+        "prompt": "I was notified of this position by Christopher Lewis, a marketing _____ in your company.",
+        "options": [
+          "assist",
+          "assistance",
+          "assisting",
+          "assistant"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t04-q40",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.16, Test 4 Q40"
+      }
+    ]
+  },
+  {
+    "id": "part5-test-05",
+    "number": 5,
+    "titleJa": "Part 5 テスト 5",
+    "titleEn": "Part 5 Test 5",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "Thank you for your inquiry _____ the installation and usage of the scheduling software your company, Pike Law Firm, has recently purchased.",
+        "options": [
+          "regarded",
+          "regarding",
+          "regards",
+          "regard"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t05-q01",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.17, Test 5 Q1"
+      },
+      {
+        "number": 2,
+        "prompt": "Our software _____ designed to make the administration, scheduling and record-keeping of legal firms much easier for assistants and receptionists.",
+        "options": [
+          "is",
+          "are",
+          "be",
+          "will have been"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t05-q02",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.17, Test 5 Q2"
+      },
+      {
+        "number": 3,
+        "prompt": "I am aware, however, that the _____ process may be a bit difficult.",
+        "options": [
+          "install",
+          "installment",
+          "installing",
+          "installation"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t05-q03",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.17, Test 5 Q3"
+      },
+      {
+        "number": 4,
+        "prompt": "To assist you, I have attached our comprehensive installation guide, as well as a question and answer document to cover any _____ problems.",
+        "options": [
+          "addition",
+          "adding",
+          "additional",
+          "add"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t05-q04",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.17, Test 5 Q4"
+      },
+      {
+        "number": 5,
+        "prompt": "Once you have installed the software, please follow the set-up guidelines and watch the introductory _____ in order to become familiar with how our software works.",
+        "options": [
+          "tutor",
+          "tutorial",
+          "tutors",
+          "tutoring"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t05-q05",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.17, Test 5 Q5"
+      },
+      {
+        "number": 6,
+        "prompt": "If you are still having _____, please do not hesitate to contact me again.",
+        "options": [
+          "difference",
+          "differently",
+          "difficulty",
+          "difficult"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t05-q06",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.17, Test 5 Q6"
+      },
+      {
+        "number": 7,
+        "prompt": "I can arrange for a technician to visit your office and provide a software demonstration at your _____.",
+        "options": [
+          "convenience",
+          "convenient",
+          "convene",
+          "convection"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t05-q07",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.17, Test 5 Q7"
+      },
+      {
+        "number": 8,
+        "prompt": "This service is _____ at no additional charge.",
+        "options": [
+          "availability",
+          "unavailable",
+          "available",
+          "avail"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t05-q08",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.17, Test 5 Q8"
+      },
+      {
+        "number": 9,
+        "prompt": "Thank you again for your interest _____ our products.",
+        "options": [
+          "on",
+          "to",
+          "at",
+          "in"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t05-q09",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.17, Test 5 Q9"
+      },
+      {
+        "number": 10,
+        "prompt": "Get professional investment advice from Michael Perrier on how to _____ a comfortable future.",
+        "options": [
+          "ensures",
+          "ensure",
+          "ensured",
+          "ensuring"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t05-q10",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.17, Test 5 Q10"
+      },
+      {
+        "number": 11,
+        "prompt": "Attendees will learn about local and global housing markets, and _____ with tips and strategies for safe and profitable investments.",
+        "options": [
+          "be provided",
+          "provide",
+          "provides",
+          "will provide"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t05-q11",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.18, Test 5 Q11"
+      },
+      {
+        "number": 12,
+        "prompt": "Tickets are $20 per seat, and will be available _____ the door.",
+        "options": [
+          "along",
+          "at",
+          "into",
+          "between"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t05-q12",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.18, Test 5 Q12"
+      },
+      {
+        "number": 13,
+        "prompt": "Get information on Port Smith’s job market and _____ with local businesses at this year’s networking lunch.",
+        "options": [
+          "connect",
+          "connects",
+          "connecting",
+          "to have been connected"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t05-q13",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.18, Test 5 Q13"
+      },
+      {
+        "number": 14,
+        "prompt": "Representatives from over 45 businesses are expected _____ in attendance.",
+        "options": [
+          "are",
+          "will be",
+          "to be",
+          "are being"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t05-q14",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.18, Test 5 Q14"
+      },
+      {
+        "number": 15,
+        "prompt": "Business _____ should have their booths set up by 11:30 A.M.",
+        "options": [
+          "reps",
+          "cards",
+          "accounts",
+          "opportunities"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t05-q15",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.18, Test 5 Q15"
+      },
+      {
+        "number": 16,
+        "prompt": "Don’t miss Port Smith’s annual trade fair with companies representing 18 different countries from _____ the world.",
+        "options": [
+          "around",
+          "through",
+          "among",
+          "onto"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t05-q16",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.18, Test 5 Q16"
+      },
+      {
+        "number": 17,
+        "prompt": "Get product and service demonstrations, samples and discounts from a wide range of _____.",
+        "options": [
+          "retail",
+          "retails",
+          "retailer",
+          "retailers"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t05-q17",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.18, Test 5 Q17"
+      },
+      {
+        "number": 18,
+        "prompt": "If you’d like to _____ a booth for your company, registration must be completed before January 15.",
+        "options": [
+          "book",
+          "booking",
+          "books",
+          "booked"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t05-q18",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.18, Test 5 Q18"
+      },
+      {
+        "number": 19,
+        "prompt": "Booths are limited, so don’t _____.",
+        "options": [
+          "delaying",
+          "delay",
+          "be delayed",
+          "have been delayed"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t05-q19",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.18, Test 5 Q19"
+      },
+      {
+        "number": 20,
+        "prompt": "Bestselling author Sasha Badke offers her advice on how to promote small businesses and what advertising _____ to avoid.",
+        "options": [
+          "mistaking",
+          "mistakes",
+          "to mistake",
+          "mistakenly"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t05-q20",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.18, Test 5 Q20"
+      },
+      {
+        "number": 21,
+        "prompt": "Tickets _____ $15 per seat and will be available at the door.",
+        "options": [
+          "was",
+          "were",
+          "is",
+          "are"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t05-q21",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.19, Test 5 Q21"
+      },
+      {
+        "number": 22,
+        "prompt": "Due to preparations for this year’s trade fair, the February committee meeting _____.",
+        "options": [
+          "cancel",
+          "cancels",
+          "canceled",
+          "will be canceled"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t05-q22",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.19, Test 5 Q22"
+      },
+      {
+        "number": 23,
+        "prompt": "The next meeting will _____ at the beginning of March.",
+        "options": [
+          "hold",
+          "holds",
+          "held",
+          "be held"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t05-q23",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.19, Test 5 Q23"
+      },
+      {
+        "number": 24,
+        "prompt": "Thank you so much _____ becoming a volunteer with our center.",
+        "options": [
+          "to",
+          "toward",
+          "on",
+          "for"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t05-q24",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.19, Test 5 Q24"
+      },
+      {
+        "number": 25,
+        "prompt": "As I _____ in our phone call, the convention center has a lot of new events scheduled and we need as much help as we can get.",
+        "options": [
+          "mention",
+          "mentions",
+          "mentioned",
+          "was mentioned"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t05-q25",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.19, Test 5 Q25"
+      },
+      {
+        "number": 26,
+        "prompt": "I _____ out the details for the first few months of the year, and have made a list of tasks for you to help with if you’re available.",
+        "options": [
+          "work",
+          "works",
+          "am working",
+          "have worked"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t05-q26",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.19, Test 5 Q26"
+      },
+      {
+        "number": 27,
+        "prompt": "The most _____ task we need to do is to contact a new speaker for the seminar coming next week.",
+        "options": [
+          "previous",
+          "urgent",
+          "satisfied",
+          "affluent"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t05-q27",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.19, Test 5 Q27"
+      },
+      {
+        "number": 28,
+        "prompt": "Michael Perrier was supposed to be hosting the event, but has had to cancel _____.",
+        "options": [
+          "dramatically",
+          "efficiently",
+          "unexpectedly",
+          "formerly"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t05-q28",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.19, Test 5 Q28"
+      },
+      {
+        "number": 29,
+        "prompt": "Luckily, Ted Luntasa had also shown some _____ in leading this seminar.",
+        "options": [
+          "interest",
+          "interested",
+          "interesting",
+          "interestingly"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t05-q29",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.19, Test 5 Q29"
+      },
+      {
+        "number": 30,
+        "prompt": "Please contact him to find out if he is _____ available.",
+        "options": [
+          "by",
+          "otherwise",
+          "beyond",
+          "still"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t05-q30",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.19, Test 5 Q30"
+      },
+      {
+        "number": 31,
+        "prompt": "The second event we’d like _____ help with is on January 19th.",
+        "options": [
+          "you",
+          "your",
+          "yours",
+          "yourself"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t05-q31",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.20, Test 5 Q31"
+      },
+      {
+        "number": 32,
+        "prompt": "We are hosting a community lunch and need someone to help _____ booths for the local business representatives that will be attending.",
+        "options": [
+          "organize",
+          "organized",
+          "organizes",
+          "be organized"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t05-q32",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.20, Test 5 Q32"
+      },
+      {
+        "number": 33,
+        "prompt": "Finally, I understand _____ you have some experience with website creation and maintenance.",
+        "options": [
+          "which",
+          "what",
+          "that",
+          "where"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t05-q33",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.20, Test 5 Q33"
+      },
+      {
+        "number": 34,
+        "prompt": "I would _____ appreciate it if you could put the new events calendar onto our site.",
+        "options": [
+          "real",
+          "reality",
+          "really",
+          "realize"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t05-q34",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.20, Test 5 Q34"
+      },
+      {
+        "number": 35,
+        "prompt": "If you have _____ ideas about how to update or improve the site, that would also be very helpful.",
+        "options": [
+          "another",
+          "any",
+          "most",
+          "much"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t05-q35",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.20, Test 5 Q35"
+      },
+      {
+        "number": 36,
+        "prompt": "If you are _____, I will send you the administrator login name and password.",
+        "options": [
+          "interest",
+          "interests",
+          "interesting",
+          "interested"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t05-q36",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.20, Test 5 Q36"
+      },
+      {
+        "number": 37,
+        "prompt": "Thanks again for _____ your time to the convention center.",
+        "options": [
+          "offering",
+          "ordering",
+          "objecting",
+          "organizing"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t05-q37",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.20, Test 5 Q37"
+      },
+      {
+        "number": 38,
+        "prompt": "_____ a rainy weather forecast, today’s Moreen Park Free Musical Performance, scheduled for 11:30 A.M., has been cancelled.",
+        "options": [
+          "Although",
+          "Even if",
+          "Despite",
+          "Due to"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t05-q38",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.20, Test 5 Q38"
+      },
+      {
+        "number": 39,
+        "prompt": "For _____ of you who have made the trip to see popular concert violinist Rosa Marche give a free performance at the band shelter, we are very sorry for the inconvenience.",
+        "options": [
+          "this",
+          "that",
+          "these",
+          "those"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t05-q39",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.20, Test 5 Q39"
+      },
+      {
+        "number": 40,
+        "prompt": "_____ the recent heavy rain and the predicted upcoming storm, park management has decided to cancel all free musical performances for the next ten days.",
+        "options": [
+          "Give",
+          "Giving",
+          "Given",
+          "To be giving"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t05-q40",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.20, Test 5 Q40"
+      }
+    ]
+  },
+  {
+    "id": "part5-test-06",
+    "number": 6,
+    "titleJa": "Part 5 テスト 6",
+    "titleEn": "Part 5 Test 6",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "Weekly musical performances _____ by the Bayview Symphony Orchestra are expected to resume on May 23.",
+        "options": [
+          "sponsor",
+          "sponsoring",
+          "sponsored",
+          "to be sponsoring"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q01",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.21, Test 6 Q1"
+      },
+      {
+        "number": 2,
+        "prompt": "For _____ interested in seeing a performance by Rosa Marche, she is expected to resume her free weekly performances on June 27 at 12:30 P.M. at the Moreen Park band shelter.",
+        "options": [
+          "other",
+          "which",
+          "anyone",
+          "what"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q02",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.21, Test 6 Q2"
+      },
+      {
+        "number": 3,
+        "prompt": "For _____ information about this and upcoming cancellations, please contact park management at (555) 333-0442.",
+        "options": [
+          "many",
+          "another",
+          "more",
+          "far"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q03",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.21, Test 6 Q3"
+      },
+      {
+        "number": 4,
+        "prompt": "With summer coming, the people of Millet _____ looking for more ways to enjoy the warm weather.",
+        "options": [
+          "is",
+          "are",
+          "be",
+          "having been"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t06-q04",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.21, Test 6 Q4"
+      },
+      {
+        "number": 5,
+        "prompt": "One way to soak up some sun is by trying one of the many restaurant _____ around town.",
+        "options": [
+          "patio",
+          "patios",
+          "garden",
+          "gardening"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t06-q05",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.21, Test 6 Q5"
+      },
+      {
+        "number": 6,
+        "prompt": "Millet has a variety of _____ with outdoor seating to fit your tastes and budget.",
+        "options": [
+          "restaurant",
+          "restaurants",
+          "restroom",
+          "rest"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t06-q06",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.21, Test 6 Q6"
+      },
+      {
+        "number": 7,
+        "prompt": "_____ French dining, try the brand new La Paris Café.",
+        "options": [
+          "To",
+          "With",
+          "On",
+          "For"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t06-q07",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.21, Test 6 Q7"
+      },
+      {
+        "number": 8,
+        "prompt": "This is a perfect place _____ fresh baked breads and tasty entrées while taking in the view of our beautiful city’s skyline.",
+        "options": [
+          "enjoy",
+          "enjoys",
+          "to enjoy",
+          "are enjoyed"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q08",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.21, Test 6 Q8"
+      },
+      {
+        "number": 9,
+        "prompt": "_____ you’re there for dinner, be sure to try the chef’s specialty, maple-orange turkey.",
+        "options": [
+          "Whereas",
+          "Thereby",
+          "If",
+          "Unless"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q09",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.21, Test 6 Q9"
+      },
+      {
+        "number": 10,
+        "prompt": "To enjoy a breathtaking view of the Torga River, _____ to Torga Terrace on Aspen Street.",
+        "options": [
+          "head",
+          "heads",
+          "heading",
+          "to head"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t06-q10",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.21, Test 6 Q10"
+      },
+      {
+        "number": 11,
+        "prompt": "Torga Terrace is a _____ steakhouse that uses only the highest quality meats, and you’ll find their filet mignon to be especially mouthwatering.",
+        "options": [
+          "traditionally",
+          "tradition",
+          "traditional",
+          "traditions"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q11",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.22, Test 6 Q11"
+      },
+      {
+        "number": 12,
+        "prompt": "Be sure to book _____ for a good spot on the patio, as tables are known to fill up quickly when the weather’s nice.",
+        "options": [
+          "prior",
+          "formerly",
+          "forehead",
+          "ahead"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t06-q12",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.22, Test 6 Q12"
+      },
+      {
+        "number": 13,
+        "prompt": "_____, if you like your food spicy and exotic, try the Bangalore Garden Restaurant.",
+        "options": [
+          "Fine",
+          "Final",
+          "Finally",
+          "Finest"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q13",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.22, Test 6 Q13"
+      },
+      {
+        "number": 14,
+        "prompt": "_____ on one of their hot Indian curry dishes while inhaling the scents of their beautiful patio garden.",
+        "options": [
+          "Dinner",
+          "Meal",
+          "Feast",
+          "Delicious"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q14",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.22, Test 6 Q14"
+      },
+      {
+        "number": 15,
+        "prompt": "Make sure to have water available, as some of their dishes _____ extremely hot.",
+        "options": [
+          "is",
+          "are",
+          "will have been",
+          "to be"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t06-q15",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.22, Test 6 Q15"
+      },
+      {
+        "number": 16,
+        "prompt": "These _____ only a few of the many outdoor options available to you this summer here in the city of Millet.",
+        "options": [
+          "is",
+          "are",
+          "be",
+          "to be"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t06-q16",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.22, Test 6 Q16"
+      },
+      {
+        "number": 17,
+        "prompt": "If you have any comments, or would like to _____ another restaurant, please feel free to contact me and I’ll try to mention it in my next column.",
+        "options": [
+          "comment",
+          "recommend",
+          "refund",
+          "mend"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t06-q17",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.22, Test 6 Q17"
+      },
+      {
+        "number": 18,
+        "prompt": "I wanted to let you know that I _____ enjoyed your article on summer hotspots in the newspaper this past week.",
+        "options": [
+          "real",
+          "really",
+          "reality",
+          "realism"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t06-q18",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.22, Test 6 Q18"
+      },
+      {
+        "number": 19,
+        "prompt": "I _____ to Torga Terrace yesterday and was very impressed.",
+        "options": [
+          "go",
+          "gone",
+          "goes",
+          "went"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t06-q19",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.22, Test 6 Q19"
+      },
+      {
+        "number": 20,
+        "prompt": "The filet mignon was _____ and I really loved the patio scenery.",
+        "options": [
+          "excel",
+          "exceed",
+          "excellent",
+          "excellently"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q20",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.22, Test 6 Q20"
+      },
+      {
+        "number": 21,
+        "prompt": "I hope _____ the other two restaurants you listed sometime soon.",
+        "options": [
+          "try",
+          "tried",
+          "trying",
+          "to try"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t06-q21",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.23, Test 6 Q21"
+      },
+      {
+        "number": 22,
+        "prompt": "I noticed that your article didn’t _____ a vegetarian option, so I thought I would make a suggestion.",
+        "options": [
+          "talk",
+          "speak",
+          "mention",
+          "say"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q22",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.23, Test 6 Q22"
+      },
+      {
+        "number": 23,
+        "prompt": "There is a new restaurant _____ Parker Avenue near the edge of the city, called Angela’s Alcove, which opened last month.",
+        "options": [
+          "to",
+          "at",
+          "in",
+          "on"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t06-q23",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.23, Test 6 Q23"
+      },
+      {
+        "number": 24,
+        "prompt": "Their patio has a wonderful view of the Hillhurst Forest Park, and their menu is _____ of interesting choices.",
+        "options": [
+          "all",
+          "full",
+          "everything",
+          "whole"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t06-q24",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.23, Test 6 Q24"
+      },
+      {
+        "number": 25,
+        "prompt": "I’ve _____ there for dinner a few times and can’t forget the fantastic taste of their fettuccine pesto.",
+        "options": [
+          "be",
+          "to go",
+          "been",
+          "gone"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q25",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.23, Test 6 Q25"
+      },
+      {
+        "number": 26,
+        "prompt": "They also have an impressive variety of _____ dessert choices.",
+        "options": [
+          "healthy",
+          "health",
+          "healthiest",
+          "healthily"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t06-q26",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.23, Test 6 Q26"
+      },
+      {
+        "number": 27,
+        "prompt": "They are only $5 a dish, and are all made with locally _____ fruit.",
+        "options": [
+          "grow",
+          "growing",
+          "grown",
+          "grew"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q27",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.23, Test 6 Q27"
+      },
+      {
+        "number": 28,
+        "prompt": "I’m hoping for a chance to try their lunch menu _____ because it also looks quite good.",
+        "options": [
+          "soon",
+          "formerly",
+          "recently",
+          "just now"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t06-q28",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.23, Test 6 Q28"
+      },
+      {
+        "number": 29,
+        "prompt": "It includes falafel pitas and fresh Greek salads, _____ tofu soup and chickpea soup.",
+        "options": [
+          "also",
+          "as well as",
+          "otherwise",
+          "while"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t06-q29",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.23, Test 6 Q29"
+      },
+      {
+        "number": 30,
+        "prompt": "If you are _____ to, please mention this place in next week’s article.",
+        "options": [
+          "possible",
+          "capable",
+          "enable",
+          "able"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t06-q30",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.23, Test 6 Q30"
+      },
+      {
+        "number": 31,
+        "prompt": "It’s a new business, _____ I’m sure they would appreciate the publicity.",
+        "options": [
+          "but",
+          "so",
+          "yet",
+          "adversely"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t06-q31",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.24, Test 6 Q31"
+      },
+      {
+        "number": 32,
+        "prompt": "Thanks again for your _____ and informative articles.",
+        "options": [
+          "interest",
+          "interests",
+          "interesting",
+          "interested"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q32",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.24, Test 6 Q32"
+      },
+      {
+        "number": 33,
+        "prompt": "I look forward to reading next week’s _____.",
+        "options": [
+          "edition",
+          "edit",
+          "editing",
+          "edited"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t06-q33",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.24, Test 6 Q33"
+      },
+      {
+        "number": 34,
+        "prompt": "We thank you for your interest in our company, _____ our swimming pool design and installation services.",
+        "options": [
+          "specific",
+          "specifically",
+          "specification",
+          "specifics"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t06-q34",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.24, Test 6 Q34"
+      },
+      {
+        "number": 35,
+        "prompt": "You recently expressed a desire _____ an in-ground swimming pool for your estate.",
+        "options": [
+          "purchase",
+          "purchases",
+          "to purchase",
+          "purchasing"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q35",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.24, Test 6 Q35"
+      },
+      {
+        "number": 36,
+        "prompt": "It is important when _____ a swimming pool to consider the size and condition of the lot.",
+        "options": [
+          "choose",
+          "chooses",
+          "choosing",
+          "chosen"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t06-q36",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.24, Test 6 Q36"
+      },
+      {
+        "number": 37,
+        "prompt": "For example, if you have large portions of the lot _____ to gardens, it may be necessary to reduce the garden size to accommodate the swimming pool and surrounding patio.",
+        "options": [
+          "devoting",
+          "devoted",
+          "devote",
+          "devotes"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t06-q37",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.24, Test 6 Q37"
+      },
+      {
+        "number": 38,
+        "prompt": "Our company can assist you in _____ the landscape in order to create a pleasant environment.",
+        "options": [
+          "remodeling",
+          "remodel",
+          "remodeled",
+          "being remodeled"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t06-q38",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.24, Test 6 Q38"
+      },
+      {
+        "number": 39,
+        "prompt": "_____, many clients have difficulty choosing the material for their pool patio.",
+        "options": [
+          "Similar",
+          "Similarly",
+          "Similarity",
+          "Similarities"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t06-q39",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.24, Test 6 Q39"
+      },
+      {
+        "number": 40,
+        "prompt": "We _____ recommend a simple slate gray stone as it coordinates well with outdoor furniture.",
+        "options": [
+          "amazingly",
+          "surprisingly",
+          "quickly",
+          "commonly"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t06-q40",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.24, Test 6 Q40"
+      }
+    ]
+  },
+  {
+    "id": "part5-test-07",
+    "number": 7,
+    "titleJa": "Part 5 テスト 7",
+    "titleEn": "Part 5 Test 7",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "Our design team, however, can assist you in choosing the color and shape of the patio stones in _____ to ensure they match with the appearance of surrounding buildings.",
+        "options": [
+          "preparation",
+          "addition",
+          "responsible",
+          "order"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t07-q01",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.25, Test 7 Q1"
+      },
+      {
+        "number": 2,
+        "prompt": "Lastly, choosing a pool shape and size _____ a very large task.",
+        "options": [
+          "be",
+          "is",
+          "are",
+          "to be"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t07-q02",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.25, Test 7 Q2"
+      },
+      {
+        "number": 3,
+        "prompt": "We recommend that you request one of our design _____ to visit your property in order to develop some mock designs.",
+        "options": [
+          "special",
+          "specially",
+          "specialist",
+          "specialists"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t07-q03",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.25, Test 7 Q3"
+      },
+      {
+        "number": 4,
+        "prompt": "I have enclosed a _____ product list as well as our yearly design magazine.",
+        "options": [
+          "all",
+          "full",
+          "every",
+          "each"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t07-q04",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.25, Test 7 Q4"
+      },
+      {
+        "number": 5,
+        "prompt": "Please take a look at some of the sample designs and do not hesitate to _____ me directly with any questions.",
+        "options": [
+          "contact",
+          "be contacted",
+          "contacted",
+          "contacting"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t07-q05",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.25, Test 7 Q5"
+      },
+      {
+        "number": 6,
+        "prompt": "I look forward to working with you through every stage of design and _____ of your swimming pool.",
+        "options": [
+          "developed",
+          "developing",
+          "development",
+          "develop"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t07-q06",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.25, Test 7 Q6"
+      },
+      {
+        "number": 7,
+        "prompt": "I am pleased to be _____ to offer my thoughts and opinions regarding the services your company, Sunscape Gardening, has provided me with this summer.",
+        "options": [
+          "possible",
+          "enable",
+          "able",
+          "capable"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t07-q07",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.25, Test 7 Q7"
+      },
+      {
+        "number": 8,
+        "prompt": "I have attached the complete customer service survey you sent me, but I would like to make some _____ comments.",
+        "options": [
+          "additional",
+          "addition",
+          "additionally",
+          "adding"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t07-q08",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.25, Test 7 Q8"
+      },
+      {
+        "number": 9,
+        "prompt": "I have been extremely happy with the work that Sunscape Gardening _____ for my business, the WestField Golf Course.",
+        "options": [
+          "does",
+          "is doing",
+          "done",
+          "has done"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t07-q09",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.25, Test 7 Q9"
+      },
+      {
+        "number": 10,
+        "prompt": "This was the first year I decided to hire a landscaping company _____ than run my own landscaping department.",
+        "options": [
+          "more",
+          "rather",
+          "shorter",
+          "faster"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t07-q10",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.25, Test 7 Q10"
+      },
+      {
+        "number": 11,
+        "prompt": "I must say, the work Sunscape Gardening did was far superior to what I had been able to complete and it took away a large portion of the pressure that comes with _____ a big business.",
+        "options": [
+          "running",
+          "run",
+          "ran",
+          "being run"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t07-q11",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.26, Test 7 Q11"
+      },
+      {
+        "number": 12,
+        "prompt": "Many of my regular customers have commented _____ the quality of the grass, as well as the beauty of the manicured gardens and lawns.",
+        "options": [
+          "at",
+          "along",
+          "on",
+          "in"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t07-q12",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.26, Test 7 Q12"
+      },
+      {
+        "number": 13,
+        "prompt": "I would certainly _____ to request Sunscape Gardening’s services for next season.",
+        "options": [
+          "get",
+          "have",
+          "use",
+          "like"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t07-q13",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.26, Test 7 Q13"
+      },
+      {
+        "number": 14,
+        "prompt": "The last time we _____, you mentioned that Sunscape Gardening would be expanding its services to some light stone work.",
+        "options": [
+          "had spoken",
+          "speak",
+          "spoke",
+          "have spoken"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t07-q14",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.26, Test 7 Q14"
+      },
+      {
+        "number": 15,
+        "prompt": "_____ this is true, I would like to get some more information from you about this.",
+        "options": [
+          "Whereas",
+          "Thus",
+          "If",
+          "While"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t07-q15",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.26, Test 7 Q15"
+      },
+      {
+        "number": 16,
+        "prompt": "I have a walkway that needs _____ repaired next season.",
+        "options": [
+          "being",
+          "to be",
+          "are",
+          "will be"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t07-q16",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.26, Test 7 Q16"
+      },
+      {
+        "number": 17,
+        "prompt": "Could you please e-mail me any information you _____ about your new service packages?",
+        "options": [
+          "have",
+          "are had",
+          "having",
+          "had had"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t07-q17",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.26, Test 7 Q17"
+      },
+      {
+        "number": 18,
+        "prompt": "Thank you so much for your help. I look forward to hearing _____ you.",
+        "options": [
+          "to",
+          "for",
+          "from",
+          "with"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t07-q18",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.26, Test 7 Q18"
+      },
+      {
+        "number": 19,
+        "prompt": "Thank you once again _____ choosing Comfort Suites.",
+        "options": [
+          "to",
+          "along",
+          "toward",
+          "for"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t07-q19",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.26, Test 7 Q19"
+      },
+      {
+        "number": 20,
+        "prompt": "The following _____ the details of your confirmed online booking.",
+        "options": [
+          "is",
+          "are",
+          "be",
+          "has been"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t07-q20",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.26, Test 7 Q20"
+      },
+      {
+        "number": 21,
+        "prompt": "Please contact us as soon as possible if any of these details are not _____.",
+        "options": [
+          "accuracy",
+          "accurately",
+          "accurate",
+          "accusation"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t07-q21",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.27, Test 7 Q21"
+      },
+      {
+        "number": 22,
+        "prompt": "Also, if you would like to take advantage of our free airport shuttle, please let us _____ in advance.",
+        "options": [
+          "to know",
+          "knowing",
+          "known",
+          "know"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t07-q22",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.27, Test 7 Q22"
+      },
+      {
+        "number": 23,
+        "prompt": "As a valued member of our rewards club, we appreciate your patronage and look forward to providing you _____ a comfortable and relaxing holiday.",
+        "options": [
+          "for",
+          "to",
+          "with",
+          "on"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t07-q23",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.27, Test 7 Q23"
+      },
+      {
+        "number": 24,
+        "prompt": "Furthermore, if you would like to receive redeemable bonus points on your membership card, be sure to complete the Comfort Suites quality survey _____ completion of your stay.",
+        "options": [
+          "at",
+          "upon",
+          "in",
+          "to"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t07-q24",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.27, Test 7 Q24"
+      },
+      {
+        "number": 25,
+        "prompt": "I always enjoy my trips to New Zealand, and I’m glad that I’ve found such an _____ and enjoyable place to stay.",
+        "options": [
+          "afford",
+          "affording",
+          "afforded",
+          "affordable"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t07-q25",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.27, Test 7 Q25"
+      },
+      {
+        "number": 26,
+        "prompt": "Their friendly staff _____ us at the airport and treated us very well throughout the trip.",
+        "options": [
+          "greet",
+          "greeted",
+          "greeting",
+          "to greet"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t07-q26",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.27, Test 7 Q26"
+      },
+      {
+        "number": 27,
+        "prompt": "I was _____ impressed with the effort they put into making my children feel comfortable.",
+        "options": [
+          "especially",
+          "adversely",
+          "prominently",
+          "commonly"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t07-q27",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.27, Test 7 Q27"
+      },
+      {
+        "number": 28,
+        "prompt": "The room they gave us _____ spotless, and we didn’t have any difficulties or inconveniences during our stay.",
+        "options": [
+          "is",
+          "are",
+          "was",
+          "have been"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t07-q28",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.27, Test 7 Q28"
+      },
+      {
+        "number": 29,
+        "prompt": "I _____ definitely book with this Comfort Suites location again in the future.",
+        "options": [
+          "was",
+          "am",
+          "will be",
+          "will"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t07-q29",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.27, Test 7 Q29"
+      },
+      {
+        "number": 30,
+        "prompt": "As many of you are _____, Globe Publishing has just agreed on a contract with Headlines magazine.",
+        "options": [
+          "away",
+          "aware",
+          "awake",
+          "awash"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t07-q30",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.27, Test 7 Q30"
+      },
+      {
+        "number": 31,
+        "prompt": "We are very excited about this opportunity to further _____ our international business.",
+        "options": [
+          "expand",
+          "expanded",
+          "expansion",
+          "expanding"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t07-q31",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.28, Test 7 Q31"
+      },
+      {
+        "number": 32,
+        "prompt": "Headlines magazine is a very successful _____ that has continued to grow in popularity over the past seven years.",
+        "options": [
+          "public",
+          "publication",
+          "publicize",
+          "publicly"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t07-q32",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.28, Test 7 Q32"
+      },
+      {
+        "number": 33,
+        "prompt": "It is now _____ by over ten thousand people every month.",
+        "options": [
+          "ordering",
+          "ordered",
+          "order",
+          "orders"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t07-q33",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.28, Test 7 Q33"
+      },
+      {
+        "number": 34,
+        "prompt": "As a result of this new contract, Globe Publishing is now seeking to hire new employees to _____ positions that will soon be opening.",
+        "options": [
+          "fall",
+          "fill",
+          "fail",
+          "find"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t07-q34",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.28, Test 7 Q34"
+      },
+      {
+        "number": 35,
+        "prompt": "Most prominently, we are seeking a senior editor to coordinate with Headlines magazine’s journalists and photographers to ensure that the editing and printing process _____ smoothly.",
+        "options": [
+          "run",
+          "ran",
+          "have run",
+          "running"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t07-q35",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.28, Test 7 Q35"
+      },
+      {
+        "number": 36,
+        "prompt": "This position will be a very demanding job, and will require someone with _____ editing experience and strong references.",
+        "options": [
+          "extend",
+          "extensive",
+          "extending",
+          "extension"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t07-q36",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.28, Test 7 Q36"
+      },
+      {
+        "number": 37,
+        "prompt": "The chosen candidate will also _____ expected to relocate to the greater Melbourne area.",
+        "options": [
+          "is",
+          "are",
+          "be",
+          "been"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t07-q37",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.28, Test 7 Q37"
+      },
+      {
+        "number": 38,
+        "prompt": "If any _____ employees would like to apply for this position, or know someone who would fit our needs, please have a complete application package sent to my office by the end of this month.",
+        "options": [
+          "lack",
+          "immediate",
+          "recent",
+          "current"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t07-q38",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.28, Test 7 Q38"
+      },
+      {
+        "number": 39,
+        "prompt": "My name is Seri Moon and I’m writing to express my great interest in the position of senior editor _____ Globe Publishing.",
+        "options": [
+          "with",
+          "at",
+          "in",
+          "on"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t07-q39",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.28, Test 7 Q39"
+      },
+      {
+        "number": 40,
+        "prompt": "I was _____ of this position by Christopher Lewis, a marketing assistant in your company.",
+        "options": [
+          "announced",
+          "addressed",
+          "notified",
+          "recruited"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t07-q40",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.28, Test 7 Q40"
+      }
+    ]
+  },
+  {
+    "id": "part5-test-08",
+    "number": 8,
+    "titleJa": "Part 5 テスト 8",
+    "titleEn": "Part 5 Test 8",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "I believe that I would be a perfect fit for this position _____ of my experience and education.",
+        "options": [
+          "because",
+          "despite",
+          "account",
+          "kind"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t08-q01",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.29, Test 8 Q1"
+      },
+      {
+        "number": 2,
+        "prompt": "I graduated with honors from the University of Sydney, and I have worked as an editor’s _____ for the past four years under James Crombey, the editor in chief of Focus Publications.",
+        "options": [
+          "assist",
+          "assistance",
+          "assistant",
+          "assisting"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q02",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.29, Test 8 Q2"
+      },
+      {
+        "number": 3,
+        "prompt": "_____ this time I became very familiar with the use of editing programs and printing procedures.",
+        "options": [
+          "When",
+          "While",
+          "During",
+          "So far"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q03",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.29, Test 8 Q3"
+      },
+      {
+        "number": 4,
+        "prompt": "If chosen for this position, I would be _____ to move to Melbourne promptly and start as soon as possible.",
+        "options": [
+          "capable",
+          "possible",
+          "able",
+          "unable"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q04",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.29, Test 8 Q4"
+      },
+      {
+        "number": 5,
+        "prompt": "Along with my résumé, please find _____ reference letters from my university professor, Brent Harding, as well as from Mr. Crombey.",
+        "options": [
+          "attach",
+          "attaching",
+          "to attach",
+          "attached"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t08-q05",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.29, Test 8 Q5"
+      },
+      {
+        "number": 6,
+        "prompt": "Thank you for your time, and I look forward to hearing _____ you.",
+        "options": [
+          "for",
+          "from",
+          "to",
+          "by"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t08-q06",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.29, Test 8 Q6"
+      },
+      {
+        "number": 7,
+        "prompt": "Visitors to Knoxville University are required to have a parking _____ to park their vehicles on campus.",
+        "options": [
+          "permission",
+          "permit",
+          "permitting",
+          "permitted"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t08-q07",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.29, Test 8 Q7"
+      },
+      {
+        "number": 8,
+        "prompt": "Many clients want to communicate with us through phone calls and e-mails while others prefer to speak to us _____ person.",
+        "options": [
+          "with",
+          "at",
+          "by",
+          "in"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t08-q08",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.29, Test 8 Q8"
+      },
+      {
+        "number": 9,
+        "prompt": "This is to serve as a reminder to all employees _____ during the spring hiring period of this year that management has scheduled your first performance evaluation.",
+        "options": [
+          "hiring",
+          "hired",
+          "to hire",
+          "hires"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t08-q09",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.29, Test 8 Q9"
+      },
+      {
+        "number": 10,
+        "prompt": "Department managers will be conducting _____ meetings from the 14th to 18th of this month.",
+        "options": [
+          "evaluate",
+          "evaluating",
+          "evaluation",
+          "evaluated"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q10",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.29, Test 8 Q10"
+      },
+      {
+        "number": 11,
+        "prompt": "All new employees will be evaluated and terms of employment will _____.",
+        "options": [
+          "renegotiate",
+          "be negotiating",
+          "negotiates",
+          "be negotiated"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t08-q11",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.30, Test 8 Q11"
+      },
+      {
+        "number": 12,
+        "prompt": "_____ employees will be promoted to full salary positions based on their performance scores and will have access to additional benefits.",
+        "options": [
+          "Selection",
+          "Selecting",
+          "Selected",
+          "To select"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q12",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.30, Test 8 Q12"
+      },
+      {
+        "number": 13,
+        "prompt": "For example, promoted _____ with families may choose to purchase a health insurance or dental insurance package.",
+        "options": [
+          "employment",
+          "employers",
+          "employing",
+          "employees"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t08-q13",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.30, Test 8 Q13"
+      },
+      {
+        "number": 14,
+        "prompt": "Be sure to discuss these options _____ during your performance meeting with your department manager.",
+        "options": [
+          "periodically",
+          "fully",
+          "previously",
+          "immediately"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t08-q14",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.30, Test 8 Q14"
+      },
+      {
+        "number": 15,
+        "prompt": "They will be _____ for explaining all aspects of the transition to pre-selected candidates.",
+        "options": [
+          "response",
+          "respondent",
+          "responsible",
+          "responding"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q15",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.30, Test 8 Q15"
+      },
+      {
+        "number": 16,
+        "prompt": "_____ the last board meeting, Steven Collins reported on the progress in implementing the new company-wide recycling program.",
+        "options": [
+          "With",
+          "By",
+          "At",
+          "Beside"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q16",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.30, Test 8 Q16"
+      },
+      {
+        "number": 17,
+        "prompt": "The higher minimum wage approved by the California state government will lead to an _____ in the cost of labor for local businesses.",
+        "options": [
+          "increase",
+          "increasingly",
+          "increasing",
+          "increased"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t08-q17",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.30, Test 8 Q17"
+      },
+      {
+        "number": 18,
+        "prompt": "Mr. Ebihara will go to the meeting room and make sure everything _____ set up at least one hour before he presents his proposal to the new clients.",
+        "options": [
+          "are",
+          "is",
+          "was",
+          "were"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t08-q18",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.30, Test 8 Q18"
+      },
+      {
+        "number": 19,
+        "prompt": "Dwyer Roasters will produce instant Coffee both for local consumption _____ for overseas export.",
+        "options": [
+          "nor",
+          "or",
+          "but also",
+          "and"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t08-q19",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.30, Test 8 Q19"
+      },
+      {
+        "number": 20,
+        "prompt": "We spent days suggesting many ideas and eventually _____ them into a one-page overview for the CEO.",
+        "options": [
+          "summary",
+          "summarize",
+          "summarized",
+          "summarizing"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q20",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.30, Test 8 Q20"
+      },
+      {
+        "number": 21,
+        "prompt": "Mr. Shin explained that the _____ marketing campaign for Seer’s new diet drink is aimed at young men in their twenties.",
+        "options": [
+          "proposed",
+          "proposing",
+          "propose",
+          "proposes"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t08-q21",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.31, Test 8 Q21"
+      },
+      {
+        "number": 22,
+        "prompt": "The lease on the Ferry Building was just _____ by the current tenant for another five years.",
+        "options": [
+          "renewing",
+          "renewal",
+          "renewed",
+          "renew"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q22",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.31, Test 8 Q22"
+      },
+      {
+        "number": 23,
+        "prompt": "As a valued member of our rewards club, we appreciate your patronage and look forward to _____ you with a comfortable and relaxing holiday.",
+        "options": [
+          "provides",
+          "providing",
+          "provision",
+          "provided"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t08-q23",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.31, Test 8 Q23"
+      },
+      {
+        "number": 24,
+        "prompt": "McDonnell Construction is proud to have _____ the Florida state government with the restoration of many important historical buildings in the state.",
+        "options": [
+          "assistance",
+          "assistant",
+          "assisted",
+          "assisting"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q24",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.31, Test 8 Q24"
+      },
+      {
+        "number": 25,
+        "prompt": "Before preparing a business plan, all entrepreneurs should _____ the target markets for their business concepts.",
+        "options": [
+          "researching",
+          "be researched",
+          "research",
+          "to research"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q25",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.31, Test 8 Q25"
+      },
+      {
+        "number": 26,
+        "prompt": "Akihiro Yamada, Director of Purchasing, is responsible _____ ensuring the prompt payment to all suppliers.",
+        "options": [
+          "on",
+          "for",
+          "with",
+          "to"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t08-q26",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.31, Test 8 Q26"
+      },
+      {
+        "number": 27,
+        "prompt": "The government has implemented _____ number of new fiscal policies addressing the current economic crisis.",
+        "options": [
+          "the",
+          "a",
+          "several",
+          "some"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t08-q27",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.31, Test 8 Q27"
+      },
+      {
+        "number": 28,
+        "prompt": "With the _____ of Dr. Philip Holdings, Ms. Tetsuyo Greene will present the team’s research results at the UBJ Biotech Research Symposium herself.",
+        "options": [
+          "retire",
+          "retires",
+          "retirement",
+          "retiring"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q28",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.31, Test 8 Q28"
+      },
+      {
+        "number": 29,
+        "prompt": "Mr. Billon’s two o’clock flight to Houston was delayed because of fog, but only _____ fifteen minutes.",
+        "options": [
+          "to",
+          "on",
+          "with",
+          "for"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t08-q29",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.31, Test 8 Q29"
+      },
+      {
+        "number": 30,
+        "prompt": "Orders _____ by 2:00 P.M. on weekdays will be processed and shipped by the end of the next business day.",
+        "options": [
+          "submitted",
+          "omitted",
+          "implemented",
+          "conducted"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t08-q30",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.31, Test 8 Q30"
+      },
+      {
+        "number": 31,
+        "prompt": "Yocchi Wellness Center is _____ to announce that it will be expanding its range of services as well as adding several new clinic locations.",
+        "options": [
+          "delight",
+          "delighting",
+          "delighted",
+          "to delight"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q31",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.32, Test 8 Q31"
+      },
+      {
+        "number": 32,
+        "prompt": "In addition to _____ headquarters located in the prestigious Conners Private Hospital, Yocchi Wellness Center will open three more clinics in regional satellite cities.",
+        "options": [
+          "they",
+          "them",
+          "their",
+          "themselves"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q32",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.32, Test 8 Q32"
+      },
+      {
+        "number": 33,
+        "prompt": "In order to cope with the increasing demand for services, owner and founder Dr. Robert Linde will also offer an after-hours service for those who cannot meet the _____ scheduled clinic hours.",
+        "options": [
+          "regularly",
+          "periodically",
+          "formerly",
+          "immediately"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t08-q33",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.32, Test 8 Q33"
+      },
+      {
+        "number": 34,
+        "prompt": "All Yocchi Wellness Centers will offer extended hours _____ 9 P.M. Monday through Friday.",
+        "options": [
+          "from",
+          "until",
+          "at",
+          "in"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t08-q34",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.32, Test 8 Q34"
+      },
+      {
+        "number": 35,
+        "prompt": "For more information, including the names of participating health professionals, please _____ www.yocchiwellness.ca.",
+        "options": [
+          "confirm",
+          "notify",
+          "visit",
+          "inform"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q35",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.32, Test 8 Q35"
+      },
+      {
+        "number": 36,
+        "prompt": "This position will be a very _____ job, and will require someone with extensive editing experience and strong references.",
+        "options": [
+          "demanded",
+          "demands",
+          "demanding",
+          "demand"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q36",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.32, Test 8 Q36"
+      },
+      {
+        "number": 37,
+        "prompt": "The chosen candidate will also be expected to relocate _____ the greater Melbourne area.",
+        "options": [
+          "for",
+          "with",
+          "to",
+          "along"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t08-q37",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.32, Test 8 Q37"
+      },
+      {
+        "number": 38,
+        "prompt": "If any current employees would like to apply for this position, or know someone who would fit our needs, please have a _____ application package sent to my office by the end of this month.",
+        "options": [
+          "complete",
+          "completing",
+          "completed",
+          "completely"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t08-q38",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.32, Test 8 Q38"
+      },
+      {
+        "number": 39,
+        "prompt": "My name is Seri Moon and I’m writing to express my great interest in the position of senior _____ at Globe Publishing.",
+        "options": [
+          "edit",
+          "editor",
+          "edition",
+          "editing"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t08-q39",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.32, Test 8 Q39"
+      },
+      {
+        "number": 40,
+        "prompt": "I was _____ of this position by Christopher Lewis, a marketing assistant in your company.",
+        "options": [
+          "notified",
+          "announced",
+          "confirmed",
+          "verified"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t08-q40",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.32, Test 8 Q40"
+      }
+    ]
+  },
+  {
+    "id": "part5-test-09",
+    "number": 9,
+    "titleJa": "Part 5 テスト 9",
+    "titleEn": "Part 5 Test 9",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "Thank you for your _____ regarding the installation and usage of the scheduling software your company, Pike Law Firm, has recently purchased.",
+        "options": [
+          "inquire",
+          "inquisitive",
+          "inquiring",
+          "inquiry"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t09-q01",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.33, Test 9 Q1"
+      },
+      {
+        "number": 2,
+        "prompt": "Our software _____ to make the administration, scheduling and record-keeping of legal firms much easier for assistants and receptionists.",
+        "options": [
+          "designs",
+          "is designing",
+          "is designed",
+          "designed"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t09-q02",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.33, Test 9 Q2"
+      },
+      {
+        "number": 3,
+        "prompt": "I am aware, however, _____ the installation process may be a bit difficult.",
+        "options": [
+          "where",
+          "which",
+          "what",
+          "that"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t09-q03",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.33, Test 9 Q3"
+      },
+      {
+        "number": 4,
+        "prompt": "To assist you, I have attached our comprehensive installation guide, as well as a question and answer _____ to cover any additional problems.",
+        "options": [
+          "documents",
+          "document",
+          "documenting",
+          "documentation"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t09-q04",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.33, Test 9 Q4"
+      },
+      {
+        "number": 5,
+        "prompt": "Once you have installed the software, please follow the set-up guidelines and watch the introductory tutorial in order to _____ familiar with how our software works.",
+        "options": [
+          "become",
+          "make",
+          "get",
+          "use"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t09-q05",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.33, Test 9 Q5"
+      },
+      {
+        "number": 6,
+        "prompt": "If you are _____ having difficulty, please do not hesitate to contact me again.",
+        "options": [
+          "yet",
+          "already",
+          "not",
+          "still"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t09-q06",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.33, Test 9 Q6"
+      },
+      {
+        "number": 7,
+        "prompt": "I can arrange for a technician to visit your office and _____ a software demonstration at your convenience.",
+        "options": [
+          "utilize",
+          "provide",
+          "address",
+          "reside"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t09-q07",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.33, Test 9 Q7"
+      },
+      {
+        "number": 8,
+        "prompt": "This service is available at _____ additional charge.",
+        "options": [
+          "any",
+          "no",
+          "other",
+          "much"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t09-q08",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.33, Test 9 Q8"
+      },
+      {
+        "number": 9,
+        "prompt": "Thank you _____ for your interest in our products.",
+        "options": [
+          "again",
+          "still",
+          "yet",
+          "already"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t09-q09",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.33, Test 9 Q9"
+      },
+      {
+        "number": 10,
+        "prompt": "_____ professional investment advice from Michael Perrier on how to ensure a comfortable future.",
+        "options": [
+          "Got",
+          "To get",
+          "Getting",
+          "Get"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t09-q10",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.33, Test 9 Q10"
+      },
+      {
+        "number": 11,
+        "prompt": "_____ will learn about local and global housing markets, and be provided with tips and strategies for safe and profitable investments.",
+        "options": [
+          "Attendance",
+          "Attendees",
+          "Attending",
+          "To attend"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t09-q11",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.34, Test 9 Q11"
+      },
+      {
+        "number": 12,
+        "prompt": "Tickets are $20 per seat, and _____ available at the door.",
+        "options": [
+          "is",
+          "will have been",
+          "will be",
+          "has been"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t09-q12",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.34, Test 9 Q12"
+      },
+      {
+        "number": 13,
+        "prompt": "Get information _____ Port Smith’s job market and connect with local businesses at this year’s networking lunch.",
+        "options": [
+          "on",
+          "towards",
+          "along",
+          "with"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t09-q13",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.34, Test 9 Q13"
+      },
+      {
+        "number": 14,
+        "prompt": "Representatives from over 45 businesses _____ expected to be in attendance.",
+        "options": [
+          "is",
+          "are",
+          "will have been",
+          "to be"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t09-q14",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.34, Test 9 Q14"
+      },
+      {
+        "number": 15,
+        "prompt": "Business reps should have their booths _____ up by 11:30 A.M.",
+        "options": [
+          "set",
+          "setting",
+          "to set",
+          "to be set"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t09-q15",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.34, Test 9 Q15"
+      },
+      {
+        "number": 16,
+        "prompt": "Don’t _____ Port Smith’s annual trade fair with companies representing 18 different countries from around the world.",
+        "options": [
+          "missing",
+          "missed",
+          "miss",
+          "misses"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t09-q16",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.34, Test 9 Q16"
+      },
+      {
+        "number": 17,
+        "prompt": "Get _____ and service demonstrations, samples and discounts from a wide range of retailers.",
+        "options": [
+          "production",
+          "productivity",
+          "product",
+          "producing"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t09-q17",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.34, Test 9 Q17"
+      },
+      {
+        "number": 18,
+        "prompt": "If you’d like to book a booth for your company, registration must be completed _____ January 15.",
+        "options": [
+          "before",
+          "until",
+          "at",
+          "still"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t09-q18",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.34, Test 9 Q18"
+      },
+      {
+        "number": 19,
+        "prompt": "Booths are limited, _____ don’t delay.",
+        "options": [
+          "such",
+          "but",
+          "yet",
+          "so"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t09-q19",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.34, Test 9 Q19"
+      },
+      {
+        "number": 20,
+        "prompt": "Bestselling author Sasha Badke offers her advice _____ how to promote small businesses and what advertising mistakes to avoid.",
+        "options": [
+          "to",
+          "on",
+          "with",
+          "among"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t09-q20",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.34, Test 9 Q20"
+      },
+      {
+        "number": 21,
+        "prompt": "_____ are $15 per seat and will be available at the door.",
+        "options": [
+          "Ticket",
+          "Tickets",
+          "Voucher",
+          "Coupon"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t09-q21",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.35, Test 9 Q21"
+      },
+      {
+        "number": 22,
+        "prompt": "Due to preparations for this year’s trade fair, the February _____ meeting will be cancelled.",
+        "options": [
+          "commit",
+          "communication",
+          "commitment",
+          "committee"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t09-q22",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.35, Test 9 Q22"
+      },
+      {
+        "number": 23,
+        "prompt": "The next meeting will be held _____ the beginning of March.",
+        "options": [
+          "at",
+          "within",
+          "between",
+          "in"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t09-q23",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.35, Test 9 Q23"
+      },
+      {
+        "number": 24,
+        "prompt": "Thank you so _____ for becoming a volunteer with our center.",
+        "options": [
+          "most",
+          "many",
+          "more",
+          "much"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t09-q24",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.35, Test 9 Q24"
+      },
+      {
+        "number": 25,
+        "prompt": "_____ I mentioned in our phone call, the convention center has a lot of new events scheduled and we need as much help as we can get.",
+        "options": [
+          "Among",
+          "As",
+          "Amid",
+          "Almost"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t09-q25",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.35, Test 9 Q25"
+      },
+      {
+        "number": 26,
+        "prompt": "I’ve worked _____ the details for the first few months of the year, and have made a list of tasks for you to help with if you’re available.",
+        "options": [
+          "out",
+          "for",
+          "in",
+          "at"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t09-q26",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.35, Test 9 Q26"
+      },
+      {
+        "number": 27,
+        "prompt": "The most urgent task we need to do _____ to contact a new speaker for the seminar coming next week.",
+        "options": [
+          "are",
+          "were",
+          "is",
+          "have been"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t09-q27",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.35, Test 9 Q27"
+      },
+      {
+        "number": 28,
+        "prompt": "Michael Perrier was supposed _____ hosting the event, but has had to cancel unexpectedly.",
+        "options": [
+          "being",
+          "will be",
+          "to be",
+          "been"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t09-q28",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.35, Test 9 Q28"
+      },
+      {
+        "number": 29,
+        "prompt": "_____, Ted Luntasa had also shown some interest in leading this seminar.",
+        "options": [
+          "Lucky",
+          "Lacking",
+          "Luckily",
+          "Luck"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t09-q29",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.35, Test 9 Q29"
+      },
+      {
+        "number": 30,
+        "prompt": "Please _____ him to find out if he is still available.",
+        "options": [
+          "contact",
+          "inform",
+          "notify",
+          "speak"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t09-q30",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.35, Test 9 Q30"
+      },
+      {
+        "number": 31,
+        "prompt": "The second event _____ like your help with is on January 19th.",
+        "options": [
+          "ourselves",
+          "our",
+          "ours",
+          "we’d"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t09-q31",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.36, Test 9 Q31"
+      },
+      {
+        "number": 32,
+        "prompt": "We are hosting a community lunch and need someone to help organize booths for the _____ business representatives that will be attending.",
+        "options": [
+          "localize",
+          "locally",
+          "localizing",
+          "local"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t09-q32",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.36, Test 9 Q32"
+      },
+      {
+        "number": 33,
+        "prompt": "Finally, I understand that you have some _____ with website creation and maintenance.",
+        "options": [
+          "experience",
+          "expenditure",
+          "experiment",
+          "excursion"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t09-q33",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.36, Test 9 Q33"
+      },
+      {
+        "number": 34,
+        "prompt": "I would really _____ it if you could put the new events calendar onto our site.",
+        "options": [
+          "appreciate",
+          "apply",
+          "approve",
+          "appoint"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t09-q34",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.36, Test 9 Q34"
+      },
+      {
+        "number": 35,
+        "prompt": "If you have any ideas about how to _____ or improve the site, that would also be very helpful.",
+        "options": [
+          "search",
+          "update",
+          "situate",
+          "remain"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t09-q35",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.36, Test 9 Q35"
+      },
+      {
+        "number": 36,
+        "prompt": "If you are interested, I will send you the administrator _____ name and password.",
+        "options": [
+          "both",
+          "other",
+          "within",
+          "login"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t09-q36",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.36, Test 9 Q36"
+      },
+      {
+        "number": 37,
+        "prompt": "Thanks again for offering your time to the _____ center.",
+        "options": [
+          "convention",
+          "conventional",
+          "conventionally",
+          "convent"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t09-q37",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.36, Test 9 Q37"
+      },
+      {
+        "number": 38,
+        "prompt": "Due to a rainy weather forecast, today’s Moreen Park Free Musical Performance, _____ for 11:30 A.M., has been cancelled.",
+        "options": [
+          "schedule",
+          "scheduling",
+          "to schedule",
+          "scheduled"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t09-q38",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.36, Test 9 Q38"
+      },
+      {
+        "number": 39,
+        "prompt": "For those of you who have made the trip to see popular concert violinist Rosa Marche give a free performance at the band shelter, we are very _____ for the inconvenience.",
+        "options": [
+          "happy",
+          "sorry",
+          "surprised",
+          "amazed"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t09-q39",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.36, Test 9 Q39"
+      },
+      {
+        "number": 40,
+        "prompt": "Given the recent heavy rain and the predicted upcoming storm, park management _____ to cancel all free musical performances for the next ten days.",
+        "options": [
+          "has decided",
+          "decide",
+          "had decided",
+          "has been decided"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t09-q40",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.36, Test 9 Q40"
+      }
+    ]
+  },
+  {
+    "id": "part5-test-10",
+    "number": 10,
+    "titleJa": "Part 5 テスト 10",
+    "titleEn": "Part 5 Test 10",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "Thank you for your inquiry regarding the installation and _____ of the scheduling software your company, Pike Law Firm, has recently purchased.",
+        "options": [
+          "user-friendly",
+          "usefully",
+          "useful",
+          "usage"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t10-q01",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.37, Test 10 Q1"
+      },
+      {
+        "number": 2,
+        "prompt": "Our software is designed to make the administration, _____ and record-keeping of legal firms much easier for assistants and receptionists.",
+        "options": [
+          "schedule",
+          "scheduling",
+          "scheduled",
+          "to schedule"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t10-q02",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.37, Test 10 Q2"
+      },
+      {
+        "number": 3,
+        "prompt": "I am aware, however, _____ the installation process may be a bit difficult.",
+        "options": [
+          "that",
+          "which",
+          "whose",
+          "where"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t10-q03",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.37, Test 10 Q3"
+      },
+      {
+        "number": 4,
+        "prompt": "To assist you, I have attached our comprehensive installation guide, _____ a question and answer document to cover any additional problems.",
+        "options": [
+          "as well as",
+          "as much as",
+          "as many as",
+          "as far as"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t10-q04",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.37, Test 10 Q4"
+      },
+      {
+        "number": 5,
+        "prompt": "Once you have installed the software, please follow the set-up guidelines and watch the introductory tutorial in order to become _____ with how our software works.",
+        "options": [
+          "familiar",
+          "acquainted",
+          "bored",
+          "competitive"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t10-q05",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.37, Test 10 Q5"
+      },
+      {
+        "number": 6,
+        "prompt": "If you _____ still having difficulty, please do not hesitate to contact me again.",
+        "options": [
+          "were",
+          "will have been",
+          "are",
+          "will be"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t10-q06",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.37, Test 10 Q6"
+      },
+      {
+        "number": 7,
+        "prompt": "I can arrange for a _____ to visit your office and provide a software demonstration at your convenience.",
+        "options": [
+          "technique",
+          "technology",
+          "technician",
+          "technological"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t10-q07",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.37, Test 10 Q7"
+      },
+      {
+        "number": 8,
+        "prompt": "This service is available _____ no additional charge.",
+        "options": [
+          "for",
+          "at",
+          "in",
+          "of"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t10-q08",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.37, Test 10 Q8"
+      },
+      {
+        "number": 9,
+        "prompt": "Thank you again for your interest in our _____.",
+        "options": [
+          "prodigal",
+          "products",
+          "process",
+          "procedure"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t10-q09",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.37, Test 10 Q9"
+      },
+      {
+        "number": 10,
+        "prompt": "Get _____ investment advice from Michael Perrier on how to ensure a comfortable future.",
+        "options": [
+          "professionalism",
+          "profession",
+          "pros and cons",
+          "professional"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t10-q10",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.37, Test 10 Q10"
+      },
+      {
+        "number": 11,
+        "prompt": "Attendees will learn about local and global housing markets, and be provided with tips and strategies for _____ and profitable investments.",
+        "options": [
+          "safes",
+          "safety",
+          "safely",
+          "safe"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t10-q11",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.38, Test 10 Q11"
+      },
+      {
+        "number": 12,
+        "prompt": "_____ are $20 per seat, and will be available at the door.",
+        "options": [
+          "Tickets",
+          "Ticket",
+          "Ticketing",
+          "To ticket"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t10-q12",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.38, Test 10 Q12"
+      },
+      {
+        "number": 13,
+        "prompt": "Get information on Port Smith’s job market and connect with local _____ at this year’s networking lunch.",
+        "options": [
+          "business",
+          "businesses",
+          "busy",
+          "busying"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t10-q13",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.38, Test 10 Q13"
+      },
+      {
+        "number": 14,
+        "prompt": "Representatives from over 45 businesses are expected to be in _____.",
+        "options": [
+          "attention",
+          "attendees",
+          "attendance",
+          "attendee"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t10-q14",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.38, Test 10 Q14"
+      },
+      {
+        "number": 15,
+        "prompt": "Business reps should have their booths _____ up by 11:30 A.M.",
+        "options": [
+          "setting",
+          "to set",
+          "set",
+          "to be set"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t10-q15",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.38, Test 10 Q15"
+      },
+      {
+        "number": 16,
+        "prompt": "Don’t miss Port Smith’s annual trade fair with companies _____ 18 different countries from around the world.",
+        "options": [
+          "representative",
+          "representation",
+          "representing",
+          "represent"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t10-q16",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.38, Test 10 Q16"
+      },
+      {
+        "number": 17,
+        "prompt": "Get product and service demonstrations, samples and _____ from a wide range of retailers.",
+        "options": [
+          "discounts",
+          "discount",
+          "discounting",
+          "discounted"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t10-q17",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.38, Test 10 Q17"
+      },
+      {
+        "number": 18,
+        "prompt": "If you’d like to book a booth for your company, registration must be _____ before January 15.",
+        "options": [
+          "completing",
+          "completed",
+          "completely",
+          "completion"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t10-q18",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.38, Test 10 Q18"
+      },
+      {
+        "number": 19,
+        "prompt": "Booths are limited, _____ don’t delay.",
+        "options": [
+          "as",
+          "if",
+          "when",
+          "so"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t10-q19",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.38, Test 10 Q19"
+      },
+      {
+        "number": 20,
+        "prompt": "_____ author Sasha Badke offers her advice on how to promote small businesses and what advertising mistakes to avoid.",
+        "options": [
+          "Featuring",
+          "Acknowledging",
+          "Respecting",
+          "Bestselling"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t10-q20",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.38, Test 10 Q20"
+      },
+      {
+        "number": 21,
+        "prompt": "Tickets are $15 per _____ and will be available at the door.",
+        "options": [
+          "seat",
+          "seating",
+          "seated",
+          "seats"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t10-q21",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.39, Test 10 Q21"
+      },
+      {
+        "number": 22,
+        "prompt": "Due to _____ for this year’s trade fair, the February committee meeting will be canceled.",
+        "options": [
+          "preparations",
+          "preparation",
+          "prepare",
+          "prepared"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t10-q22",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.39, Test 10 Q22"
+      },
+      {
+        "number": 23,
+        "prompt": "The next meeting will be held _____ the beginning of March.",
+        "options": [
+          "in",
+          "at",
+          "until",
+          "for"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t10-q23",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.39, Test 10 Q23"
+      },
+      {
+        "number": 24,
+        "prompt": "Thank you so much for _____ a volunteer with our center.",
+        "options": [
+          "becoming",
+          "become",
+          "becomes",
+          "became"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t10-q24",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.39, Test 10 Q24"
+      },
+      {
+        "number": 25,
+        "prompt": "As I mentioned in our phone call, the convention center has a lot of new events _____ and we need as much help as we can get.",
+        "options": [
+          "scheduling",
+          "schedule",
+          "to schedule",
+          "scheduled"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t10-q25",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.39, Test 10 Q25"
+      },
+      {
+        "number": 26,
+        "prompt": "I have worked out the _____ for the first few months of the year, and have made a list of tasks for you to help with if you’re available.",
+        "options": [
+          "dimensions",
+          "deliveries",
+          "details",
+          "deliberations"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t10-q26",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.39, Test 10 Q26"
+      },
+      {
+        "number": 27,
+        "prompt": "The most urgent task we need to do is _____ a new speaker for the seminar coming next week.",
+        "options": [
+          "contact",
+          "contacted",
+          "to contact",
+          "being contacted"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t10-q27",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.39, Test 10 Q27"
+      },
+      {
+        "number": 28,
+        "prompt": "Michael Perrier was _____ to be hosting the event, but has had to cancel unexpectedly.",
+        "options": [
+          "supposing",
+          "suppose",
+          "supposes",
+          "supposed"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t10-q28",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.39, Test 10 Q28"
+      },
+      {
+        "number": 29,
+        "prompt": "Luckily, Ted Luntasa had also shown some interest in _____ this seminar.",
+        "options": [
+          "leading",
+          "operating",
+          "arguing",
+          "hiring"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t10-q29",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.39, Test 10 Q29"
+      },
+      {
+        "number": 30,
+        "prompt": "Please _____ him to find out if he is still available.",
+        "options": [
+          "inform",
+          "notify",
+          "announce",
+          "contact"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t10-q30",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.39, Test 10 Q30"
+      },
+      {
+        "number": 31,
+        "prompt": "The second event we’d like your _____ with is on January 19th.",
+        "options": [
+          "helping",
+          "help",
+          "helpful",
+          "helpfully"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t10-q31",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.40, Test 10 Q31"
+      },
+      {
+        "number": 32,
+        "prompt": "We are hosting a community lunch and need someone to help organize booths for the local business _____ that will be attending.",
+        "options": [
+          "representation",
+          "representatives",
+          "representing",
+          "represents"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t10-q32",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.40, Test 10 Q32"
+      },
+      {
+        "number": 33,
+        "prompt": "Finally, I understand that you have _____ experience with website creation and maintenance.",
+        "options": [
+          "some",
+          "all",
+          "any",
+          "many"
+        ],
+        "correctIndex": 0,
+        "id": "part5-t10-q33",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.40, Test 10 Q33"
+      },
+      {
+        "number": 34,
+        "prompt": "I would really appreciate it if you could _____ the new events calendar onto our site.",
+        "options": [
+          "prevent",
+          "impede",
+          "prohibit",
+          "put"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t10-q34",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.40, Test 10 Q34"
+      },
+      {
+        "number": 35,
+        "prompt": "If you have any ideas about how to update or improve the site, _____ would also be very helpful.",
+        "options": [
+          "which",
+          "who",
+          "that",
+          "where"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t10-q35",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.40, Test 10 Q35"
+      },
+      {
+        "number": 36,
+        "prompt": "_____ you are interested, I will send you the administrator login name and password.",
+        "options": [
+          "Whereas",
+          "While",
+          "If",
+          "Although"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t10-q36",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.40, Test 10 Q36"
+      },
+      {
+        "number": 37,
+        "prompt": "Thanks again for offering your time to the _____ center.",
+        "options": [
+          "converse",
+          "conversion",
+          "conversance",
+          "convention"
+        ],
+        "correctIndex": 3,
+        "id": "part5-t10-q37",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.40, Test 10 Q37"
+      },
+      {
+        "number": 38,
+        "prompt": "Due to a rainy weather forecast, today’s Moreen Park Free Musical Performance, _____ for 11:30 A.M., has been cancelled.",
+        "options": [
+          "scheduled",
+          "scheduling",
+          "schedule",
+          "schedules"
+        ],
+        "correctIndex": 2,
+        "id": "part5-t10-q38",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.40, Test 10 Q38"
+      },
+      {
+        "number": 39,
+        "prompt": "For those of you who have made the trip to see popular concert violinist Rosa Marche _____ a free performance at the band shelter, we are very sorry for the inconvenience.",
+        "options": [
+          "is given",
+          "give",
+          "gave",
+          "has been given"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t10-q39",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.40, Test 10 Q39"
+      },
+      {
+        "number": 40,
+        "prompt": "Given the recent heavy rain and the _____ upcoming storm, park management has decided to cancel all free musical performances for the next ten days.",
+        "options": [
+          "prediction",
+          "predicted",
+          "predict",
+          "predicting"
+        ],
+        "correctIndex": 1,
+        "id": "part5-t10-q40",
+        "sourceId": "part5-003",
+        "sourceLocator": "003.pdf p.40, Test 10 Q40"
+      }
+    ]
+  }
+]

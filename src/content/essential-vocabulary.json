@@ -31,8 +31,8 @@
     "meaningJa": "契約",
     "category": "契約",
     "level": 1,
-    "example": "The landlord and tenant were in agreement that the rent should be prorated to the middle of the month. ». According to the agreement, the caterer will also supply the flowers for the event.",
-    "exampleJa": "家主と借主は、家賃を月の半ばまで日割り計算することに同意しました。 »。契約によると、ケータリング業者はイベント用の花も提供する予定だ。",
+    "example": "The landlord and tenant were in agreement that the rent should be prorated to the middle of the month.",
+    "exampleJa": "家主と借主は、家賃を月の半ばまで日割り計算することに同意しました。",
     "explanationJa": "相互取り決め、契約",
     "distractors": [
       "パーティー",
@@ -151,7 +151,7 @@
     "meaningJa": "確立する",
     "category": "契約",
     "level": 1,
-    "example": "Through her many books and interviews, Dr. Wan established herself as an authority on conflict resolution,",
+    "example": "Through her many books and interviews, Dr. Wan established herself as an authority on conflict resolution.",
     "exampleJa": "ワン博士は、多くの著書やインタビューを通じて、紛争解決の権威としての地位を確立しました。",
     "explanationJa": "を恒久的に制定します。もたらす",
     "distractors": [
@@ -175,7 +175,7 @@
     "meaningJa": "義務",
     "category": "契約",
     "level": 1,
-    "example": "The contractor was obligated by the contract to wark 40 hours a week.",
+    "example": "The contractor was obligated by the contract to work 40 hours a week.",
     "exampleJa": "請負業者は、契約により週に 40 時間働くことが義務付けられていました。",
     "explanationJa": "法的または道徳的に拘束する",
     "distractors": [
@@ -319,7 +319,7 @@
     "meaningJa": "比較する",
     "category": "マーケティング",
     "level": 1,
-    "example": "One the customer compared the two products, her choice was easy.",
+    "example": "Once the customer compared the two products, her choice was easy.",
     "exampleJa": "ある顧客は 2 つの製品を比較しましたが、選択は簡単でした。",
     "explanationJa": "は類似点と相違点を調査します",
     "distractors": [
@@ -343,7 +343,7 @@
     "meaningJa": "コンテスト",
     "category": "マーケティング",
     "level": 1,
-    "example": "Inthe competition for afternoon diners, Hector's has come out on top.",
+    "example": "In the competition for afternoon diners, Hector's has come out on top.",
     "exampleJa": "午後のディナーの競争では、Hector's がトップになりました。",
     "explanationJa": "コンテストまたは闘争",
     "distractors": [
@@ -367,8 +367,8 @@
     "meaningJa": "消費する",
     "category": "マーケティング",
     "level": 1,
-    "example": "The business plans consumed all of Fritz's attention this fall",
-    "exampleJa": "この秋、フリッツは事業計画にすべての注意を費やしました",
+    "example": "The business plans consumed all of Fritz's attention this fall.",
+    "exampleJa": "この秋、フリッツは事業計画にすべての注意を費やしました。",
     "explanationJa": "を吸収します。使い切る",
     "distractors": [
       "生産的",
@@ -439,8 +439,8 @@
     "meaningJa": "流行",
     "category": "マーケティング",
     "level": 1,
-    "example": "The mini dress was a fad once thought to be finished, but now it is making a comeback",
-    "exampleJa": "ミニドレスは一度流行が終わったと思われていましたが、今再びブームになっています",
+    "example": "The mini dress was a fad once thought to be finished, but now it is making a comeback.",
+    "exampleJa": "ミニドレスは一度流行が終わったと思われていましたが、今再びブームになっています。",
     "explanationJa": "練習は短い間熱心に続きました。流行",
     "distractors": [
       "結果",
@@ -583,7 +583,7 @@
     "meaningJa": "特性",
     "category": "保証",
     "level": 1,
-    "example": "The cooking pot has features characteristic of the brand, such as \"heat- resistant\" handles.",
+    "example": "The cooking pot has features characteristic of the brand, such as \"heat-resistant\" handles.",
     "exampleJa": "調理鍋には「耐熱」ハンドルなど、ブランドの特徴的な機能が備わっています。",
     "explanationJa": "個人の特性を明らかにする。 n.、個人の特性",
     "distractors": [
@@ -656,7 +656,7 @@
     "category": "保証",
     "level": 1,
     "example": "Will my medical insurance cover this surgery?",
-    "exampleJa": "私の医療保険はこの手術をカバーしますか?",
+    "exampleJa": "私の医療保険はこの手術をカバーしますか?。",
     "explanationJa": "による保護を提供します",
     "distractors": [
       "必要",
@@ -680,7 +680,7 @@
     "category": "保証",
     "level": 1,
     "example": "Have you checked the expiration date on this yogurt?",
-    "exampleJa": "このヨーグルトの賞味期限を確認しましたか?",
+    "exampleJa": "このヨーグルトの賞味期限を確認しましたか?。",
     "explanationJa": "終わり",
     "distractors": [
       "品種",
@@ -751,7 +751,7 @@
     "meaningJa": "約束",
     "category": "保証",
     "level": 1,
-    "example": "Awarranty is a promise the manufacturer makes to the consumer.",
+    "example": "A warranty is a promise the manufacturer makes to the consumer.",
     "exampleJa": "保証は、メーカーが消費者に対して行う約束です。",
     "explanationJa": "誓約、約束。 v、行う、もたらす、または提供することを誓約する",
     "distractors": [
@@ -823,7 +823,7 @@
     "meaningJa": "必要",
     "category": "保証",
     "level": 1,
-    "example": "Acar warranty may require the owner to have it serviced by a certified mechanic.",
+    "example": "A car warranty may require the owner to have it serviced by a certified mechanic.",
     "exampleJa": "車の保証では、所有者が認定された整備士による整備を要求される場合があります。",
     "explanationJa": "必要または必須とみなされる",
     "distractors": [
@@ -967,7 +967,7 @@
     "meaningJa": "評価する",
     "category": "事業計画",
     "level": 1,
-    "example": "I's important to evaluate your competition when making a business plan,",
+    "example": "It's important to evaluate your competition when making a business plan.",
     "exampleJa": "ビジネス プランを作成するときに競合他社を評価することが重要です。",
     "explanationJa": "の価値または影響を判断する",
     "distractors": [
@@ -1015,7 +1015,7 @@
     "meaningJa": "オファー",
     "category": "事業計画",
     "level": 1,
-    "example": "Devon accepted our offer to write the business pian.",
+    "example": "Devon accepted our offer to write the business plan.",
     "exampleJa": "Devon はビジネスピアを執筆するという私たちの申し出を受け入れました。",
     "explanationJa": "提案。 v. 提案する。ニーズを満たす、または要件を満たすために提示する",
     "distractors": [
@@ -1039,7 +1039,7 @@
     "meaningJa": "主に",
     "category": "事業計画",
     "level": 1,
-    "example": "We are primarily concered with convincing the board of directors to apply for the second loan.",
+    "example": "We are primarily concerned with convincing the board of directors to apply for the second loan.",
     "exampleJa": "私たちは、取締役会に 2 回目の融資を申請するよう説得することを主に考えています。",
     "explanationJa": "が最初です。最も重要なこと",
     "distractors": [
@@ -1087,7 +1087,7 @@
     "meaningJa": "戦略",
     "category": "事業計画",
     "level": 1,
-    "example": "Abusiness plan is a strategy for running a business and avoiding problems.",
+    "example": "A business plan is a strategy for running a business and avoiding problems.",
     "exampleJa": "ビジネス プランは、ビジネスを運営し、問題を回避するための戦略です。",
     "explanationJa": "行動計画",
     "distractors": [
@@ -1327,7 +1327,7 @@
     "meaningJa": "過密",
     "category": "会議",
     "level": 1,
-    "example": "As soon as the guests entered the dining room for dinner, Sue Lin could see that the room would become overcrowded",
+    "example": "As soon as the guests entered the dining room for dinner, Sue Lin could see that the room would become overcrowded.",
     "exampleJa": "ゲストたちが夕食のためにダイニング ルームに入るとすぐに、部屋が超満員になることがスー リンにはわかりました。",
     "explanationJa": "混みすぎます",
     "distractors": [
@@ -1447,7 +1447,7 @@
     "meaningJa": "アクセス",
     "category": "コンピューター",
     "level": 1,
-    "example": "You can't gain access to the files untess you know the password.",
+    "example": "You can't gain access to the files unless you know the password.",
     "exampleJa": "パスワードを知らないとファイルにアクセスできません。",
     "explanationJa": "入力または使用する能力または権利。 v.、取得する。参入を得るために",
     "distractors": [
@@ -1495,7 +1495,7 @@
     "meaningJa": "互換",
     "category": "コンピューター",
     "level": 1,
-    "example": "This operating system is not compatible with this mode! computer.",
+    "example": "This operating system is not compatible with this model computer.",
     "exampleJa": "このオペレーティング システムはこのモードと互換性がありません。コンピューター。",
     "explanationJa": "は一緒に機能できます",
     "distractors": [
@@ -1567,7 +1567,7 @@
     "meaningJa": "重複",
     "category": "コンピューター",
     "level": 1,
-    "example": "I think the new word processing program will duplicate the success of the 'one introduced last year.",
+    "example": "I think the new word processing program will duplicate the success of the one introduced last year.",
     "exampleJa": "新しいワードプロセッサ プログラムは、昨年導入されたものの成功を再現すると思います。",
     "explanationJa": "は同等のものを生成します。同一にする",
     "distractors": [
@@ -1615,7 +1615,7 @@
     "meaningJa": "理解する",
     "category": "コンピューター",
     "level": 1,
-    "example": "By examining all of the errors, the technicians figured out how fo fix the problem.",
+    "example": "By examining all of the errors, the technicians figured out how to fix the problem.",
     "exampleJa": "すべてのエラーを検査することで、技術者は問題を解決する方法を見つけ出しました。",
     "explanationJa": "理解してください。解決する",
     "distractors": [
@@ -1807,7 +1807,7 @@
     "meaningJa": "容量",
     "category": "オフィス技術",
     "level": 1,
-    "example": "The new canterence room is much larger and has a capacity of one hundred people.",
+    "example": "The new conference room is much larger and has a capacity of one hundred people.",
     "exampleJa": "新しい食堂室ははるかに大きく、収容人数は 100 人です。",
     "explanationJa": "収容または保持する能力。何かが保持または実行できる最大値",
     "distractors": [
@@ -2407,7 +2407,7 @@
     "meaningJa": "プロセス",
     "category": "電子機器",
     "level": 1,
-    "example": "I've processed the data I callected and have gotten some interesting results.",
+    "example": "I've processed the data I collected and have gotten some interesting results.",
     "exampleJa": "呼び出したデータを処理し、興味深い結果が得られました。",
     "explanationJa": "一連のアクションまたは所定の手順を実行する。 n.、結果をもたらすための一連の操作またはアクション",
     "distractors": [
@@ -2695,8 +2695,8 @@
     "meaningJa": "急行",
     "category": "ビジネス文書",
     "level": 1,
-    "example": "It's important that this document be there tomorrow, so please send it express mail",
-    "exampleJa": "この書類は明日届くことが重要なので速達で送ってください",
+    "example": "It's important that this document be there tomorrow, so please send it express mail.",
+    "exampleJa": "この書類は明日届くことが重要なので速達で送ってください。",
     "explanationJa": "高速かつ直接的",
     "distractors": [
       "改訂する",
@@ -2815,8 +2815,8 @@
     "meaningJa": "証明",
     "category": "ビジネス文書",
     "level": 1,
-    "example": "This letter was not proofed very carefully; itis full of typing mistakes. ». In order to get the rebate, you must send in proof of purchase.",
-    "exampleJa": "この手紙はあまり注意深く校正されていませんでした。タイプミスだらけです。 »。リベートを受け取るには、購入証明書を送付する必要があります。",
+    "example": "This letter was not proofed very carefully; it is full of typing mistakes.",
+    "exampleJa": "この手紙はあまり注意深く校正されていませんでした。タイプミスだらけです。",
     "explanationJa": "はエラーを探します。名、証拠",
     "distractors": [
       "思いつく",
@@ -2983,7 +2983,7 @@
     "meaningJa": "思いつく",
     "category": "求人・採用",
     "level": 1,
-    "example": "In order for that small business to succeed, it needs to come up with a new strategy,",
+    "example": "In order for that small business to succeed, it needs to come up with a new strategy.",
     "exampleJa": "その中小企業が成功するためには、新しい戦略を考え出す必要があります。",
     "explanationJa": "計画する、発明する、考える",
     "distractors": [
@@ -3031,7 +3031,7 @@
     "meaningJa": "一致",
     "category": "求人・採用",
     "level": 1,
-    "example": "Itis difficult to make a decision when both candidates seem to be a per- fect match.",
+    "example": "It is difficult to make a decision when both candidates seem to be a perfect match.",
     "exampleJa": "両方の候補者が完全に一致しているように見える場合、決定を下すのは困難です。",
     "explanationJa": "適合、類似性。 v. まとめる、合わせる",
     "distractors": [
@@ -3175,7 +3175,7 @@
     "meaningJa": "能力",
     "category": "応募・面接",
     "level": 1,
-    "example": "The designer's ability was obvious from her porttolio.",
+    "example": "The designer's ability was obvious from her portfolio.",
     "exampleJa": "デザイナーの能力は彼女のポートリオから明らかでした。",
     "explanationJa": "スキル、能力",
     "distractors": [
@@ -3247,7 +3247,7 @@
     "meaningJa": "の準備をしてください",
     "category": "応募・面接",
     "level": 1,
-    "example": "Thanks to her careful research, the applicant felt that she was ready for the interview with the director of the program,",
+    "example": "Thanks to her careful research, the applicant felt that she was ready for the interview with the director of the program.",
     "exampleJa": "入念なリサーチのおかげで、応募者はプログラムのディレクターとの面接に臨む準備ができたと感じました。",
     "explanationJa": "を準備する必要があります",
     "distractors": [
@@ -3559,7 +3559,7 @@
     "meaningJa": "見上げます",
     "category": "雇用・研修",
     "level": 1,
-    "example": "Staff members looked up to the director because he had eared their respect over the years.",
+    "example": "Staff members looked up to the director because he had earned their respect over the years.",
     "exampleJa": "スタッフは長年にわたって監督に敬意を払ってきたため、監督を尊敬していました。",
     "explanationJa": "賞賛する、高く評価する",
     "distractors": [
@@ -3727,7 +3727,7 @@
     "meaningJa": "更新",
     "category": "雇用・研修",
     "level": 1,
-    "example": "The personnel officer updated the employees on the latest personnel changes,",
+    "example": "The personnel officer updated the employees on the latest personnel changes.",
     "exampleJa": "人事担当者は従業員に最新の人事異動について更新しました。",
     "explanationJa": "を最新にします。 n.、最新情報",
     "distractors": [
@@ -3751,7 +3751,7 @@
     "meaningJa": "ベース",
     "category": "給与・福利厚生",
     "level": 1,
-    "example": "The manager didn't have any basis for firing the empioyee.",
+    "example": "The manager didn't have any basis for firing the employee.",
     "exampleJa": "マネージャーには従業員を解雇する根拠がありませんでした。",
     "explanationJa": "何かの主な理由。ベースまたは基礎",
     "distractors": [
@@ -3775,7 +3775,7 @@
     "meaningJa": "注意してください",
     "category": "給与・福利厚生",
     "level": 1,
-    "example": "The new staff member wasn't aware of the company's position an working a second job.",
+    "example": "The new staff member wasn't aware of the company's position on working a second job.",
     "exampleJa": "新しいスタッフは、副業として会社の立場を認識していませんでした。",
     "explanationJa": "を意識してください。 ～について知識を持つこと",
     "distractors": [
@@ -3799,7 +3799,7 @@
     "meaningJa": "利益",
     "category": "給与・福利厚生",
     "level": 1,
-    "example": "Although the analyst eamed a better salary at his new job, his benefits were better at his previous job.",
+    "example": "Although the analyst earned a better salary at his new job, his benefits were better at his previous job.",
     "exampleJa": "アナリストは新しい仕事でより良い給与を得ましたが、福利厚生は前の仕事の方が良かったです。",
     "explanationJa": "給与に加えて従業員に提供される利点。 v. を利用する",
     "distractors": [
@@ -3991,7 +3991,7 @@
     "meaningJa": "権利を持っている",
     "category": "給与・福利厚生",
     "level": 1,
-    "example": "The day that Ms. Weng became fully vested in the retirement plan, she gave her two weeks' notice,",
+    "example": "The day that Ms. Weng became fully vested in the retirement plan, she gave her two weeks' notice.",
     "exampleJa": "ウェンさんは退職計画に完全に同意した日、2週間前に通知しました。",
     "explanationJa": "は権利として保証されており、関与しています",
     "distractors": [
@@ -4015,7 +4015,7 @@
     "meaningJa": "賃金",
     "category": "給与・福利厚生",
     "level": 1,
-    "example": "Hourly wages have increased by 20 percent over the fast two years.",
+    "example": "Hourly wages have increased by 20 percent over the past two years.",
     "exampleJa": "時給は、この 2 年間で 20% 増加しました。",
     "explanationJa": "完了した作業に対して支払われる金額 (通常は時間単位)",
     "distractors": [
@@ -4159,8 +4159,8 @@
     "meaningJa": "忠実な",
     "category": "昇進・年金・表彰",
     "level": 1,
-    "example": "You have been such a loyal advisor for so many years, I'm not sure what 'Il do without you.",
-    "exampleJa": "あなたは長年にわたって忠実なアドバイザーでした。私には「あなたなしではどうすればいいのかわかりません。」",
+    "example": "You have been such a loyal advisor for so many years, I'm not sure what I'll do without you.",
+    "exampleJa": "あなたは長年にわたって忠実なアドバイザーでした。私には「あなたなしではどうすればいいのかわかりません。」。",
     "explanationJa": "忠実、誰かまたは何かを信じている",
     "distractors": [
       "お買い得",
@@ -4351,8 +4351,8 @@
     "meaningJa": "クマ",
     "category": "購買",
     "level": 2,
-    "example": "Moya doesn't like crowds so she cannot bear to shop during the holiday rush ». If you can bear with me, I'd like to stop in one more store.",
-    "exampleJa": "モヤは人混みが嫌いなので、ホリデーシーズンの混雑中に買い物をすることに耐えられません。 »もしよろしければ、もう一店舗に立ち寄りたいのですが。",
+    "example": "Moya doesn't like crowds so she cannot bear to shop during the holiday rush.",
+    "exampleJa": "モヤは人混みが嫌いなので、ホリデーシーズンの混雑中に買い物をすることに耐えられません。",
     "explanationJa": "は許容範囲です。耐える",
     "distractors": [
       "必須",
@@ -4375,7 +4375,7 @@
     "meaningJa": "動作",
     "category": "購買",
     "level": 2,
-    "example": "Annu is conduoting a survey on whether consumer behavior differs between men and women,",
+    "example": "Annu is conducting a survey on whether consumer behavior differs between men and women.",
     "exampleJa": "アンヌは、消費者行動が男性と女性で異なるかどうかに関する調査を実施しています。",
     "explanationJa": "人の行動の仕方",
     "distractors": [
@@ -4519,7 +4519,7 @@
     "meaningJa": "必須",
     "category": "購買",
     "level": 2,
-    "example": "The jewelry store has a mandatory policy of showing customers only one item at atime.",
+    "example": "The jewelry store has a mandatory policy of showing customers only one item at a time.",
     "exampleJa": "宝石店には、顧客に一度に 1 つのアイテムだけを見せるという強制的なポリシーがあります。",
     "explanationJa": "は必須または命令されています。義務的な",
     "distractors": [
@@ -4543,7 +4543,7 @@
     "meaningJa": "商品",
     "category": "購買",
     "level": 2,
-    "example": "lam very impressed with the selection of merchandise at this store.",
+    "example": "I am very impressed with the selection of merchandise at this store.",
     "exampleJa": "ラムさんは、この店の商品の品揃えにとても感銘を受けました。",
     "explanationJa": "個のアイテムが店舗で入手可能",
     "distractors": [
@@ -4591,8 +4591,8 @@
     "meaningJa": "トレンド",
     "category": "購買",
     "level": 2,
-    "example": "The clothing store tries to stay on top of all the new trends,",
-    "exampleJa": "衣料品店はすべての新しいトレンドを常に把握しようとしていますが、",
+    "example": "The clothing store tries to stay on top of all the new trends.",
+    "exampleJa": "衣料品店はすべての新しいトレンドを常に把握しようとしていますが、。",
     "explanationJa": "現在のスタイル。流行",
     "distractors": [
       "取得する",
@@ -5263,7 +5263,7 @@
     "meaningJa": "割引",
     "category": "請求書",
     "level": 2,
-    "example": "They discounted the price on the merchandise damaged in shipment,",
+    "example": "They discounted the price on the merchandise damaged in shipment.",
     "exampleJa": "彼らは配送中に破損した商品の価格を割引しました。",
     "explanationJa": "価格の引き下げ。 v. 価格現実性を下げるためすべての新規顧客に 10% 割引を提供します。",
     "distractors": [
@@ -5335,8 +5335,8 @@
     "meaningJa": "課す",
     "category": "請求書",
     "level": 2,
-    "example": "The company will impose a surcharge for any items returned",
-    "exampleJa": "会社は返品された商品に対して追加料金を課します",
+    "example": "The company will impose a surcharge for any items returned.",
+    "exampleJa": "会社は返品された商品に対して追加料金を課します。",
     "explanationJa": "を義務として確立または適用します。他人に強制する",
     "distractors": [
       "自動的に",
@@ -5743,7 +5743,7 @@
     "meaningJa": "検証する",
     "category": "在庫",
     "level": 2,
-    "example": "I can't verify the accuracy of these numbers, since I was not present for inventory weekend,",
+    "example": "I can't verify the accuracy of these numbers, since I was not present for inventory weekend.",
     "exampleJa": "在庫週末に不在だったので、これらの数値の正確性を確認できません。",
     "explanationJa": "の真実を証明するには",
     "distractors": [
@@ -5816,7 +5816,7 @@
     "category": "銀行",
     "level": 2,
     "example": "Do you want to borrow a pen?",
-    "exampleJa": "ペンを借りませんか?",
+    "exampleJa": "ペンを借りませんか?。",
     "explanationJa": "を一時的に使用します",
     "distractors": [
       "署名",
@@ -5911,8 +5911,8 @@
     "meaningJa": "頭金",
     "category": "銀行",
     "level": 2,
-    "example": "By making a large down payment, the couple saved a great deal in mortgage interest. ». Karl was disappointed when the real estate agent told him he needed a larger down payment on the house.",
-    "exampleJa": "多額の頭金を支払ったことで、夫婦は住宅ローンの金利を大幅に節約できました。 »。カールは、不動産屋から家の購入にはもっと多額の頭金が必要だと言われてがっかりした。",
+    "example": "By making a large down payment, the couple saved a great deal in mortgage interest.",
+    "exampleJa": "多額の頭金を支払ったことで、夫婦は住宅ローンの金利を大幅に節約できました。",
     "explanationJa": "初回の部分支払い",
     "distractors": [
       "蓄積する",
@@ -6175,7 +6175,7 @@
     "meaningJa": "蓄積する",
     "category": "会計",
     "level": 2,
-    "example": "The firm has built up a solid reputation for itself,",
+    "example": "The firm has built up a solid reputation for itself.",
     "exampleJa": "その会社はそれ自体で確固たる評判を築いてきました。",
     "explanationJa": "は時間の経過とともに増加します",
     "distractors": [
@@ -6343,7 +6343,7 @@
     "meaningJa": "積極的に",
     "category": "投資",
     "level": 2,
-    "example": "Some paople are risk takers and prefer to invest aggressively.",
+    "example": "Some people are risk takers and prefer to invest aggressively.",
     "exampleJa": "一部の人々はリスクを負い、積極的な投資を好みます。",
     "explanationJa": "競争力があり、積極的に",
     "distractors": [
@@ -6391,7 +6391,7 @@
     "meaningJa": "コミット",
     "category": "投資",
     "level": 2,
-    "example": "Itis a good idea to commit a certain percentage of your income to investments.",
+    "example": "It is a good idea to commit a certain percentage of your income to investments.",
     "exampleJa": "収入の一定割合を投資に充てることをお勧めします。",
     "explanationJa": "将来の使用のために委託する、約束する",
     "distractors": [
@@ -6511,7 +6511,7 @@
     "meaningJa": "ポートフォリオ",
     "category": "投資",
     "level": 2,
-    "example": "Investors are advised to have diverse porttolios.",
+    "example": "Investors are advised to have diverse portfolios.",
     "exampleJa": "投資家は多様なポートトリオを持つことをお勧めします。",
     "explanationJa": "投資のリスト",
     "distractors": [
@@ -6583,8 +6583,8 @@
     "meaningJa": "リターン",
     "category": "投資",
     "level": 2,
-    "example": "The 44 percent retum on the new stock was far more than the stockbroker had anticipated",
-    "exampleJa": "新株の 44% の利益は証券会社の予想をはるかに上回りました",
+    "example": "The 44 percent retum on the new stock was far more than the stockbroker had anticipated.",
+    "exampleJa": "新株の 44% の利益は証券会社の予想をはるかに上回りました。",
     "explanationJa": "利益として得られる金額",
     "distractors": [
       "ジョイント",
@@ -6703,7 +6703,7 @@
     "meaningJa": "記入する",
     "category": "税務",
     "level": 2,
-    "example": "lusually ask someone to help me fill out my tax form.",
+    "example": "I usually ask someone to help me fill out my tax form.",
     "exampleJa": "納税フォームに記入するのを手伝ってくれる人によく頼みます。",
     "explanationJa": "で完了します",
     "distractors": [
@@ -6991,7 +6991,7 @@
     "meaningJa": "レベル",
     "category": "財務諸表",
     "level": 2,
-    "example": "We have never had an accountant work at such a sophisticated level before,",
+    "example": "We have never had an accountant work at such a sophisticated level before.",
     "exampleJa": "これまで会計士にこれほど洗練されたレベルで仕事をしてもらったことはありません。",
     "explanationJa": "スケール上の相対的な位置またはランク",
     "distractors": [
@@ -7207,7 +7207,7 @@
     "meaningJa": "隣接する",
     "category": "施設・部門",
     "level": 2,
-    "example": "My office is adjacent to the receptionist area on the third floor,",
+    "example": "My office is adjacent to the receptionist area on the third floor.",
     "exampleJa": "私のオフィスは 3 階の受付エリアに隣接しています。",
     "explanationJa": "の隣",
     "distractors": [
@@ -7255,7 +7255,7 @@
     "meaningJa": "集中する",
     "category": "施設・部門",
     "level": 2,
-    "example": "Inhis quiet, comer office, the manager could finally concentrate and finish his work,",
+    "example": "Inhis quiet, comer office, the manager could finally concentrate and finish his work.",
     "exampleJa": "静かな隣のオフィスで、マネージャーはようやく集中して仕事を終えることができました。",
     "explanationJa": "に集中します。考えること",
     "distractors": [
@@ -7351,7 +7351,7 @@
     "meaningJa": "軽率に",
     "category": "施設・部門",
     "level": 2,
-    "example": "The manager inconsiderately scheduled the meeting for late Friday aftemoon.",
+    "example": "The manager inconsiderately scheduled the meeting for late Friday afternoon.",
     "exampleJa": "マネージャーは、軽率にも金曜日の午後遅くに会議をスケジュールしました。",
     "explanationJa": "失礼です。無礼に",
     "distractors": [
@@ -7591,7 +7591,7 @@
     "meaningJa": "どうぞ",
     "category": "取締役会・委員会",
     "level": 2,
-    "example": "Five of the six members felt that they shauld go ahead with the plan.",
+    "example": "Five of the six members felt that they should go ahead with the plan.",
     "exampleJa": "6 人のメンバーのうち 5 人が、計画を実行する必要があると感じました。",
     "explanationJa": "で続行します。 n.、何かをする許可",
     "distractors": [
@@ -7615,8 +7615,8 @@
     "meaningJa": "目標",
     "category": "取締役会・委員会",
     "level": 2,
-    "example": "Employees are expected to analyze and evaluate their annual goals",
-    "exampleJa": "従業員は、年間目標を分析し、評価することが求められます",
+    "example": "Employees are expected to analyze and evaluate their annual goals.",
+    "exampleJa": "従業員は、年間目標を分析し、評価することが求められます。",
     "explanationJa": "目的、目的",
     "distractors": [
       "ブランド",
@@ -7711,7 +7711,7 @@
     "meaningJa": "優先順位",
     "category": "取締役会・委員会",
     "level": 2,
-    "example": "Since the remaining issues were not a priority, the group dacided to move them to the next week's agenda.",
+    "example": "Since the remaining issues were not a priority, the group decided to move them to the next week's agenda.",
     "exampleJa": "残りの問題は優先事項ではなかったため、グループはそれらを来週の議題に移すことにしました。",
     "explanationJa": "重要なこと、他のことより先に行うべきこと",
     "distractors": [
@@ -7903,7 +7903,7 @@
     "meaningJa": "検査する",
     "category": "品質管理",
     "level": 2,
-    "example": "Aquality control agent who does not inspect every product carefully can ruin his company's reputation.",
+    "example": "A quality control agent who does not inspect every product carefully can ruin his company's reputation.",
     "exampleJa": "すべての製品を注意深く検査しない品質管理担当者は、会社の評判を台無しにする可能性があります。",
     "explanationJa": "をよく見てください。慎重に、または正式に調べること",
     "distractors": [
@@ -8215,7 +8215,7 @@
     "meaningJa": "論理的",
     "category": "製品開発",
     "level": 2,
-    "example": "Itis only logical for a research and development team to concentrate on one or two new products at a time.",
+    "example": "It is only logical for a research and development team to concentrate on one or two new products at a time.",
     "exampleJa": "研究開発チームが一度に 1 つまたは 2 つの新製品に集中するのは当然のことです。",
     "explanationJa": "は正式に有効です。秩序ある推論を使って",
     "distractors": [
@@ -8287,7 +8287,7 @@
     "meaningJa": "解決する",
     "category": "製品開発",
     "level": 2,
-    "example": "Researchers find that every time they solve one problem, two more result,",
+    "example": "Researchers find that every time they solve one problem, two more result.",
     "exampleJa": "研究者は、1 つの問題を解決するたびに、さらに 2 つの結果が得られることに気づきました。",
     "explanationJa": "解決策、説明、または回答を見つけるには",
     "distractors": [
@@ -8311,7 +8311,7 @@
     "meaningJa": "スーパーバイザー",
     "category": "製品開発",
     "level": 2,
-    "example": "The department supervisor has to balance his department's responsibili- ties in order to keep the president satisfied with its progress.",
+    "example": "The department supervisor has to balance his department's responsibilities in order to keep the president satisfied with its progress.",
     "exampleJa": "部門の監督者は、社長が部門の進捗状況に満足し続けるために、部門の責任のバランスを取る必要があります。",
     "explanationJa": "担当管理者",
     "distractors": [
@@ -8479,8 +8479,8 @@
     "meaningJa": "から出る",
     "category": "賃貸・リース",
     "level": 2,
-    "example": "The agent wasn't sure i the executives could get out of their prior real estate arrangement",
-    "exampleJa": "エージェントは、幹部が以前の不動産契約から抜け出せるかどうか確信が持てませんでした",
+    "example": "The agent wasn't sure i the executives could get out of their prior real estate arrangement.",
+    "exampleJa": "エージェントは、幹部が以前の不動産契約から抜け出せるかどうか確信が持てませんでした。",
     "explanationJa": "で逃げます。出る",
     "distractors": [
       "控訴",
@@ -8912,7 +8912,7 @@
     "category": "レストラン選び",
     "level": 2,
     "example": "Can I make a suggestion about what to order?",
-    "exampleJa": "何を注文するかについて提案をしてもいいですか?",
+    "exampleJa": "何を注文するかについて提案をしてもいいですか?。",
     "explanationJa": "提案。アドバイス",
     "distractors": [
       "裁判官",
@@ -9679,8 +9679,8 @@
     "meaningJa": "method (noun)",
     "category": "調理の仕事",
     "level": 2,
-    "example": "Many chets borrow cooking methods from a variety of cultures and incorporate them into their cooking style.",
-    "exampleJa": "多くのチェットは、さまざまな文化から調理法を借用し、自分たちの料理スタイルに取り入れています。",
+    "example": "Many chefs borrow cooking methods from a variety of cultures and incorporate them into their cooking style.",
+    "exampleJa": "多くのシェフは、さまざまな文化の調理法を自分たちの料理スタイルに取り入れています。",
     "explanationJa": "a procedure @.グロリアはクロワッサンを作るための簡単な方法を完成させました。",
     "distractors": [
       "次元",
@@ -9848,7 +9848,7 @@
     "category": "イベント",
     "level": 2,
     "example": "What are the dimensions of the ballroom?",
-    "exampleJa": "宴会場の寸法はどれくらいですか?",
+    "exampleJa": "宴会場の寸法はどれくらいですか?。",
     "explanationJa": "幅、高さ、または長さの測定値",
     "distractors": [
       "規制する",
@@ -9919,8 +9919,8 @@
     "meaningJa": "理想的には",
     "category": "イベント",
     "level": 2,
-    "example": "Ideally, the location for the concert would have plenty of parking,",
-    "exampleJa": "コンサート会場には十分な駐車場があるのが理想的ですが、",
+    "example": "Ideally, the location for the concert would have plenty of parking.",
+    "exampleJa": "コンサート会場には十分な駐車場があるのが理想的ですが、。",
     "explanationJa": "完璧です。理想に沿う",
     "distractors": [
       "エージェント",
@@ -9991,8 +9991,8 @@
     "meaningJa": "近接性",
     "category": "イベント",
     "level": 2,
-    "example": "The fans were worried by the proximity of the storm clouds",
-    "exampleJa": "ファンは嵐雲の接近を心配していました",
+    "example": "The fans were worried by the proximity of the storm clouds.",
+    "exampleJa": "ファンは嵐雲の接近を心配していました。",
     "explanationJa": "近くまたは隣にいる状態、品質、感覚、または事実。親密さ",
     "distractors": [
       "ブランケット",
@@ -10112,7 +10112,7 @@
     "category": "旅行",
     "level": 3,
     "example": "Did you hear an announcement about our new departure time?",
-    "exampleJa": "新しい出発時間に関するアナウンスを聞きましたか?",
+    "exampleJa": "新しい出発時間に関するアナウンスを聞きましたか?。",
     "explanationJa": "公開通知",
     "distractors": [
       "乗船",
@@ -10471,7 +10471,7 @@
     "meaningJa": "相当するもの",
     "category": "航空",
     "level": 3,
-    "example": "Carlos used the Internet to search for hotels of equivalent dollar vatus to the one recommended.",
+    "example": "Carlos used the Internet to search for hotels of equivalent dollar values to the one recommended.",
     "exampleJa": "カルロスはインターネットを使用して、推奨されたホテルと同等のドル価値のホテルを検索しました。",
     "explanationJa": "に等しい",
     "distractors": [
@@ -10519,7 +10519,7 @@
     "meaningJa": "経費",
     "category": "航空",
     "level": 3,
-    "example": "Aluxury vacation involves many expenses.",
+    "example": "A luxury vacation involves many expenses.",
     "exampleJa": "贅沢な休暇には多くの出費がかかります。",
     "explanationJa": "支払いが必要なもの",
     "distractors": [
@@ -10615,7 +10615,7 @@
     "meaningJa": "実質的に",
     "category": "航空",
     "level": 3,
-    "example": "The airline I work for had a substantially higher rating for customer satis- faction than our competitors had.",
+    "example": "The airline I work for had a substantially higher rating for customer satisfaction than our competitors had.",
     "exampleJa": "私が働いている航空会社は、競合他社よりも顧客満足度が大幅に高かった。",
     "explanationJa": "大幅に",
     "distractors": [
@@ -10951,8 +10951,8 @@
     "meaningJa": "高度な",
     "category": "ホテル",
     "level": 3,
-    "example": "Since the hotel installed an advanced computer system, all operations have been functioning more smoothly. ». Pablo has been promoted to assistant manager and he is happy with his, advanced position.",
-    "exampleJa": "ホテルが高度なコンピューター システムを導入して以来、すべての業務がよりスムーズに機能するようになりました。 »。パブロはアシスタントマネージャーに昇進し、その高い地位に満足しています。",
+    "example": "Since the hotel installed an advanced computer system, all operations have been functioning more smoothly.",
+    "exampleJa": "ホテルが高度なコンピューター システムを導入して以来、すべての業務がよりスムーズに機能するようになりました。",
     "explanationJa": "は高度に発達しています。より高いレベルで",
     "distractors": [
       "排除する",
@@ -11623,7 +11623,7 @@
     "meaningJa": "分散する",
     "category": "映画",
     "level": 3,
-    "example": "The reporters dispersed after the press agent cancelled the interview with the film director,",
+    "example": "The reporters dispersed after the press agent cancelled the interview with the film director.",
     "exampleJa": "報道担当者が映画監督とのインタビューをキャンセルしたため、記者たちは解散しました。",
     "explanationJa": "広く広がる、散らばる",
     "distractors": [
@@ -12199,8 +12199,8 @@
     "meaningJa": "割る",
     "category": "音楽",
     "level": 3,
-    "example": "The music class was evenly divided between those who liked country and western music and those who do not",
-    "exampleJa": "音楽の授業では、カントリーやウェスタンの音楽が好きな人とそうでない人が半々に分かれていました",
+    "example": "The music class was evenly divided between those who liked country and western music and those who do not.",
+    "exampleJa": "音楽の授業では、カントリーやウェスタンの音楽が好きな人とそうでない人が半々に分かれていました。",
     "explanationJa": "をパーツに分割します",
     "distractors": [
       "衝動",
@@ -12223,7 +12223,7 @@
     "meaningJa": "好意",
     "category": "音楽",
     "level": 3,
-    "example": "Sam enjoys the works of several composers but he tends to favor Mozart,",
+    "example": "Sam enjoys the works of several composers but he tends to favor Mozart.",
     "exampleJa": "サムは何人かの作曲家の作品を楽しんでいますが、モーツァルトを好む傾向があります。",
     "explanationJa": "を支持する",
     "distractors": [
@@ -12391,8 +12391,8 @@
     "meaningJa": "取得する",
     "category": "博物館",
     "level": 3,
-    "example": "The museum acquired a van Gogh during heavy bidding",
-    "exampleJa": "美術館は激しい入札でゴッホを購入しました",
+    "example": "The museum acquired a van Gogh during heavy bidding.",
+    "exampleJa": "美術館は激しい入札でゴッホを購入しました。",
     "explanationJa": "を所有する;自分の努力でなんとかなる",
     "distractors": [
       "応答する",
@@ -12775,7 +12775,7 @@
     "meaningJa": "決定",
     "category": "メディア",
     "level": 3,
-    "example": "The court made the decision to allow the newspaper to print the controversial story,",
+    "example": "The court made the decision to allow the newspaper to print the controversial story.",
     "exampleJa": "裁判所は、新聞社が物議を醸している記事の掲載を許可する決定を下しました。",
     "explanationJa": "判断または選択",
     "distractors": [
@@ -12991,8 +12991,8 @@
     "meaningJa": "の予定",
     "category": "診療所",
     "level": 3,
-    "example": "To get the most out of your appointment, keep a log of your symptoms and concems.",
-    "exampleJa": "予約を最大限に活用するには、症状と欠点を記録してください。",
+    "example": "To get the most out of your appointment, keep a log of your symptoms and concerns.",
+    "exampleJa": "診察を最大限に活用するため、症状や懸念事項を記録しておきましょう。",
     "explanationJa": "会議の手配。職業上の地位",
     "distractors": [
       "推奨事項",
@@ -13159,7 +13159,7 @@
     "meaningJa": "推奨事項",
     "category": "診療所",
     "level": 3,
-    "example": "tis important to follow the doctor's recommendations if you want to improve your heaith.",
+    "example": "It is important to follow the doctor's recommendations if you want to improve your health.",
     "exampleJa": "健康を改善したい場合は、医師の推奨に従うことが重要です。",
     "explanationJa": "アドバイス;承認",
     "distractors": [
@@ -13279,7 +13279,7 @@
     "meaningJa": "追いつく",
     "category": "歯科医院",
     "level": 3,
-    "example": "My dentist likes to take time to catch up before she starts the examination,",
+    "example": "My dentist likes to take time to catch up before she starts the examination.",
     "exampleJa": "私の歯科医は、検査を始める前に時間をかけて状況を把握することを好みます。",
     "explanationJa": "を最新の状態にします",
     "distractors": [
@@ -13615,7 +13615,7 @@
     "meaningJa": "懸念",
     "category": "健康保険",
     "level": 3,
-    "example": "Whenever I have health concems, I call my doctor.",
+    "example": "Whenever I have health concerns, I call my doctor.",
     "exampleJa": "健康上の問題があるときは、必ず医師に電話します。",
     "explanationJa": "不安。心配する",
     "distractors": [
@@ -13663,8 +13663,8 @@
     "meaningJa": "発生する",
     "category": "健康保険",
     "level": 3,
-    "example": "I incurred substantial expenses that my health plan does n",
-    "exampleJa": "健康保険では適用されない多額の費用が発生しました",
+    "example": "I incurred substantial expenses that my health plan does n.",
+    "exampleJa": "健康保険では適用されない多額の費用が発生しました。",
     "explanationJa": "の対象となります",
     "distractors": [
       "認める",
@@ -13807,7 +13807,7 @@
     "meaningJa": "スーツ",
     "category": "健康保険",
     "level": 3,
-    "example": "This insurance plan doesn't suit our family as it doesn't cover wellbaby care.",
+    "example": "This insurance plan doesn't suit our family as it doesn't cover well-baby care.",
     "exampleJa": "この保険プランは、赤ちゃんのケアをカバーしていないため、私たち家族には適していません。",
     "explanationJa": "が適切です。満足させる",
     "distractors": [
@@ -13831,7 +13831,7 @@
     "meaningJa": "認める",
     "category": "病院",
     "level": 3,
-    "example": "The injured patient was admitted to the unit directly from the emergency foom,",
+    "example": "The injured patient was admitted to the unit directly from the emergency room.",
     "exampleJa": "負傷した患者は救急室から直接病棟に入院しました。",
     "explanationJa": "で入場を許可します",
     "distractors": [
@@ -14047,8 +14047,8 @@
     "meaningJa": "結果",
     "category": "病院",
     "level": 3,
-    "example": "Your lab results won't be ready for hours",
-    "exampleJa": "ラボの結果が得られるまでに数時間かかります",
+    "example": "Your lab results won't be ready for hours.",
+    "exampleJa": "ラボの結果が得られるまでに数時間かかります。",
     "explanationJa": "結果",
     "distractors": [
       "係数",
@@ -14071,7 +14071,7 @@
     "meaningJa": "ステートメント",
     "category": "病院",
     "level": 3,
-    "example": "The billing statement was filed with the insurance company 'ast month.",
+    "example": "The billing statement was filed with the insurance company last month.",
     "exampleJa": "請求明細書は「当月」に保険会社に提出されました。",
     "explanationJa": "未払い額を示す会計。請求書",
     "distractors": [
@@ -14143,8 +14143,8 @@
     "meaningJa": "コントロール",
     "category": "薬局",
     "level": 3,
-    "example": "To control the cost of this medication, you may get the generic version",
-    "exampleJa": "この薬のコストを抑えるために、ジェネリック版を入手することもできます",
+    "example": "To control the cost of this medication, you may get the generic version.",
+    "exampleJa": "この薬のコストを抑えるために、ジェネリック版を入手することもできます。",
     "explanationJa": "に対して権威または支配的な影響力を行使する",
     "distractors": [
       "潜在的",
@@ -14168,7 +14168,7 @@
     "category": "薬局",
     "level": 3,
     "example": "Is this a convenient location for you to pick up your prescription?",
-    "exampleJa": "ここは処方箋を受け取るのに便利な場所ですか?",
+    "exampleJa": "ここは処方箋を受け取るのに便利な場所ですか?。",
     "explanationJa": "目的に適している、または有利である。簡単に到達できる",
     "distractors": [
       "サンプル",
@@ -14287,7 +14287,7 @@
     "meaningJa": "モニター",
     "category": "薬局",
     "level": 3,
-    "example": "The nurse practitioner carefully monitors the number of medications her patients are taking,",
+    "example": "The nurse practitioner carefully monitors the number of medications her patients are taking.",
     "exampleJa": "看護師は、患者が服用している薬の数を注意深く監視しています。",
     "explanationJa": "を追跡します",
     "distractors": [
@@ -14359,8 +14359,8 @@
     "meaningJa": "センス",
     "category": "薬局",
     "level": 3,
-    "example": "The doctor had a good sense about what the problem was but wanted to get a second opinion",
-    "exampleJa": "医師は問題の内容をよく理解していましたが、セカンドオピニオンを求めました",
+    "example": "The doctor had a good sense about what the problem was but wanted to get a second opinion.",
+    "exampleJa": "医師は問題の内容をよく理解していましたが、セカンドオピニオンを求めました。",
     "explanationJa": "判定。知的な解釈",
     "distractors": [
       "関与する",

@@ -5,11 +5,14 @@ export const defaultState: PersistedAppState = {
   settings: {
     currentScore: 450,
     targetScore: 730,
-    dailyGoal: 10,
+    dailyGoal: 20,
     onboardingComplete: false,
     uiLanguage: 'ja',
+    remindersEnabled: false,
+    reminderHour: 20,
   },
   reviews: {},
+  part5Attempts: {},
   stats: {
     totalAnswers: 0,
     correctAnswers: 0,
@@ -19,5 +22,7 @@ export const defaultState: PersistedAppState = {
     lastStudyDate: null,
     studiedToday: 0,
     studiedTodayDate: null,
+    dailyActivity: {},
+    lastStreakFreezeMonth: null,
   },
 };

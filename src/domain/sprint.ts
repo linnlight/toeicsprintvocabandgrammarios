@@ -63,6 +63,11 @@ export function buildChoices(word: VocabularyEntry, allWords: VocabularyEntry[])
   const candidates = [...word.distractors, ...allWords.filter((item) => item.id !== word.id).map((item) => item.meaningJa)];
   const unique = [...new Set(candidates)].filter((choice) => choice !== word.meaningJa).slice(0, 3);
   const choices = [word.meaningJa, ...unique];
-  const seed = word.id.split('').reduce((total, char) => total + char.charCodeAt(0), 0);
-  return choices.sort((a, b) => ((a.length + seed) % 7) - ((b.length + seed) % 7));
+  let seed = word.id.split('').reduce((total, char) => ((total * 31) + char.charCodeAt(0)) >>> 0, 0);
+  for (let index = choices.length - 1; index > 0; index -= 1) {
+    seed = ((seed * 1_664_525) + 1_013_904_223) >>> 0;
+    const swapIndex = seed % (index + 1);
+    [choices[index], choices[swapIndex]] = [choices[swapIndex], choices[index]];
+  }
+  return choices;
 }

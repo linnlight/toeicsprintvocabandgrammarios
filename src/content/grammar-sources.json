@@ -1,0 +1,7 @@
+[
+  {"id":"toeic-grammar","fileName":"toeic-grammar.pdf","type":"supplied_pdf","use":"Core grammar rules and lesson sequence"},
+  {"id":"grammar-practice-100","fileName":"TOEIC in Motion Grammar Practice 100 [v25].pdf","type":"supplied_pdf","use":"Common learner-error patterns"},
+  {"id":"toeic-basics-manual","fileName":"0-0001-03-595200-0.pdf","type":"supplied_pdf","use":"Beginner lesson strategy and TOEIC practice design"},
+  {"id":"toeic-official-sample","fileName":"toeic-listening-reading-sample-test.pdf","type":"supplied_pdf","use":"Official question style reference"},
+  {"id":"toeic-examinee-handbook","fileName":"toeic-listening-reading-test-examinee-handbook.pdf","type":"supplied_pdf","use":"Official test structure reference"}
+]
