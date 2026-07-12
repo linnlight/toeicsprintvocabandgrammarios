@@ -2,6 +2,7 @@ import Purchases, { LOG_LEVEL, type CustomerInfo, type CustomerInfoUpdateListene
 import RevenueCatUI from 'react-native-purchases-ui';
 import { Platform } from 'react-native';
 
+import { normalizePublicRevenueCatKey } from './revenuecat-key';
 import {
   PRO_ENTITLEMENT_ID,
   type PurchaseInitialization,
@@ -13,10 +14,11 @@ import {
 let configuredInThisProcess = false;
 
 function platformApiKey(): string | undefined {
-  const key = Platform.OS === 'ios'
+  const platform = Platform.OS === 'ios' ? 'ios' : 'android';
+  const key = platform === 'ios'
     ? process.env.EXPO_PUBLIC_REVENUECAT_IOS_API_KEY
     : process.env.EXPO_PUBLIC_REVENUECAT_ANDROID_API_KEY;
-  return key?.trim() || undefined;
+  return normalizePublicRevenueCatKey(platform, key);
 }
 
 function statusFromCustomerInfo(customerInfo: CustomerInfo): PurchaseStatus {
