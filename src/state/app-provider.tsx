@@ -5,7 +5,7 @@ import { part5TestById } from '@/content/part5-catalog';
 import { sprintWordLimit } from '@/domain/access';
 import { defaultState } from '@/domain/defaults';
 import type { Part5Session, PersistedAppState, SprintSession, UserSettings } from '@/domain/models';
-import { answerPart5Question, createPart5Session, recordPart5Attempt } from '@/domain/part5';
+import { answerPart5Question, canAccessPart5Test, createPart5Session, recordPart5Attempt } from '@/domain/part5';
 import { scheduleReview, selectSprintWords } from '@/domain/scheduler';
 import { answerSprint, createSprint, sprintResult } from '@/domain/sprint';
 import { currentDailyCount, recordCompletedSprint, rollingWeekSummary } from '@/domain/stats';
@@ -228,11 +228,12 @@ export function AppProvider({ children }: PropsWithChildren) {
 
   const clearSession = useCallback(() => dispatch({ type: 'CLEAR_SESSION' }), []);
   const startPart5Test = useCallback((testId: string) => {
-    if (!part5TestById.has(testId)) return null;
+    const test = part5TestById.get(testId);
+    if (!test || !canAccessPart5Test(test.number, isPro)) return null;
     const session = createPart5Session(testId);
     dispatch({ type: 'START_PART5_TEST', payload: session });
     return session;
-  }, []);
+  }, [isPro]);
   const submitPart5Answer = useCallback((selectedIndex: number) => {
     dispatch({ type: 'ANSWER_PART5', payload: { selectedIndex, now: new Date() } });
   }, []);

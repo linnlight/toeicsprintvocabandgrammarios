@@ -9,7 +9,9 @@ import { ProgressBar } from '@/components/ui/progress-bar';
 import { Screen } from '@/components/ui/screen';
 import { grammarLessonById } from '@/content/grammar-catalog';
 import { colors, radii, space } from '@/constants/theme';
+import { canAccessGrammarLesson } from '@/domain/access';
 import { useApp } from '@/state/app-provider';
+import { usePurchases } from '@/state/purchase-provider';
 
 const LETTERS = ['A', 'B', 'C', 'D'];
 
@@ -17,6 +19,7 @@ export default function GrammarLessonScreen() {
   const router = useRouter();
   const { lessonId } = useLocalSearchParams<{ lessonId?: string }>();
   const { data } = useApp();
+  const { isPro } = usePurchases();
   const ja = data.settings.uiLanguage === 'ja';
   const lesson = typeof lessonId === 'string' ? grammarLessonById.get(lessonId) : undefined;
   const [phase, setPhase] = useState<'learn' | 'quiz' | 'result'>('learn');
@@ -25,6 +28,16 @@ export default function GrammarLessonScreen() {
   const [score, setScore] = useState(0);
 
   if (!lesson) return <Screen><Text style={styles.error}>{ja ? 'レッスンが見つかりません。' : 'Lesson not found.'}</Text><Button label={ja ? '文法一覧へ' : 'Back'} onPress={() => router.replace('/grammar')} /></Screen>;
+
+  if (!canAccessGrammarLesson(lesson.number, isPro)) return (
+    <Screen contentStyle={styles.result}>
+      <Text style={styles.eyebrow}>PRO LESSON</Text>
+      <Text style={styles.title}>{ja ? 'この文法レッスンはProです' : 'This grammar lesson requires Pro'}</Text>
+      <Text style={styles.resultMessage}>{ja ? '最初の3レッスンは無料で利用できます。Proではすべての文法レッスンを学習できます。' : 'The first 3 lessons are free. Pro unlocks every grammar lesson.'}</Text>
+      <Button label={ja ? 'Proプランを見る' : 'View Pro plans'} onPress={() => router.replace('/pro')} style={styles.full} />
+      <Button label={ja ? '文法一覧へ' : 'Back to grammar'} variant="secondary" onPress={() => router.replace('/grammar')} style={styles.full} />
+    </Screen>
+  );
 
   if (phase === 'learn') return (
     <Screen>

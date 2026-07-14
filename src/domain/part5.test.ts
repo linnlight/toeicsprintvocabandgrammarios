@@ -11,12 +11,13 @@ import {
 } from './part5';
 
 describe('Part 5 tests', () => {
-  it('temporarily allows every test while Pro gating is disabled', () => {
+  it('keeps two tests free and unlocks the complete catalog for Pro', () => {
     expect(canAccessPart5Test(1, false)).toBe(true);
     expect(canAccessPart5Test(2, false)).toBe(true);
-    expect(canAccessPart5Test(3, false)).toBe(true);
-    expect(canAccessPart5Test(10, false)).toBe(true);
+    expect(canAccessPart5Test(3, false)).toBe(false);
+    expect(canAccessPart5Test(10, false)).toBe(false);
     expect(canAccessPart5Test(10, true)).toBe(true);
+    expect(canAccessPart5Test(0, true)).toBe(false);
   });
 
   it('scores a completed session and records the best result', () => {

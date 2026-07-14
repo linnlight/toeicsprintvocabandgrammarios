@@ -1,6 +1,6 @@
 # Payments and promotion codes
 
-The app uses RevenueCat as the StoreKit integration layer. Users remain anonymous; RevenueCat creates and persists an anonymous app user identifier. Apple handles payment details, subscription billing, refunds, and offer-code redemption. The app only reads the verified `pro` entitlement.
+The app uses RevenueCat as the StoreKit integration layer. Users remain anonymous; RevenueCat creates and persists an anonymous app user identifier. Apple handles payment details, subscription billing, refunds, and offer-code redemption. The app only unlocks Pro from RevenueCat's verified `TOEIC Sprint Vocab & Grammar Pro` entitlement.
 
 ## RevenueCat configuration
 
@@ -39,15 +39,17 @@ In App Store Connect:
 4. Configure eligibility for new, existing, and expired subscribers as required.
 5. Generate one-time codes or custom codes for each offer.
 
-The app’s **コードを入力 / Enter code** button opens Apple’s native redemption sheet. Successful redemption activates the same RevenueCat `pro` entitlement. Offer codes apply to auto-renewable subscriptions.
+The app’s **コードを入力 / Enter code** button opens Apple’s native redemption sheet. Successful redemption activates the same RevenueCat `TOEIC Sprint Vocab & Grammar Pro` entitlement. Offer codes apply to auto-renewable subscriptions.
 
 ## Testing
 
-RevenueCat requires native code, so real purchases cannot be tested in the normal Expo Go runtime. After changing payment dependencies or keys:
+RevenueCat requires native code, so real purchases cannot be tested in the normal Expo Go runtime. After changing native payment dependencies:
 
 ```bash
 npm run ios:prepare
 npm run ios
 ```
+
+Changing only a public RevenueCat key does not require regenerating the native project. Restart Metro so the updated environment is included in the JavaScript bundle.
 
 Use an App Store sandbox tester or TestFlight for real transaction and offer-code testing. Before release, verify monthly purchase, yearly purchase, cancellation, expiration, restore, one-week code, and one-month code flows.

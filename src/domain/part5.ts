@@ -3,11 +3,11 @@ import type { Part5Test } from '../content/part5-catalog';
 import type { Part5Session, Part5TestAttempt } from './models';
 
 export const FREE_PART5_TEST_COUNT = 2;
-// Keep disabled until App Store banking and the Pro products are ready.
-// Re-enable this single flag to restore Tests 3–10 gating.
-export const PART5_PRO_GATING_ENABLED = false;
+// Tests 1–2 are the free preview. Tests 3–10 require the Pro entitlement.
+export const PART5_PRO_GATING_ENABLED = true;
 
 export function canAccessPart5Test(testNumber: number, isPro: boolean): boolean {
+  if (!Number.isInteger(testNumber) || testNumber < 1) return false;
   return !PART5_PRO_GATING_ENABLED || isPro || testNumber <= FREE_PART5_TEST_COUNT;
 }
 

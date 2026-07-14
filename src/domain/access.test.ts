@@ -1,6 +1,12 @@
 import { describe, expect, it } from 'vitest';
 
-import { dailyGoalForAccess, FREE_DAILY_WORD_LIMIT, sprintWordLimit } from './access';
+import {
+  canAccessGrammarLesson,
+  dailyGoalForAccess,
+  FREE_DAILY_WORD_LIMIT,
+  FREE_GRAMMAR_LESSON_COUNT,
+  sprintWordLimit,
+} from './access';
 
 describe('purchase access limits', () => {
   it('limits a free daily goal to twenty words', () => {
@@ -16,5 +22,12 @@ describe('purchase access limits', () => {
 
   it('lets free users review up to twenty learned words per session', () => {
     expect(sprintWordLimit(30, false, 5, 'review')).toBe(20);
+  });
+
+  it('limits free grammar access while keeping every lesson available to Pro', () => {
+    expect(canAccessGrammarLesson(FREE_GRAMMAR_LESSON_COUNT, false)).toBe(true);
+    expect(canAccessGrammarLesson(FREE_GRAMMAR_LESSON_COUNT + 1, false)).toBe(false);
+    expect(canAccessGrammarLesson(FREE_GRAMMAR_LESSON_COUNT + 1, true)).toBe(true);
+    expect(canAccessGrammarLesson(0, true)).toBe(false);
   });
 });
