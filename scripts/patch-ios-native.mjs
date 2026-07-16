@@ -37,7 +37,16 @@ if (!fs.existsSync(iosRoot)) {
   throw new Error('ios directory does not exist. Run `npx expo prebuild --platform ios --no-install` first.');
 }
 
-ensureFile(path.join(iosRoot, '.xcode.env.local'), 'export NODE_BINARY=/opt/homebrew/opt/node@22/bin/node\n');
+ensureFile(
+  path.join(iosRoot, '.xcode.env.local'),
+  [
+    'export NODE_BINARY=/opt/homebrew/opt/node@22/bin/node',
+    // CocoaPods can retain an absolute Hermes compiler path after the project
+    // directory is renamed. Resolve it from the current Xcode project instead.
+    'export HERMES_CLI_PATH="$PROJECT_DIR/../node_modules/hermes-compiler/hermesc/osx-bin/hermesc"',
+    '',
+  ].join('\n'),
+);
 
 replaceInFile(path.join(iosRoot, 'TOEIC', 'Info.plist'), [
   [

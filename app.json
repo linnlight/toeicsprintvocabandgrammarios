@@ -10,7 +10,7 @@
     "ios": {
       "icon": "./assets/expo.icon",
       "supportsTablet": true,
-      "buildNumber": "7",
+      "buildNumber": "8",
       "appleTeamId": "6D4N5RSFRJ",
       "bundleIdentifier": "com.linnlight.vocabsprint",
       "infoPlist": {
