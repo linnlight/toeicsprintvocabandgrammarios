@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">TOEIC Sprint app icon</title>
+  <g transform="rotate(-5 64 64)">
+    <rect x="15" y="14" width="98" height="100" rx="28" fill="#0D7A66"/>
+    <path d="M37 39h17l10 38 10-38h17L73 92H55L37 39Z" fill="#C8F169"/>
+  </g>
+</svg>
