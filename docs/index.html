@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TOEIC Sprintは、英単語・文法・Part 5を短時間のスプリントで学べる、TOEIC対策アプリです。毎日の復習、進捗管理、発音確認に対応。">
+  <meta name="theme-color" content="#087f6a">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="TOEIC Sprint｜英単語・文法・Part 5を短時間で">
+  <meta property="og:description" content="毎日の短いスプリントで、英単語・文法・Part 5を一つずつ前へ。">
+  <meta property="og:url" content="https://linnlight.github.io/toeicsprintvocabandgrammarios/">
+  <title>TOEIC Sprint｜英単語・文法・Part 5を短時間で</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #13231f;
+      --muted: #60716a;
+      --green: #087f6a;
+      --green-dark: #056655;
+      --green-deep: #064e42;
+      --lime: #c4f45d;
+      --mint: #e6f5ef;
+      --cream: #f7f8f3;
+      --white: #ffffff;
+      --line: #d9e5df;
+      --amber: #b96408;
+      --amber-soft: #fff2dc;
+      --shadow: 0 24px 70px rgba(10, 58, 48, .12);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      overflow-x: hidden;
+      background: var(--cream);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+
+    .wrap {
+      width: min(1120px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(217, 229, 223, .8);
+      background: rgba(247, 248, 243, .88);
+      backdrop-filter: blur(18px);
+    }
+
+    .nav {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      color: var(--ink);
+      font-size: 1.05rem;
+      font-weight: 900;
+      letter-spacing: -.02em;
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border-radius: 11px;
+      background: var(--green);
+      color: var(--lime);
+      font-size: 1.2rem;
+      transform: rotate(-4deg);
+      box-shadow: 0 8px 22px rgba(8, 127, 106, .2);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      color: var(--muted);
+      font-size: .9rem;
+      font-weight: 700;
+    }
+
+    .nav-links a { text-decoration: none; }
+    .nav-links a:hover, .nav-links a:focus-visible { color: var(--green); }
+
+    .hero {
+      overflow: hidden;
+      padding: 76px 0 86px;
+      background:
+        radial-gradient(circle at 12% 18%, rgba(196, 244, 93, .25), transparent 28%),
+        radial-gradient(circle at 88% 80%, rgba(8, 127, 106, .15), transparent 29%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.12fr) minmax(330px, .88fr);
+      align-items: center;
+      gap: clamp(42px, 7vw, 88px);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin: 0 0 18px;
+      color: var(--green);
+      font-size: .8rem;
+      font-weight: 900;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 27px;
+      height: 3px;
+      border-radius: 3px;
+      background: var(--lime);
+    }
+
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2, h3 { line-height: 1.28; }
+
+    h1 {
+      max-width: 700px;
+      margin-bottom: 24px;
+      font-size: clamp(2.65rem, 6vw, 5.15rem);
+      font-weight: 950;
+      letter-spacing: -.065em;
+    }
+
+    .keep-together { display: inline-block; }
+
+    .hero-copy {
+      max-width: 650px;
+      margin-bottom: 30px;
+      color: var(--muted);
+      font-size: clamp(1rem, 2vw, 1.18rem);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .button {
+      min-height: 52px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 12px 22px;
+      border: 1px solid transparent;
+      border-radius: 16px;
+      font-weight: 850;
+      text-decoration: none;
+      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+    }
+
+    .button:hover { transform: translateY(-2px); }
+    .button-primary {
+      background: var(--green);
+      color: var(--white);
+      box-shadow: 0 14px 30px rgba(8, 127, 106, .22);
+    }
+    .button-primary:hover, .button-primary:focus-visible { background: var(--green-dark); }
+    .button-secondary { border-color: var(--line); background: var(--white); color: var(--green-dark); }
+
+    .availability {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: .84rem;
+      font-weight: 700;
+    }
+
+    .phone {
+      position: relative;
+      width: min(100%, 390px);
+      margin-inline: auto;
+      padding: 12px;
+      border: 5px solid #17201e;
+      border-radius: 48px;
+      background: #17201e;
+      box-shadow: var(--shadow);
+      transform: rotate(2deg);
+    }
+
+    .phone::before {
+      content: "";
+      position: absolute;
+      top: 18px;
+      left: 50%;
+      width: 105px;
+      height: 27px;
+      border-radius: 20px;
+      background: #17201e;
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+
+    .screen {
+      min-height: 620px;
+      overflow: hidden;
+      padding: 62px 22px 24px;
+      border-radius: 35px;
+      background: #f6f9f4;
+    }
+
+    .screen-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 22px;
+      font-size: .78rem;
+      font-weight: 900;
+    }
+
+    .screen-pill {
+      padding: 7px 11px;
+      border-radius: 999px;
+      background: var(--amber-soft);
+      color: var(--amber);
+    }
+
+    .sprint-card {
+      position: relative;
+      overflow: hidden;
+      padding: 28px 24px;
+      border-radius: 26px;
+      background: var(--green);
+      color: #fff;
+      box-shadow: 0 16px 34px rgba(8, 127, 106, .18);
+    }
+
+    .sprint-card::after {
+      content: "SPRINT";
+      position: absolute;
+      right: -10px;
+      bottom: -22px;
+      color: rgba(255, 255, 255, .08);
+      font-size: 3.6rem;
+      font-weight: 950;
+      letter-spacing: -.06em;
+    }
+
+    .sprint-card small { color: var(--lime); font-weight: 900; letter-spacing: .12em; }
+    .sprint-card h3 { margin: 10px 0 6px; font-size: 1.75rem; letter-spacing: -.04em; }
+    .sprint-card p { margin-bottom: 22px; color: #d7f3ea; font-size: .88rem; }
+
+    .mock-button {
+      min-height: 50px;
+      display: grid;
+      place-items: center;
+      border-radius: 15px;
+      background: var(--lime);
+      color: var(--ink);
+      font-weight: 900;
+    }
+
+    .mini-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 14px; }
+    .mini-card {
+      min-height: 140px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: #fff;
+    }
+    .mini-icon {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 20px;
+      border-radius: 13px;
+      background: var(--mint);
+      color: var(--green-dark);
+      font-size: 1.2rem;
+      font-weight: 950;
+    }
+    .mini-card:nth-child(2) .mini-icon { background: var(--amber-soft); color: var(--amber); }
+    .mini-card strong { display: block; font-size: .92rem; }
+    .mini-card span { color: var(--muted); font-size: .72rem; }
+
+    .review-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-top: 14px;
+      padding: 15px 17px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+    }
+    .review-row b { color: var(--green); font-size: 1.4rem; }
+    .review-row span { color: var(--muted); font-size: .76rem; }
+
+    .section { padding: 96px 0; }
+    .section-white { background: #fff; }
+    .section-dark { background: var(--green-deep); color: #fff; }
+
+    .section-heading {
+      max-width: 710px;
+      margin-bottom: 42px;
+    }
+    .section-heading h2 {
+      margin-bottom: 14px;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      font-weight: 950;
+      letter-spacing: -.055em;
+    }
+    .section-heading p { color: var(--muted); font-size: 1.04rem; }
+    .section-dark .section-heading p { color: #c7ded7; }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .feature-card {
+      min-height: 270px;
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: 25px;
+      background: var(--white);
+      box-shadow: 0 12px 35px rgba(15, 66, 55, .06);
+    }
+    .feature-number { color: var(--green); font-size: 2.4rem; font-weight: 950; letter-spacing: -.06em; }
+    .feature-card h3 { margin: 14px 0 9px; font-size: 1.3rem; }
+    .feature-card p { color: var(--muted); font-size: .94rem; }
+    .tag {
+      display: inline-flex;
+      margin-top: 10px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: var(--mint);
+      color: var(--green-dark);
+      font-size: .74rem;
+      font-weight: 850;
+    }
+
+    .habit-grid {
+      display: grid;
+      grid-template-columns: .92fr 1.08fr;
+      align-items: center;
+      gap: clamp(42px, 7vw, 85px);
+    }
+    .habit-panel {
+      display: grid;
+      gap: 13px;
+      padding: 20px;
+      border-radius: 29px;
+      background: #dff1ea;
+    }
+    .habit-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 18px;
+      border-radius: 19px;
+      background: #fff;
+      box-shadow: 0 8px 25px rgba(15, 66, 55, .06);
+    }
+    .habit-check {
+      flex: 0 0 36px;
+      width: 36px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--green);
+      color: #fff;
+      font-weight: 900;
+    }
+    .habit-item strong { display: block; }
+    .habit-item span { color: var(--muted); font-size: .82rem; }
+
+    .plan-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .plan {
+      position: relative;
+      padding: 34px;
+      border: 1px solid rgba(255, 255, 255, .17);
+      border-radius: 27px;
+      background: rgba(255, 255, 255, .07);
+    }
+    .plan-pro { border-color: var(--lime); background: #fff; color: var(--ink); }
+    .plan-label { color: var(--lime); font-size: .78rem; font-weight: 900; letter-spacing: .12em; }
+    .plan-pro .plan-label { color: var(--green); }
+    .plan h3 { margin: 10px 0 8px; font-size: 1.75rem; }
+    .plan > p { color: #c7ded7; }
+    .plan-pro > p { color: var(--muted); }
+    .plan ul { margin: 26px 0 0; padding: 0; list-style: none; }
+    .plan li { position: relative; margin: 12px 0; padding-left: 27px; }
+    .plan li::before { content: "✓"; position: absolute; left: 0; color: var(--lime); font-weight: 950; }
+    .plan-pro li::before { color: var(--green); }
+    .price-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 27px; }
+    .price {
+      flex: 1 1 175px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 17px;
+      background: var(--cream);
+    }
+    .price strong { display: block; font-size: 1.35rem; }
+    .price span { color: var(--muted); font-size: .78rem; }
+
+    .score-callout {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+      margin-top: 22px;
+      padding: 28px 32px;
+      border-radius: 23px;
+      background: var(--lime);
+      color: var(--ink);
+    }
+    .score-callout h3 { margin-bottom: 5px; font-size: clamp(1.3rem, 3vw, 2rem); }
+    .score-callout p { margin-bottom: 0; color: #3e5049; }
+    .score-badge { flex: 0 0 auto; font-size: clamp(2rem, 5vw, 3.7rem); font-weight: 950; letter-spacing: -.06em; }
+
+    .privacy-strip {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 34px;
+      border: 1px solid var(--line);
+      border-radius: 27px;
+      background: #fff;
+    }
+    .privacy-strip b { display: block; margin-bottom: 6px; }
+    .privacy-strip span { color: var(--muted); font-size: .87rem; }
+
+    footer {
+      padding: 42px 0;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: .82rem;
+    }
+    .footer-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 28px;
+    }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 16px; }
+    .footer-links a:hover, .footer-links a:focus-visible { color: var(--green); }
+    .trademark { max-width: 610px; margin: 18px 0 0; }
+
+    @media (max-width: 860px) {
+      .hero { padding-top: 54px; }
+      .hero-grid, .habit-grid { grid-template-columns: 1fr; }
+      .hero-copy { max-width: 710px; }
+      .phone { width: min(100%, 370px); }
+      .feature-grid { grid-template-columns: 1fr 1fr; }
+      .feature-card:last-child { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 640px) {
+      .wrap { width: min(100% - 28px, 1120px); }
+      .site-header { position: static; }
+      .nav { min-height: 64px; }
+      .nav-links a:not(:last-child) { display: none; }
+      .hero { padding: 46px 0 64px; }
+      .eyebrow {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        font-size: .7rem;
+        letter-spacing: .1em;
+      }
+      h1 {
+        max-width: 100%;
+        font-size: 2.25rem;
+        letter-spacing: -.045em;
+      }
+      h1 br { display: none; }
+      .hero-copy { font-size: .96rem; }
+      .actions { display: grid; grid-template-columns: 1.15fr 1fr; }
+      .button { padding-inline: 12px; font-size: .9rem; }
+      .section { padding: 70px 0; }
+      .feature-grid, .plan-grid, .privacy-strip { grid-template-columns: 1fr; }
+      .feature-card:last-child { grid-column: auto; }
+      .feature-card { min-height: 0; }
+      .plan, .privacy-strip { padding: 25px; }
+      .score-callout { align-items: flex-start; flex-direction: column; padding: 25px; }
+      .footer-row { flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .button { transition: none; }
+      .button:hover { transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="TOEIC Sprint ホーム">
+        <span class="brand-mark" aria-hidden="true">V</span>
+        <span>TOEIC Sprint</span>
+      </a>
+      <nav class="nav-links" aria-label="メインナビゲーション">
+        <a href="#features">学習内容</a>
+        <a href="#plans">Free・Pro</a>
+        <a href="support.html">サポート</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">TOEIC Vocabulary · Grammar · Part 5</p>
+          <h1><span class="keep-together">短いスプリントを、</span><br><span class="keep-together">スコアにつながる</span><span class="keep-together">習慣へ。</span></h1>
+          <p class="hero-copy">英単語・文法・Part 5を、毎日続けやすい短時間の学習に。間違えた問題の復習から進捗確認まで、ひとつのアプリで取り組めます。</p>
+          <div class="actions">
+            <a class="button button-primary" href="#plans">FreeとProを見る <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="#features">学習内容を見る</a>
+          </div>
+          <p class="availability">iPhone版を公開準備中 · 日本語インターフェース · アカウント登録なし</p>
+        </div>
+
+        <div class="phone" aria-label="TOEIC Sprint アプリ画面のイメージ">
+          <div class="screen">
+            <div class="screen-head">
+              <span>TOEIC Sprint</span>
+              <span class="screen-pill">♨ 7日</span>
+            </div>
+            <div class="sprint-card">
+              <small>TODAY'S SPRINT</small>
+              <h3>今日の10問ミックス</h3>
+              <p>英単語 · フレーズ · 文法 · Part 5</p>
+              <div class="mock-button">スプリントを開始 →</div>
+            </div>
+            <div class="mini-grid">
+              <div class="mini-card">
+                <div class="mini-icon">A</div>
+                <strong>単語スプリント</strong>
+                <span>覚えて、音声で確認</span>
+              </div>
+              <div class="mini-card">
+                <div class="mini-icon">文</div>
+                <strong>文法スプリント</strong>
+                <span>頻出文法を集中練習</span>
+              </div>
+            </div>
+            <div class="review-row">
+              <b>5</b>
+              <div><strong>今日の復習</strong><br><span>最適なタイミングで再出題</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="features">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">Study library</p>
+          <h2>覚えるだけで終わらない、3つの学習。</h2>
+          <p>短いスプリントと本番形式の演習を組み合わせ、語彙・文法・読解の基礎を一つずつ積み上げます。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-number">875</div>
+            <h3>TOEIC英単語</h3>
+            <p>日本語の意味、例文、解説、発音音声を確認。間違えた単語は復習に回り、定着まで繰り返せます。</p>
+            <span class="tag">Freeで438語</span>
+          </article>
+          <article class="feature-card">
+            <div class="feature-number">40</div>
+            <h3>文法レッスン</h3>
+            <p>頻出ポイントをレッスン単位で整理。全400問の問題で、理解した内容をすぐに練習できます。</p>
+            <span class="tag">Freeで6レッスン・60問</span>
+          </article>
+          <article class="feature-card">
+            <div class="feature-number">400</div>
+            <h3>Part 5問題</h3>
+            <p>全10テストの短文穴埋め問題に挑戦。テスト結果は推定スコアと進捗に反映されます。</p>
+            <span class="tag">Freeで2テスト</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap habit-grid">
+        <div class="section-heading">
+          <p class="eyebrow">Built for consistency</p>
+          <h2>復習のタイミングを、アプリに任せる。</h2>
+          <p>正解・不正解と学習履歴を端末に保存。復習が必要な項目を優先し、短い時間でも迷わず学習を始められます。</p>
+        </div>
+        <div class="habit-panel">
+          <div class="habit-item"><span class="habit-check">✓</span><div><strong>間違えた問題を再出題</strong><span>苦手な単語と文法を集中して復習</span></div></div>
+          <div class="habit-item"><span class="habit-check">↻</span><div><strong>間隔反復</strong><span>記憶に合わせた復習タイミング</span></div></div>
+          <div class="habit-item"><span class="habit-check">♨</span><div><strong>ストリークと進捗</strong><span>毎日の積み重ねを見える化</span></div></div>
+          <div class="habit-item"><span class="habit-check">♪</span><div><strong>発音を音声で確認</strong><span>単語詳細からいつでも再生</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="plans">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">Simple plans</p>
+          <h2>まずはFreeから。必要になったらProへ。</h2>
+          <p>Freeでも毎日しっかり学習できます。より多くの教材と学習量が必要な方はProを選べます。</p>
+        </div>
+        <div class="plan-grid">
+          <article class="plan">
+            <span class="plan-label">FREE</span>
+            <h3>毎日の基礎学習</h3>
+            <p>料金なしで、主要機能を試せます。</p>
+            <ul>
+              <li>英単語438語・1日20語まで</li>
+              <li>文法6レッスン・全60問</li>
+              <li>Part 5を2テスト</li>
+              <li>復習・ストリーク・進捗管理</li>
+            </ul>
+          </article>
+          <article class="plan plan-pro">
+            <span class="plan-label">PRO</span>
+            <h3>すべての教材を解放</h3>
+            <p>900点超を目指して学習量を増やしたい方に。</p>
+            <ul>
+              <li>収録英単語875語すべて</li>
+              <li>1日30語・50語の目標も選択可能</li>
+              <li>文法全40レッスン・全400問</li>
+              <li>Part 5全10テスト・全400問</li>
+            </ul>
+            <div class="price-row">
+              <div class="price"><strong>月額 ¥600</strong><span>いつでもキャンセル可能</span></div>
+              <div class="price"><strong>年額 ¥3,000</strong><span>月あたり約¥250</span></div>
+            </div>
+          </article>
+        </div>
+        <div class="score-callout">
+          <div><h3>TOEIC 900点超を目指す方にも。</h3><p>語彙・文法・Part 5を横断して、苦手を効率よく復習できます。</p></div>
+          <div class="score-badge">900+</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">Privacy first</p>
+          <h2>始めるまでを、シンプルに。</h2>
+          <p>アカウント作成を必須にせず、MVPでは学習データを原則として端末内に保存します。</p>
+        </div>
+        <div class="privacy-strip">
+          <div><b>アカウント登録なし</b><span>ダウンロード後すぐに学習を開始。</span></div>
+          <div><b>端末内に進捗を保存</b><span>回答履歴、復習予定、設定をローカルに保持。</span></div>
+          <div><b>日本語インターフェース</b><span>日本のTOEIC学習者向けに設計。</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-row">
+        <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">V</span><span>TOEIC Sprint</span></a>
+        <nav class="footer-links" aria-label="フッターナビゲーション">
+          <a href="support.html">サポート</a>
+          <a href="privacy.html">プライバシーポリシー</a>
+          <a href="terms.html">利用規約</a>
+          <a href="mailto:williamhtike234@gmail.com">お問い合わせ</a>
+        </nav>
+      </div>
+      <p class="trademark">TOEIC® is a registered trademark of ETS. This product is not endorsed or approved by ETS. 掲載内容や機能は変更される場合があります。学習結果やスコア向上を保証するものではありません。</p>
+    </div>
+  </footer>
+</body>
+</html>
